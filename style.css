@@ -121,7 +121,7 @@ nav {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #f7ead4;
+  background: #FFD662;
   
 }
 
@@ -180,25 +180,48 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-/*Clients page*/
-.clients {
+/*Experience page*/
+.experience {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.clients .row {
+.experience.row {
   float: left;
   margin-bottom: 1em;
   width: 100%;
 }
 
-.client-box {
+.experience-box {
   float: left;
   margin: 0 3em;
   width: 100px;
   height: 100px;
 }
 
-.client-box img {
+.experience-box img {
+  display: block;
+  width: 100%;
+}
+
+/*Education page*/
+.education {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.education.row {
+  float: left;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.education-box {
+  float: left;
+  margin: 0 3em;
+  width: 100px;
+  height: 100px;
+}
+
+.education-box img {
   display: block;
   width: 100%;
 }
