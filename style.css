@@ -59,12 +59,12 @@ nav {
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: #000000;
+  background: #ECDAD8;
 }
 .nav a:active,
 .fa-bars:active,
 .soc-media a:active {
-  background: #000000;
+  background: #ECDAD8;
 }
 
 .nav a {
@@ -78,7 +78,7 @@ nav {
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: #000000;
+  background: #B18A58;
   text-align: center;
   transition: left .75s ease-in-out;
 }
