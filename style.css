@@ -1,22 +1,22 @@
 /*Typography*/
 html {
-  font: 16px 'Ma Shan Zheng', serif;
+  font: 40px 'Ma Shan Zheng', serif;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1.75em;
 }
 
 /*BASE*/
@@ -130,7 +130,7 @@ nav {
   top: 45%;
   width: 100%;
   color: #B18A58;
-  font-size: 3em;
+  font-size: 6em;
   text-align: center;
 }
 
