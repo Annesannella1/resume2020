@@ -1,6 +1,6 @@
 /*Typography*/
 html {
-  font: 40px 'Ma Shan Zheng', serif;
+  font: 26px 'Ma Shan Zheng', serif;
 }
 
 h1 {
@@ -176,7 +176,7 @@ section p {
 
 /*Home page*/
 /*About page*/
-.about {
+.summary {
   background: rgba(255, 255, 255, 0.75);
 }
 
