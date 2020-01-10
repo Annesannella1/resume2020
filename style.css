@@ -238,6 +238,6 @@ section p {
   height: 500px;
   background: url(./IntroText_20191125_174252.gif) no-repeat center center;
   border: 0.5em solid #B18A58;
-  border-radius: 25%;
+  border-radius: 10%;
   overflow: hidden;
 )
