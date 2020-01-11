@@ -134,13 +134,13 @@ nav {
   text-align: center;
 }
 
-.wrapper > h1 {
+.fancy=title {
   position: absolute;
   top: 45%;
   width: 100%;
-  color: #ff6600;
+  color: #ECDAD8;
   font-size: 6em;
-  text-align: center;
+  
 }
 
 .overlay {
