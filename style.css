@@ -134,7 +134,7 @@ nav {
   text-align: center;
 }
 
-.fancy=title {
+.wrapper > h1 > fancy_title {
   position: absolute;
   top: 45%;
   width: 100%;
