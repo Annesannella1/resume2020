@@ -38,7 +38,7 @@ nav {
   width: 6em;
   height: 100%;
   background: #B18A58;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
 
@@ -234,8 +234,8 @@ section p {
 .map-container,
 .map-container iframe {
   margin: 2em auto;
-  width: 600px;
-  height: 600px;
+  width: 1000px;
+  height: 1000px;
   background: url(./IntroText_20191125_174252.gif) no-repeat center center;
   border: 0.5em solid #B18A58;
   border-radius: 50%;
