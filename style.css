@@ -37,7 +37,7 @@ nav {
   left: -12em;
   width: 6em;
   height: 100%;
-  background: #B18A58;
+  background: ##ff6600;
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -78,7 +78,7 @@ nav {
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: #B18A58;
+  background: ##ff6600;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -129,7 +129,7 @@ nav {
   position: absolute;
   top: 45%;
   width: 100%;
-  color: #B18A58;
+  color: ##ff6600;
   font-size: 6em;
   text-align: center;
 }
@@ -159,7 +159,7 @@ section .content {
   margin: 1em auto;
   max-width: 900px;
   width: 60%;
-  color: #B18A58;
+  color: ##ff6600;
 }
 
 section h1,
@@ -237,7 +237,7 @@ section p {
   width: 1000px;
   height: 1000px;
   background: url(./IntroText_20191125_174252.gif) no-repeat center center;
-  border: 0.5em solid #B18A58;
+  border: 0.5em solid #ff6600;
   border-radius: 50%;
   overflow: hidden;
 )
