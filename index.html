@@ -27,7 +27,22 @@
 </nav>
 <main class="wrapper">
   <div class="overlay"></div>
-  <h1>E. A. S.</h1>
+  <h1 class="fancy_title">E. A. S.</h1>
+
+
+<script>
+	  $(document).ready(function() {
+	    $(".fancy_title").lettering();
+	  });
+</script>
+The resulting code will churn your .fancy_title and output the following:
+
+<h1 class="fancy_title">
+  <span class="char1">S</span>
+  <span class="char2">o</span>
+  <span class="char3">m</span>
+</h1>
+  
   <section class="home" id="page-home"></section>
   <section class="summary" id="page-summary">
     <div class="content">
