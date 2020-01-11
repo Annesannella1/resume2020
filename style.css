@@ -37,7 +37,7 @@ nav {
   left: -12em;
   width: 6em;
   height: 100%;
-  background: ##ff6600;
+  background: #ff6600;
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -78,7 +78,7 @@ nav {
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: ##ff6600;
+  background: #ff6600;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -159,7 +159,7 @@ section .content {
   margin: 1em auto;
   max-width: 900px;
   width: 60%;
-  color: ##ff6600;
+  color: #ff6600;
 }
 
 section h1,
@@ -234,8 +234,8 @@ section p {
 .map-container,
 .map-container iframe {
   margin: 2em auto;
-  width: 1000px;
-  height: 1000px;
+  width: 900px;
+  height: 900px;
   background: url(./IntroText_20191125_174252.gif) no-repeat center center;
   border: 0.5em solid #ff6600;
   border-radius: 50%;
