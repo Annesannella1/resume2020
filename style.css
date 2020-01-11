@@ -135,12 +135,7 @@ nav {
 }
 
 .fancy_title {
-  position: absolute;
-  top: 45%;
-  width: 100%;
-  color: #ECDAD8;
-  font-size: 6em;
-  
+  color: #3399ff;  
 }
 
 .overlay {
