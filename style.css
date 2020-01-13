@@ -134,7 +134,7 @@ nav {
   text-align: center;
 }
 
-.fancy_title {
+.fancy_title wrapper > h1 {
   color: #3399ff;  
 }
 
