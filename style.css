@@ -215,25 +215,25 @@ section p {
   width: 100%;
 }
 
-/*Education page*/
-.education {
+/*Gallery page*/
+.gallery {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.education.row {
+.gallery.row {
   float: left;
   margin-bottom: 1em;
   width: 100%;
 }
 
-.education-box {
+.gallery-box {
   float: left;
   margin: 0 3em;
   width: 100px;
   height: 100px;
 }
 
-.education-box img {
+.gallery-box img {
   display: block;
   width: 100%;
 }
