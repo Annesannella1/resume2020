@@ -228,14 +228,14 @@ section p {
 
 .gallery-box {
   float: left;
-  margin: 0 3em;
+  margin: 0 5m;
   width: 100px;
   height: 100px;
 }
 
 .gallery-box img {
-   width: 100px;
-  height: 100px;
+   width: 40px;
+     height: 40px;
   overflow: hidden;
 }
 
