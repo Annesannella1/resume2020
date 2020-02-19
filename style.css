@@ -229,8 +229,8 @@ section p {
 .gallery-box {
   float: left;
   margin: 0 5m;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .gallery-box img {
