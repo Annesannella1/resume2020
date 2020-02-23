@@ -78,7 +78,7 @@ nav {
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: ##36454f;
+  background: #36454f;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -129,7 +129,7 @@ nav {
   position: absolute;
   top: 45%;
   width: 100%;
-  color: #ff6600;
+  color: #177245;
   font-size: 6em;
   text-align: center;
 }
@@ -160,7 +160,7 @@ section .content {
   margin: 1em auto;
   max-width: 900px;
   width: 60%;
-  color: #ff6600;
+  color: #177245;
 }
 
 section h1,
