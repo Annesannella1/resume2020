@@ -51,7 +51,7 @@ nav {
 .fa-bars,
 .soc-media a {
   display: block;
-  color: #177245;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   transition: background .35s;
@@ -59,12 +59,12 @@ nav {
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: #36454f;
+  background: #f7e7ce;
 }
 .nav a:active,
 .fa-bars:active,
 .soc-media a:active {
-  background: #177245;
+  background: #F7e7ce;
 }
 
 .nav a {
@@ -129,7 +129,7 @@ nav {
   position: absolute;
   top: 45%;
   width: 100%;
-  color: #177245;
+  color: #fff;
   font-size: 6em;
   text-align: center;
 }
