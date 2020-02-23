@@ -37,7 +37,7 @@ nav {
   left: -12em;
   width: 6em;
   height: 100%;
-  background: #ff6600;
+  background: ##36454f;
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -59,7 +59,7 @@ nav {
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: ##36454f;
+  background: #36454f;
 }
 .nav a:active,
 .fa-bars:active,
@@ -78,7 +78,7 @@ nav {
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: #ff6600;
+  background: ##36454f;
   text-align: center;
   transition: left .75s ease-in-out;
 }
