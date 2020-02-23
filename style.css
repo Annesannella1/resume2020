@@ -59,12 +59,12 @@ nav {
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: #3399ff;
+  background: ##36454f;
 }
 .nav a:active,
 .fa-bars:active,
 .soc-media a:active {
-  background: #ECDAD8;
+  background: #f7e7ce;
 }
 
 .nav a {
@@ -121,7 +121,7 @@ nav {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #ECDAD8;
+  background: #232b2b;
   
 }
 
@@ -187,7 +187,7 @@ section p {
   width: 900px;
   height: 900px;
   background: url(./IntroText_20191125_174252.gif) no-repeat center center;
-  border: 0.5em solid #ff6600;
+  border: 0.5em solid #000000;
   border-radius: 50%;
   overflow: hidden;
 }
