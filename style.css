@@ -37,7 +37,7 @@ nav {
   left: -12em;
   width: 6em;
   height: 100%;
-  background: #36454f;
+  background: #232b2b;
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -51,7 +51,7 @@ nav {
 .fa-bars,
 .soc-media a {
   display: block;
-  color: #fff;
+  color: #177245;
   font-weight: bold;
   text-decoration: none;
   transition: background .35s;
