@@ -186,7 +186,8 @@ section p {
   margin: 2em auto;
   width: 900px;
   height: 900px;
-  background: url(./IntroText_20191125_174252.gif) no-repeat center center;
+  background: url(./experiencedesigns.svg) no-repeat center center; 
+ /*background: url(./IntroText_20191125_174252.gif) no-repeat center center;
   border: 0.5em solid #177245;
   border-radius: 50%;
   overflow: hidden;
