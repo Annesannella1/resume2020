@@ -1,6 +1,7 @@
 /*Typography*/
-html { font-size:100%; }
+
 html {
+  font-size:100%; 
   font: 26px 'Gochi Hand', serif;
 }
 
