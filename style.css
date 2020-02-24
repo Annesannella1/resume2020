@@ -1,9 +1,12 @@
 /*Typography*/
 
 html {
-  img { max-width: 100%; }
+  
   font-size:100%; 
   font: 26px 'Gochi Hand', serif;
+}
+
+img { max-width: 100%;
 }
 
 h1 {
