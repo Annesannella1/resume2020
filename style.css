@@ -51,7 +51,7 @@ nav {
 .fa-bars,
 .soc-media a {
   display: block;
-  color: #fff;
+  color:  #177245;
   font-weight: bold;
   text-decoration: none;
   transition: background .35s;
@@ -78,7 +78,7 @@ nav {
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: #36454f;
+  background: #232b2b;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -129,7 +129,7 @@ nav {
   position: absolute;
   top: 45%;
   width: 100%;
-  color: #fff;
+  color:  #177245;
   font-size: 6em;
   text-align: center;
 }
