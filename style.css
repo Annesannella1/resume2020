@@ -1,8 +1,6 @@
 /*Typography*/
 
 html {
-  
- 
   font: 26px 'Gochi Hand', serif;
 }
 
@@ -187,8 +185,8 @@ section p {
 .map-container,
 .map-container iframe {
   margin: 2em auto;
-  width: 900px;
-  height: 900px;
+  width: 800px;
+  height: 800px;
   background: url(./experiencedesigns.svg) no-repeat center center; 
  /*background: url(./IntroText_20191125_174252.gif) no-repeat center center;*/
   border: 0.5em solid #177245;
@@ -247,18 +245,4 @@ section p {
 .contact {
   background: rgba(255, 255, 255, 0.75);
 } 
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
-
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
-@media (min-width: 640px) { body {font-size:1rem;} } 
-
 }
