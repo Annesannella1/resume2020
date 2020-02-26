@@ -194,8 +194,9 @@ section p {
   overflow: hidden;
 }
 
-:hover {
-  fill: #177245;
+.map-container:hover,
+.map-container iframe:hover {
+      fill: #177245;
 }
 
 /*Experience page*/
