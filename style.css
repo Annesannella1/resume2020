@@ -186,23 +186,15 @@ section p {
   margin: 2em auto;
   width: 800px;
   height: 800px;
-  background: url(./experiencedesigns.svg) no-repeat center center; 
- /*background: url(./IntroText_20191125_174252.gif) no-repeat center center;*/
+ /* background: url(./experiencedesigns.svg) no-repeat center center; 
+ background: url(./IntroText_20191125_174252.gif) no-repeat center center;
   border: 0.5em solid #177245;
-  border-radius: 50%;
+  border-radius: 50%;*/
   overflow: hidden;
 }
 
 .svg:hover {
-   margin: 2em auto;
-  width: 800px;
-  height: 800px;
-background: url(./experiencedesigns.svg) no-repeat center center; 
- /*background: url(./IntroText_20191125_174252.gif) no-repeat center center;*/
-  border: 0.5em solid #F7e7ce;
-  border-radius: 50%;
-  overflow: hidden;
-      
+   fill: #177245;
 }
 
 /*Experience page*/
