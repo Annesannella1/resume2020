@@ -194,6 +194,10 @@ section p {
   overflow: hidden;
 }
 
+.map-container:hover {
+  fill: #DA4567;
+}
+
 /*Experience page*/
 .experience {
   background: rgba(255, 255, 255, 0.75);
