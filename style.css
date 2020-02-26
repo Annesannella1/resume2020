@@ -182,8 +182,7 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.map-container,
-.map-container iframe {
+.svg, {
   margin: 2em auto;
   width: 800px;
   height: 800px;
@@ -194,8 +193,7 @@ section p {
   overflow: hidden;
 }
 
-.map-container:hover,
-.map-container iframe:hover {
+.svg:hover, {
    margin: 2em auto;
   width: 800px;
   height: 800px;
