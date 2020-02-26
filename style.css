@@ -194,7 +194,7 @@ section p {
   overflow: hidden;
 }
 
-.map-container.
+#map-container,
 .map-container iframe:hover {
   fill: #177245;
 }
