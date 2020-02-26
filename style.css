@@ -196,7 +196,15 @@ section p {
 
 .map-container:hover,
 .map-container iframe:hover {
-      fill: #177245;
+   margin: 2em auto;
+  width: 800px;
+  height: 800px;
+  background: url(./experiencedesigns.svg) no-repeat center center; 
+ /*background: url(./IntroText_20191125_174252.gif) no-repeat center center;*/
+  border: 0.5em solid #F7e7ce;
+  border-radius: 50%;
+  overflow: hidden;
+      
 }
 
 /*Experience page*/
