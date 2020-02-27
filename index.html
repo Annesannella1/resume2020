@@ -80,12 +80,19 @@
   <span class="char3">Create.</span>
 </h2>
 	
-	    <div class="svg"></div>	   
-	   
-		    
+	    <div class="svg"></div>
+	    <script type="text/javascript">        
+    $(document).ready(function() {        
+        $("img", this).hover(swapImageIn, swapImageOut);
 
-	   
-  </section>
+        function swapImageIn(e) {
+            this.src = this.src.replace("_off", "_on");
+        }
+        function swapImageOut (e) {
+            this.src = this.src.replace("_on", "_off");
+        }
+    });
+ </section>
   <section class="experience" id="page-experience">
     <div class="content">
       <h1>My Experience...</h1>
