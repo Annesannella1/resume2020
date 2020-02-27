@@ -192,7 +192,10 @@ section p {
   overflow: hidden;
 }
 
-
+.svg:hover {
+  background: url(./experiencedesignson.svg) no-repeat center center; 
+  border: 0.5em solid #608daz;
+ }
 
 /*Experience page*/
 .experience {
