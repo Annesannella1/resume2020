@@ -193,16 +193,16 @@ section p {
   overflow: hidden;
 }
 
-.svg a:hover {
-margin: 2em auto;
+.svg a .hover {
+  margin: 2em auto;
   width: 800px;
   height: 800px;
-background: url(./experiencedesignson.svg) no-repeat center center;
-  border: 0.5em solid #177245;
+  background: url(./experiencedesignson.svg) no-repeat center center;
+  border: 0.5em solid #000000;
   border-radius: 50%;
   overflow: hidden;
 }
-.svg a:hover:hover back {
+.svg a .hover back {
   margin: 2em auto;
   width: 800px;
   height: 800px;
