@@ -15,10 +15,9 @@ h2 {
 h3 {
   font-size: 2em;
 }
-@media print
-  p {
+
+p {
   font-size: 1em;
-}
 }
 
 /*BASE*/
@@ -183,7 +182,7 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.svg a {
+.svg {
   margin: 2em auto;
   width: 800px;
   height: 800px;
@@ -192,11 +191,6 @@ section p {
   border-radius: 50%;
   overflow: hidden;
 }
-
-.svg a:hover {
-  background: url(./experiencedesignson.svg) no-repeat center center; 
-  border: 0.5em solid #608daz;
- }
 
 /*Experience page*/
 .experience {
