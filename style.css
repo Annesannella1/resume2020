@@ -182,7 +182,7 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.svg {
+.svg a{
   margin: 2em auto;
   width: 800px;
   height: 800px;
@@ -192,7 +192,7 @@ section p {
   overflow: hidden;
 }
 
-.svg:hover {
+.svg a:hover {
   background: url(./experiencedesignson.svg) no-repeat center center; 
   border: 0.5em solid #608daz;
  }
