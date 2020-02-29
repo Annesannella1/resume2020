@@ -182,6 +182,36 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
+.svg,
+.svg a {
+  margin: 2em auto;
+  width: 800px;
+  height: 800px;
+/*  background: url(./experiencedesigns.svg) no-repeat center center;*/ 
+  border: 0.5em solid #177245;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.svg a:hover {
+margin: 2em auto;
+  width: 800px;
+  height: 800px;
+background: url(./experiencedesignson.svg) no-repeat center center;
+  border: 0.5em solid #177245;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.svg a:hover:hover back {
+  margin: 2em auto;
+  width: 800px;
+  height: 800px;
+/*  background: url(./experiencedesigns.svg) no-repeat center center;*/ 
+  border: 0.5em solid #177245;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .bg-img {
   margin: 2em auto;
   width: 800px;
