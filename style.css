@@ -183,11 +183,11 @@ section p {
 }
 
 
-.bg-img {
+.svg {
   margin: 2em auto;
   width: 800px;
   height: 800px;
-/* background: url(./experiencedesigns.svg) no-repeat center center;*/ 
+ background: url(./experiencedesigns.svg) no-repeat center center; 
   border: 0.5em solid #177245;
   border-radius: 50%;
   overflow: hidden;
