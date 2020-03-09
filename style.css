@@ -182,20 +182,22 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.svg {
+.svg container{
   margin: 2em auto;
   width: 800px;
   height: 800px;
- background: url(./experiencedesigns.svg) no-repeat center center; 
+ /*8background: url(./experiencedesigns.svg) no-repeat center center;*/  
   border: 0.5em solid #177245;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.svg:hover {
+.svg container:hover {
   border: 0.5em solid #ffffff;
 }
-
+.svg img {
+  
+}
 /*Experience page*/
 .experience {
   background: rgba(255, 255, 255, 0.75);
