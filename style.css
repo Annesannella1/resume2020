@@ -192,8 +192,14 @@ section p {
   overflow: hidden;
 }
 
-.svg-container:hover {
-  border: 0.5em solid #ffffff;
+.svg-container-hover:hover {
+margin: 2em auto;
+  width: 800px;
+  height: 800px;
+ 8background: url(./experiencedesignson.svg) no-repeat center center;  
+  border: 0.5em solid #fffff;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .svg-img {
   padding:0px;
