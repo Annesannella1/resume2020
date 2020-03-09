@@ -182,7 +182,7 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.svg-container {
+.svg-container a{
   margin: 2em auto;
   width: 800px;
   height: 800px;
