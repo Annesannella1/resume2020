@@ -1,8 +1,8 @@
 
 $(document).ready(() => {
     $("svg-container-hover").hover(function(){
-       $(this).html("backgroundopacity", "1.0");
+       $(this).css("background-image:" "url(./experiencedesignson.png";
     }, function(){
-       $(this).html("opacity", "0.4");
+       $(this).css("background-image:" "url(./experiencedesigns.svg");
     });
 });
