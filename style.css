@@ -183,6 +183,7 @@ section p {
 }
 
 .svg-container{
+	pointer-events: hover
   margin: 2em auto;
   width: 800px;
   height: 800px;
