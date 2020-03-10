@@ -182,7 +182,7 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.svg-container a{
+.svg-container {
   margin: 2em auto;
   width: 800px;
   height: 800px;
@@ -198,7 +198,7 @@ section p {
   margin: 2em auto;
   width: 800px;
   height: 800px;
-  background: url(./experiencedesignson.svg) no-repeat center center;  
+  /*background: url(./experiencedesignson.svg) no-repeat center center;*/  
   border: 0.5em solid #ffffff;
   border-radius: 50%;
   overflow: hidden;
