@@ -184,8 +184,8 @@ section p {
 
 .svg-container {
   margin: 2em auto;
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
  /*8background: url(./experiencedesigns.svg) no-repeat center center;*/  
   border: 0.5em solid #177245;
   border-radius: 50%;
@@ -196,8 +196,8 @@ section p {
 
 #svg-container-hover:hover {
   margin: 2em auto;
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
   /*background: url(./experiencedesignson.svg) no-repeat center center;*/  
   border: 0.5em solid #ffffff;
   border-radius: 50%;
@@ -206,12 +206,12 @@ section p {
 
 .svg-img {
   padding:0px;
-	width:600px;
-	height:600px;
+	width:800px;
+	height:800px;
 	top:0;
 	left:0;
 	background-size:cover;
-	background-position:50% 50%);
+	/*background-position:50% 50%);*/
   
 }
 /*Experience page*/
