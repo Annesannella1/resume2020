@@ -194,7 +194,7 @@ section p {
 
 
 
-#svg-container-hover a:hover {
+#svg-container-hover:hover {
   margin: 2em auto;
   width: 800px;
   height: 800px;
