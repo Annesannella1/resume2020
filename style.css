@@ -182,7 +182,8 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
 
-.svg-container {
+.svg-container 
+  #svg-container:unhover {
   margin: 2em auto;
   width: 800px;
   height: 800px;
@@ -192,9 +193,7 @@ section p {
   overflow: hidden;
 }
 
-
-
-#svg-container-hover:hover {
+#svg-container:hover {
   margin: 2em auto;
   width: 800px;
   height: 800px;
@@ -206,12 +205,12 @@ section p {
 
 .svg-img {
   padding:0px;
-	width:800px;
-	height:800px;
-	top:0;
-	left:0;
-	background-size:cover;
-	/*background-position:50% 50%);*/
+  width:800px;
+  height:800px;
+  top:0;
+  left:0;
+  background-size:cover;
+  /*background-position:50% 50%);*/
   
 }
 /*Experience page*/
