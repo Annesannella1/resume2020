@@ -192,14 +192,8 @@ section p {
   overflow: hidden;
 }
 
-#svg-container:hover {
-  margin: 2em auto;
-  width: 800px;
-  height: 800px;
-  /*background: url(./experiencedesignson.svg) no-repeat center center;*/  
+.svg-container:hover {  
   border: 0.5em solid #ffffff;
-  border-radius: 50%;
-  overflow: hidden;
 }
 
 .svg-img {
