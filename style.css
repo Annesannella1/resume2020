@@ -193,7 +193,7 @@ section p {
 }
 .svg-container a {
  display: block;
- transition: background .35s;
+ transition: all .35s;
 }
 
 .svg-container a:hover {  
