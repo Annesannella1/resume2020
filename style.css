@@ -191,8 +191,12 @@ section p {
   border-radius: 50%;
   overflow: hidden;
 }
+.svg-container a {
+ display: block;
+ transition: background .35s;
+}
 
-.svg-container:hover {  
+.svg-container a:hover {  
   border: 0.5em solid  #232b2b;
 }
 
