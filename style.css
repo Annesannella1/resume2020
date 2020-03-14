@@ -211,22 +211,7 @@ section p {
        border-radius: 50%;    
     }
 
- .svg .img-back{
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .svg:hover .img-back {
-       position: relative;
-       margin: 2em auto;
-       width: 800px;
-       height: 800px;
-       background: url(./experiencedesigns.png) no-repeat center center;  
-       border: 0.5em solid #177245;;
-       border-radius: 50%;    
-    }
+    
 
 /*.svg-container  {
   margin: 2em auto;
