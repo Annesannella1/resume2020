@@ -231,14 +231,7 @@ section p {
   overflow: hidden;
 }
 
-.svg-img {
-  padding:0px;
-  width:800px;
-  height:800px;
-  top:0;
-  left:0;
-  background-size:cover;*/
-}
+
 
 .svg-container a {
  display: none;	
@@ -250,6 +243,15 @@ background: url(./experiencedesignson.png) no-repeat center center;
   border: 0.5em solid  #232b2b;
  border-radius: 50%;
   overflow: hidden;	
+}
+
+.svg-img {
+  padding:0px;
+  width:800px;
+  height:800px;
+  top:0;
+  left:0;
+  background-size:cover;*/
 }
 
 /*Experience page*/
