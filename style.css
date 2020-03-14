@@ -186,7 +186,6 @@ section p {
 }
   .svg {
         position: relative;
-        display: inline-block;
 	margin: 2em auto;
         width: 800px;
         height: 800px;
@@ -203,7 +202,9 @@ section p {
         z-index: 99;
     }
     .svg:hover .img-top {
-        display: inline;
+        display: inline; 
+       border: 0.5em solid #36454f;
+       border-radius: 50%;    
     }
 
 /*.svg-container  {
