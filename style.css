@@ -184,17 +184,40 @@ section p {
 .summary {
   background: rgba(255, 255, 255, 0.75);
 }
+  .svg {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+	margin: 2em auto;
+        width: 800px;
+        height: 800px;
+ /*8background: url(./experiencedesigns.svg) no-repeat center center;*/  
+       border: 0.5em solid #177245;
+       border-radius: 50%;
+	  
+    }
+    .svg .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .svg:hover .img-top {
+        display: inline;
+    }
 
-.svg-container  {
+/*.svg-container  {
   margin: 2em auto;
   width: 800px;
   height: 800px;
  /*8background: url(./experiencedesigns.svg) no-repeat center center;*/  
-  border: 0.5em solid #177245;
+ /* border: 0.5em solid #177245;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: hidden;*/
 }
-.svg-container a {
+/*.svg-container a {
  display: block;
  transition: background .35s;
 }
@@ -209,7 +232,7 @@ section p {
   height:800px;
   top:0;
   left:0;
-  background-size:cover;
+  background-size:cover;*/
   /*background-position:50% 50%);*/
   
 }
