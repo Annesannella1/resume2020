@@ -144,7 +144,7 @@ nav {
 
 /*Pages*/
 section {
-  position: absolute;
+  position: relative;
   top: 0;
   width: 0;
   height: 100%;
@@ -152,6 +152,9 @@ section {
   /*hide all on 0% width*/
   transition: all .75s;
 }
+ 
+
+
 
 :target {
   width: 100%;
