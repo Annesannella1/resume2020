@@ -234,11 +234,13 @@ section p {
   overflow: hidden;
 }
 .svg-container a {
- display: block;
+ display: none;
+position: absolute;	
  transition: background .35s;
 }
 
 .svg-container a:hover {  
+background: url(./experiencedesignson.png) no-repeat center center;	
   border: 0.5em solid  #232b2b;
 }
 
