@@ -241,8 +241,7 @@ section p {
 }
 
 .svg-container a {
- display: none;
-position: absolute;	
+ display: none;	
  transition: background .35s;
 }
 
