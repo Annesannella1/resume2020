@@ -185,11 +185,11 @@ section p {
   background: rgba(255, 255, 255, 0.75);
 }
   .svg {
-        position: relative;
-	margin: 2em auto;
-        width: 800px;
-        height: 800px;
- /*8background: url(./experiencedesigns.svg) no-repeat center center;*/  
+       position: relative;
+       margin: 2em auto;
+       width: 800px;
+       height: 800px;
+       background: url(./experiencedesigns.svg) no-repeat center center;  
        border: 0.5em solid #177245;
        border-radius: 50%;
 	  
@@ -202,7 +202,11 @@ section p {
         z-index: 99;
     }
     .svg:hover .img-top {
-        display: inline; 
+       position: relative;
+       margin: 2em auto;
+       width: 800px;
+       height: 800px;
+       background: url(./experiencedesignson.svg) no-repeat center center;  
        border: 0.5em solid #36454f;
        border-radius: 50%;    
     }
