@@ -323,10 +323,31 @@ section p {
 	}
 	
 }
-@media only screen and (max-width:200px){
-	.layer .col{
-		width:75%;
+@media only screen and (max-width:350px){
+	html {
+        font: 8px 'Gochi Hand', serif;
 	}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: .75m;
+}
+
+h3 {
+  font-size: .5em;
+}
+
+p {
+  font-size: .25em;
+}
 	
+html,
+body {
+  width: 25%;
+  height: 25%;
+}	
 }
-}
+
