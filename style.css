@@ -234,11 +234,15 @@ section p {
 
 
 .svg-container a {
- display: none;	
+ display: block;	
  transition: background .35s;
 }
 
-.svg-container a:hover {  
+.svg-container a:hover {
+  position: relative;	
+  margin: 2em auto;
+  width: 800px;
+  height: 800px;
 background: url(./experiencedesignson.png) no-repeat center center;	
   border: 0.5em solid  #232b2b;
  border-radius: 50%;
