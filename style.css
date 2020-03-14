@@ -224,6 +224,7 @@ section p {
     
 
 .svg-container  {
+ position: relative;	
   margin: 2em auto;
   width: 800px;
   height: 800px;
