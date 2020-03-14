@@ -184,7 +184,7 @@ section p {
 .summary {
   background: rgba(255, 255, 255, 0.75);
 }
-  .svg {
+  /*.svg {
        position: relative;
        margin: 2em auto;
        width: 800px;
@@ -194,7 +194,7 @@ section p {
        border-radius: 50%;
 	overflow: scroll;  
     }
- /*   .svg .img-top,
+ /*  .svg .img-top,
     .svg .img-back {
         display: none;
         position: absolute;
@@ -219,20 +219,20 @@ section p {
        background: url(./experiencedesigns.png) no-repeat center center;  
        border: 0.5em solid #36454f;
        border-radius: 50%;    
-    }
+    }*/
 
     
 
-/*.svg-container  {
+.svg-container  {
   margin: 2em auto;
   width: 800px;
   height: 800px;
  /*8background: url(./experiencedesigns.svg) no-repeat center center;*/  
- /* border: 0.5em solid #177245;
+  border: 0.5em solid #177245;
   border-radius: 50%;
-  overflow: hidden;*/
+  overflow: hidden;
 }
-/*.svg-container a {
+.svg-container a {
  display: block;
  transition: background .35s;
 }
