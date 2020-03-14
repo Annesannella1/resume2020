@@ -148,7 +148,7 @@ section {
   top: 0;
   width: 0;
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
   /*hide all on 0% width*/
   transition: all .75s;
 }
