@@ -148,14 +148,11 @@ section {
   top: 0;
   width: 0;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   /*hide all on 0% width*/
   transition: all .75s;
 }
  
-
-
-
 :target {
   width: 100%;
 }
@@ -233,6 +230,16 @@ section p {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.svg-img {
+  padding:0px;
+  width:800px;
+  height:800px;
+  top:0;
+  left:0;
+  background-size:cover;*/
+}
+
 .svg-container a {
  display: none;
 position: absolute;	
@@ -242,18 +249,10 @@ position: absolute;
 .svg-container a:hover {  
 background: url(./experiencedesignson.png) no-repeat center center;	
   border: 0.5em solid  #232b2b;
+ border-radius: 50%;
+  overflow: hidden;	
 }
 
-.svg-img {
-  padding:0px;
-  width:800px;
-  height:800px;
-  top:0;
-  left:0;
-  background-size:cover;*/
-  /*background-position:50% 50%);*/
-  
-}
 /*Experience page*/
 .experience {
   background: rgba(255, 255, 255, 0.75);
