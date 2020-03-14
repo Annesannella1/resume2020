@@ -194,7 +194,8 @@ section p {
        border-radius: 50%;
 	  
     }
-    .svg .img-top {
+    .svg .img-top,
+    .svg .img-back {
         display: none;
         position: absolute;
         top: 0;
@@ -207,6 +208,15 @@ section p {
        width: 800px;
        height: 800px;
        background: url(./experiencedesignson.png) no-repeat center center;  
+       border: 0.5em solid #36454f;
+       border-radius: 50%;    
+    }
+.svg:hover .img-back {
+    position: relative;
+       margin: 2em auto;
+       width: 800px;
+       height: 800px;
+       background: url(./experiencedesigns.png) no-repeat center center;  
        border: 0.5em solid #36454f;
        border-radius: 50%;    
     }
