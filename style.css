@@ -192,7 +192,7 @@ section p {
        background: url(./experiencedesigns.png) no-repeat center center;  
        border: 0.5em solid #177245;
        border-radius: 50%;
-	  
+	overflow: scroll;  
     }
  /*   .svg .img-top,
     .svg .img-back {
