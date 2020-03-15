@@ -222,6 +222,7 @@ section p {
     
 
 .svg-container  {
+	pointer-events: all;
  position: relative;	
   margin: 2em auto;
   width: 800px;
