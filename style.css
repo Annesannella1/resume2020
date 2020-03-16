@@ -35,7 +35,6 @@ body {
 
 /*Navigation*/
 nav {
-	
   position: relative;
   left: -12em;
   width: 6em;
@@ -76,8 +75,7 @@ nav {
 }
 
 .fa-bars {
-	position: relative;
- /* position: absolute;*/
+  position: absolute;
   left: 0em;
   padding: .25em 0;
   z-index: 99;
