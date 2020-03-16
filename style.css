@@ -145,11 +145,13 @@ nav {
 
 /*Pages*/
 section {
-  position: relative;
+	pointer-events:none;        
+
+  position: absolute;
   top: 0;
   width: 0;
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
   /*hide all on 0% width*/
   transition: all .75s;
 }
@@ -222,6 +224,7 @@ section p {
     
 
 .svg-container  {
+pointer-events:auto;        
 
  position: relative;	
   margin: 2em auto;
