@@ -145,7 +145,7 @@ nav {
 
 /*Pages*/
 section {
-	pointer-events:none;        
+	pointer-events:auto;        
 
   position: absolute;
   top: 0;
@@ -224,9 +224,7 @@ section p {
     
 
 .svg-container  {
-pointer-events:auto;        
-
- position: relative;	
+  position: relative;	
   margin: 2em auto;
   width: 800px;
   height: 800px;
