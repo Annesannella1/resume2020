@@ -35,6 +35,7 @@ body {
 
 /*Navigation*/
 nav {
+	
   position: relative;
   left: -12em;
   width: 6em;
@@ -75,7 +76,8 @@ nav {
 }
 
 .fa-bars {
-  position: absolute;
+	position: relative;
+ /* position: absolute;*/
   left: 0em;
   padding: .25em 0;
   z-index: 99;
@@ -222,7 +224,7 @@ section p {
     
 
 .svg-container  {
-  position: relative;	
+  position: absolute;	
   margin: 2em auto;
   width: 800px;
   height: 800px;
