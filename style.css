@@ -128,7 +128,7 @@ nav {
 }
 
 .wrapper > h1 {
-  position: absolute;
+  position: relative;
   top: 45%;
   width: 100%;
   color:  #177245;
@@ -222,7 +222,7 @@ section p {
     
 
 .svg-container  {
-  position: absolute;	
+  position: relative;	
   margin: 2em auto;
   width: 800px;
   height: 800px;
