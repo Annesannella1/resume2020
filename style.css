@@ -150,6 +150,7 @@ section {
   top: 0;
   width: 0;
   height: 100%;
+z-index: -1;	
   overflow: hidden;
   transition: all .75s;
 }
