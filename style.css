@@ -117,7 +117,7 @@ nav {
 
 /*Page Wrapper*/
 .wrapper {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -128,7 +128,7 @@ nav {
 }
 
 .wrapper > h1 {
-  position: relative;
+  position: absolute;
   top: 45%;
   width: 100%;
   color:  #177245;
