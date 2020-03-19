@@ -117,7 +117,7 @@ nav {
 
 /*Page Wrapper*/
 .wrapper {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   z-index: -1;
@@ -146,7 +146,7 @@ nav {
 
 /*Pages*/
 section {
-  position: relative;
+  position: absolute;
   top: 0;
   width: 0;
   height: 100%;
