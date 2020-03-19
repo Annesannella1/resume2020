@@ -146,11 +146,11 @@ nav {
 
 /*Pages*/
 section {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 0;
   height: 100%;
-z-index: -2;	
+  z-index: -2;	
   overflow: hidden;
   transition: all .75s;
 }
