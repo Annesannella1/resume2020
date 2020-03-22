@@ -141,7 +141,8 @@ position: absolute;
 .overlay {
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.2);
+ background: #f7e7ce;	
+  /*background: rgba(255, 255, 255, 0.2);*/
 	
 }
 
@@ -182,7 +183,8 @@ section p {
 /*Home page*/
 /*About page*/
 .summary {
-  background: rgba(255, 255, 255, 0.75);
+ background: #f7e7ce;	
+  /*background: rgba(255, 255, 255, 0.75);*/
 }
   /*.svg {
        position: relative;
@@ -263,7 +265,8 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Experience page*/
 .experience {
-  background: rgba(255, 255, 255, 0.75);
+  background: #f7e7ce;
+  /*background: rgba(255, 255, 255, 0.75);*/
 }
 
 .experience.row {
@@ -286,7 +289,8 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Gallery page*/
 .gallery {
-  background: rgba(255, 255, 255, 0.75);
+	 background: #f7e7ce;
+  /*background: rgba(255, 255, 255, 0.75);*/
 }
 
 .gallery.row {
@@ -310,7 +314,8 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Contact page*/
 .contact {
-  background: rgba(255, 255, 255, 0.75);
+	 background: #f7e7ce;
+  /*background: rgba(255, 255, 255, 0.75);*/
 } 
 
 
