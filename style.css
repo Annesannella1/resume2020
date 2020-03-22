@@ -229,8 +229,7 @@ section p {
   width: 800px;
   height: 800px;
  /*8background: url(./experiencedesigns.svg) no-repeat center center;*/
-  border: 0.5em solid  #232b2b;
- /* border: 0.5em solid #177245;*/
+border: 0.5em solid #177245;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -255,8 +254,8 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 .svg-img {
   padding:0px;
-  width:800px;
-  height:800px;
+  width:750px;
+  height:750px;
   top:0;
   left:0;
   background-size:cover;
