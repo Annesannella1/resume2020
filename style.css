@@ -89,10 +89,6 @@ position: absolute;
   cursor: pointer;
 }
 
-#menucolor-match {
-	background: #f7e7ce;
-}
-
 [type="checkbox"] {
   display: none;
 }
@@ -128,7 +124,7 @@ position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #232b2b;
+  background: #36454f;
   
 }
 
