@@ -34,14 +34,14 @@ body {
 }
 
 /*Navigation*/
-nav {
+nav  menucharcoal{
 position: absolute;
  /*position: relative;*/
   left: -12em;
   width: 6em;
   height: 100%;
-	background: #232b2b;
-   font-family: 'Gochi Hand', sans-serif;
+  background: #232b2b;
+  font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
 
