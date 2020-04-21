@@ -34,7 +34,7 @@ body {
 }
 
 /*Navigation*/
-nav  menucharcoal{
+nav {
 position: absolute;
  /*position: relative;*/
   left: -12em;
@@ -43,6 +43,10 @@ position: absolute;
   background: #232b2b;
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
+}
+
+.navercu {
+	background: #f7e7ce;
 }
 
 .nav ul {
@@ -186,8 +190,7 @@ section p {
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
-#menucolor-match {
-	background: #f7e7ce;	
+	
   /*.svg {
        position: relative;
        margin: 2em auto;
@@ -271,9 +274,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 	
-#menucolor-match {
-	background: #f7e7ce;
-	}
+	
 	
 .experience.row {
   float: left;
