@@ -45,9 +45,7 @@ position: absolute;
   transition: left .85s linear;
 }
 
-.navercu {
-	background: #f7e7ce;
-}
+
 
 .nav ul {
   float: left;
@@ -128,7 +126,7 @@ position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #36454f;
+  background: #777799;
   
 }
 
