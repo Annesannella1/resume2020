@@ -89,8 +89,8 @@ position: absolute;
   cursor: pointer;
 }
 
-.menucolor-match {
-	background: ;
+#menucolor-match {
+	background: #f7e7ce;
 }
 
 [type="checkbox"] {
@@ -190,7 +190,7 @@ section p {
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
-menucolor-match {
+#menucolor-match {
 	background: #f7e7ce;	
   /*.svg {
        position: relative;
@@ -274,7 +274,11 @@ background: url(./experiencedesignson.png) no-repeat center center;
   background: #f7e7ce;
   /*background: rgba(255, 255, 255, 0.75);*/
 }
-
+	
+#menucolor-match {
+	background: #f7e7ce;
+	}
+	
 .experience.row {
   float: left;
   margin-bottom: 1em;
