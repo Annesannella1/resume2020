@@ -40,8 +40,8 @@ position: absolute;
   left: -12em;
   width: 6em;
   height: 100%;
-  background: #232b2b;
-  font-family: 'Gochi Hand', sans-serif;
+	background: #232b2b;
+   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
 
@@ -87,6 +87,10 @@ position: absolute;
 }
 .fa-bars:hover {
   cursor: pointer;
+}
+
+.menucolor-match {
+	background: ;
 }
 
 [type="checkbox"] {
@@ -185,6 +189,9 @@ section p {
  background: #f7e7ce;	
   /*background: rgba(255, 255, 255, 0.75);*/
 }
+
+menucolor-match {
+	background: #f7e7ce;	
   /*.svg {
        position: relative;
        margin: 2em auto;
