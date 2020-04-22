@@ -40,7 +40,7 @@ position: absolute;
   left: -12em;
   width: 6em;
   height: 100%;
-  background: #34675c;
+  background: #b3c100;
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -56,7 +56,7 @@ position: absolute;
 .fa-bars,
 .soc-media a {
   display: block;
-  color:  #334675c;
+  color:  #34675c;
   font-weight: bold;
   text-decoration: none;
   transition: background .35s;
@@ -64,12 +64,12 @@ position: absolute;
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: #b3c100;
+  background: #4cb5f5;
 }
 .nav a:active,
 .fa-bars:active,
 .soc-media a:active {
-  background: #4cb5f5;
+  background: #b7b8b6;
 }
 
 .nav a {
@@ -83,7 +83,7 @@ position: absolute;
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: #34675c;
+  background: #b3c100;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -126,7 +126,7 @@ position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #4cb5f5;
+  background: #b3c100;
   
 }
 
@@ -134,7 +134,7 @@ position: absolute;
   position: absolute;
   top: 45%;
   width: 100%;
-  color:  #334675c;
+  color:  #873370;
   font-size: 6em;
   text-align: center;
 }
@@ -234,7 +234,7 @@ section p {
   width: 800px;
   height: 800px;
  /*8background: url(./experiencedesigns.svg) no-repeat center center;*/
-border: 0.5em solid #334675c;
+border: 0.5em solid #873370;
   border-radius: 50%;
   overflow: hidden;
 }
