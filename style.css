@@ -40,7 +40,7 @@ position: absolute;
   left: -12em;
   width: 6em;
   height: 100%;
-  background: #b3c100;
+  background: #b3c100;   /*lime green*/
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -166,7 +166,7 @@ section .content {
   margin: 1em auto;
   max-width: 900px;
   width: 60%;
-  color: #334675c;
+  color: #873370;
 }
 
 section h1,
