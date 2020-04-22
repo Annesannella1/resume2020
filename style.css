@@ -64,7 +64,7 @@ position: absolute;
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: #f7e7ce;
+  background: peru;
 }
 .nav a:active,
 .fa-bars:active,
@@ -184,7 +184,7 @@ section p {
 /*Home page*/
 /*About page*/
 .summary {
- background: #f7e7ce;	
+ background: peru;	
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
@@ -268,7 +268,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Experience page*/
 .experience {
-  background: #f7e7ce;
+  background: peru;
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 	
@@ -318,7 +318,7 @@ background: rgba(255, 255, 255, 0.75);
 
 /*Contact page*/
 .contact {
-background: #f7e7ce;
+background: peru;
   /*background: rgba(255, 255, 255, 0.75);*/
 } 
 
