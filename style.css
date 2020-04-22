@@ -69,7 +69,7 @@ position: absolute;
 .nav a:active,
 .fa-bars:active,
 .soc-media a:active {
-  background: #873370;
+  background: #4cb5f5;
 }
 
 .nav a {
@@ -83,7 +83,7 @@ position: absolute;
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: pine;
+  background: #34675c;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -126,7 +126,7 @@ position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: pine;
+  background: #4cf5b5;
   
 }
 
