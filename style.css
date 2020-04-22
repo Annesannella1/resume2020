@@ -56,7 +56,7 @@ position: absolute;
 .fa-bars,
 .soc-media a {
   display: block;
-  color:  #177245;
+  color:  #334675c;
   font-weight: bold;
   text-decoration: none;
   transition: background .35s;
@@ -64,7 +64,7 @@ position: absolute;
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: granite;
+  background: #b3c100;
 }
 .nav a:active,
 .fa-bars:active,
@@ -134,7 +134,7 @@ position: absolute;
   position: absolute;
   top: 45%;
   width: 100%;
-  color:  #177245;
+  color:  #334675c;
   font-size: 6em;
   text-align: center;
 }
@@ -166,7 +166,7 @@ section .content {
   margin: 1em auto;
   max-width: 900px;
   width: 60%;
-  color: #177245;
+  color: #334675c;
 }
 
 section h1,
@@ -184,7 +184,7 @@ section p {
 /*Home page*/
 /*About page*/
 .summary {
- background: granite;	
+ background: #b3c100;	
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
@@ -234,7 +234,7 @@ section p {
   width: 800px;
   height: 800px;
  /*8background: url(./experiencedesigns.svg) no-repeat center center;*/
-border: 0.5em solid #177245;
+border: 0.5em solid #334675c;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -268,7 +268,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Experience page*/
 .experience {
-  background: granite;
+  background: #b3c100;
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 	
@@ -318,7 +318,7 @@ background: rgba(255, 255, 255, 0.75);
 
 /*Contact page*/
 .contact {
-background: granite;
+background: #b3c100;
   /*background: rgba(255, 255, 255, 0.75);*/
 } 
 
