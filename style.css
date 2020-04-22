@@ -64,7 +64,7 @@ position: absolute;
 .nav a:hover,
 .fa-bars:hover,
 .soc-media a:hover {
-  background: sandybrown;
+  background: granite;
 }
 .nav a:active,
 .fa-bars:active,
@@ -83,7 +83,7 @@ position: absolute;
   padding: .25em 0;
   z-index: 99;
   width: 2em;
-  background: darkolivegreen;
+  background: pine;
   text-align: center;
   transition: left .75s ease-in-out;
 }
@@ -126,7 +126,7 @@ position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: darkolivegreen;
+  background: pine;
   
 }
 
@@ -184,7 +184,7 @@ section p {
 /*Home page*/
 /*About page*/
 .summary {
- background: sandybrown;	
+ background: granite;	
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
@@ -268,7 +268,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Experience page*/
 .experience {
-  background: sandybrown;
+  background: granite;
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 	
@@ -318,7 +318,7 @@ background: rgba(255, 255, 255, 0.75);
 
 /*Contact page*/
 .contact {
-background: sandybrown;
+background: granite;
   /*background: rgba(255, 255, 255, 0.75);*/
 } 
 
