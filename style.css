@@ -294,7 +294,9 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 /*Gallery page*/
 .gallery {
-background: rgba(255, 255, 255, 0.75);
+	.gallery {
+  background: #b3c100;
+
 }
 
 .gallery.row {
