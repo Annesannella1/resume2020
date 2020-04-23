@@ -293,10 +293,9 @@ background: url(./experiencedesignson.png) no-repeat center center;
 }
 
 /*Gallery page*/
-.gallery {
-	.gallery {
-  background: #b3c100;
 
+.gallery {
+  background: #b3c100;
 }
 
 .gallery.row {
