@@ -302,12 +302,14 @@ background: url(./experiencedesignson.png) no-repeat center center;
   float: left;
   margin-bottom: 1em;
   width: 100%;
+	
 }
 
 .gallery-box {
   float: left;
   margin: 0 5m;
   width: 300px;
+	z-index: 1;
   height: 300px;
 }
 
