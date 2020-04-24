@@ -307,7 +307,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
 
 .gallery-box {
   float: left;
-  margin: 1em;
+  margin: .75em;
   width: 100px;
 height: 100px;
 }
