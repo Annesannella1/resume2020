@@ -312,10 +312,11 @@ background: url(./experiencedesignson.png) no-repeat center center;
 height: 100px;
 }
 
-.gallery-box img {	
+.gallery-box img {
+	position: relative;
  display: block;	
-  width: 150px;
- height: 150px;
+  width: 100px;
+ height: 100px;
   overflow: hidden;
 }
 
