@@ -306,15 +306,15 @@ background: url(./experiencedesignson.png) no-repeat center center;
 .gallery-box {
   float: left;
   margin: 0 3em;
-  width: 100px;
-height: 100px;
+  width: 200px;
+height: 200px;
 }
 
 .gallery-box img {
-	position: relative;
+position: relative;
  display: block;	
-  width: 100px;
- height: 100px;
+  width: 200px;
+ height: 200px;
   overflow: hidden;
 }
 
