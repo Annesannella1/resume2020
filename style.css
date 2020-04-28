@@ -299,6 +299,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
 }
 
 .gallery.row {
+	position: relative;
   float: left;
   margin-bottom: 1em;
   width: 100%;
