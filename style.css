@@ -271,9 +271,7 @@ background: url(./experiencedesignson.png) no-repeat center center;
   background: #b3c100;
   /*background: rgba(255, 255, 255, 0.75);*/
 }
-	
-	
-	
+			
 .experience.row {
   float: left;
   margin-bottom: 1em;
@@ -297,9 +295,11 @@ background: url(./experiencedesignson.png) no-repeat center center;
 .gallery {
   background: #b3c100;
 }
-
-.gallery.row {
+.gallery.grid {
 	position: relative;
+}
+
+.gallery.row {	
   float: left;
   margin-bottom: 1em;
   width: 100%;
