@@ -311,7 +311,7 @@ height: 200px;
 }
 
 .gallery-box img {
-position: relative;
+position: absolute;
  display: block;	
   width: 200px;
  height: 200px;
