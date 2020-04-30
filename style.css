@@ -196,14 +196,11 @@ section p {
   margin: auto;
   width: 800px;
   height: 800px;
-  background: url(experiencedesignson.png) no-repeat cover center;
+  background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #36454f;
   border-radius: 50%;
   overflow: hidden;
 }
-
-
-
 
 			
 .experience.row {
@@ -252,7 +249,7 @@ section p {
 /*Contact page*/
 .contact {
 background: #b3c100;
-	 color:  #873370;
+ color:  #873370;
   /*background: rgba(255, 255, 255, 0.75);*/
 } 
 
