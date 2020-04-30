@@ -188,47 +188,10 @@ section p {
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
-	
-  /*.svg {
-       position: relative;
-       margin: 2em auto;
-       width: 800px;
-       height: 800px;
-       background: url(./experiencedesigns.png) no-repeat center center;  
-       border: 0.5em solid #177245;
-       border-radius: 50%;
-	overflow: scroll;  
-    }
- /*  .svg .img-top,
-    .svg .img-back {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .svg:hover .img-top {
-       position: relative;
-       margin: 2em auto;
-       width: 800px;
-       height: 800px;
-       background: url(./experiencedesignson.png) no-repeat center center;  
-       border: 0.5em solid #36454f;
-       border-radius: 50%;    
-    }
-.svg:hover .img-back {
-    position: relative;
-       margin: 2em auto;
-       width: 800px;
-       height: 800px;
-       background: url(./experiencedesigns.png) no-repeat center center;  
-       border: 0.5em solid #36454f;
-       border-radius: 50%;    
-    }*/
 
-    
 
-.svg-container  {
+.svg-container, 
+.svg-container iframe {
   position: relative;	
   margin: auto;
   width: 800px;
@@ -241,36 +204,7 @@ section p {
 
 
 
-/* .svg-container a {
- display: block;	
- transition: background .35s;
-}
 
-.svg-container a:hover {
-  position: absolute;	
-  margin: 2em auto;
-  width: 800px;
-  height: 800px;
-background: url(./experiencedesignson.png) no-repeat center center;	
-  border: 0.5em solid  #232b2b;
- border-radius: 50%;
-  overflow: hidden;	
-} */
-
-/* .svg-img {
-  padding: 0px;
-  width: 750px;
-  height: 750px;
-  top: 0;
-  left: 0;
-  background-size: cover;
-} */
-
-/*Experience page*/
-.experience {
-  background: #b3c100;
-  /*background: rgba(255, 255, 255, 0.75);*/
-}
 			
 .experience.row {
   float: left;
@@ -307,12 +241,11 @@ background: url(./experiencedesignson.png) no-repeat center center;
   float: left;
   margin: 0 3em;
   width: 200px;
-height: 200px;
+  height: 200px;
 }
 
 .gallery-box img {	
-  width: 200px;
- height: 200px;
+  width: 100%;
   overflow: hidden;
 }
 
