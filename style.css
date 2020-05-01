@@ -242,13 +242,15 @@ float: left;
   margin: 0 3em;
   width: 200px;
   height: 200px;
-	border: black;
+  border: black;
 }
 
 .gallery-box img {
-  width: 100%;
-  overflow: hidden;
-	border: black;
+   margin: 10px 10px;
+	padding: 5px 5px;
+    width: 100%;
+    overflow: hidden;
+    border: black;
 }
 
 /*Contact page*/
