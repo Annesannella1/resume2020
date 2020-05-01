@@ -233,6 +233,7 @@ section p {
 float: left;	
   margin-bottom: 1em;
   width: 100%;
+	border: black;
 	
 }
 
@@ -241,11 +242,13 @@ float: left;
   margin: 0 3em;
   width: 200px;
   height: 200px;
+	border: black;
 }
 
 .gallery-box img {
   width: 100%;
   overflow: hidden;
+	border: black;
 }
 
 /*Contact page*/
