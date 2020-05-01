@@ -224,16 +224,20 @@ section p {
 /*Gallery page*/
 
 .gallery {
+	width: 960px;
+	margin: 0 auto;
   background: #b3c100;
 }
 
-.gallery.row { 	
+.gallery.row {
+float: left;	
   margin-bottom: 1em;
   width: 100%;
 	
 }
 
 .gallery-box {
+float: left;	
   margin: 0 3em;
   width: 200px;
   height: 200px;
