@@ -235,10 +235,10 @@ section p {
 }
 
 .gallery-box {
-  float: left;
+  display: inline block;
   margin: 0 3em;
-  width: 150%;
-  height: 150%;
+  width: 200px;
+  height: 200px;
 }
 
 .gallery-box img {
