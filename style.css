@@ -227,15 +227,13 @@ section p {
   background: #b3c100;
 }
 
-.gallery.row { 
-  display: inline block;	
+.gallery.row { 	
   margin-bottom: 1em;
   width: 100%;
 	
 }
 
 .gallery-box {
-  display: inline block;
   margin: 0 3em;
   width: 200px;
   height: 200px;
