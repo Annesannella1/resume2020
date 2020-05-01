@@ -227,8 +227,8 @@ section p {
   background: #b3c100;
 }
 
-.gallery.row {	
-  float: left;
+.gallery.row { 
+  display: inline block;	
   margin-bottom: 1em;
   width: 100%;
 	
@@ -237,12 +237,11 @@ section p {
 .gallery-box {
   float: left;
   margin: 0 3em;
-  width: 200px;
-  height: 200px;
+  width: 150%;
+  height: 150%;
 }
 
 .gallery-box img {
-	display: inline block;
   width: 100%;
   overflow: hidden;
 }
