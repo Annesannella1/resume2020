@@ -241,7 +241,8 @@ section p {
   height: 200px;
 }
 
-.gallery-box img {	
+.gallery-box img {
+	display: inline block;
   width: 100%;
   overflow: hidden;
 }
