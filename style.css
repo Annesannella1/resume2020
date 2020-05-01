@@ -230,6 +230,7 @@ section p {
 }
 
 .gallery.row {
+	position: relative;
 float: left;	
   margin-bottom: 1em;
   width: 100%;
