@@ -222,6 +222,11 @@ section p {
 }
 
 /*Gallery page*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .gallery {
 	width: 960px;
