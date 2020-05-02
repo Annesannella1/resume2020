@@ -223,17 +223,17 @@ section p {
 
 /*Gallery page*/
 .gallery {
-	width: 960px;
-	margin: 0 auto;
-  background: #b3c100;
+width: 960px;
+margin: 0 auto;
+background: #b3c100;
 }
 
 .gallery.row {
-	position: relative;
+position: relative;
 float: left;	
-  margin-bottom: 1em;
-  width: 100%;
-	border: black;
+ margin-bottom: 1em;
+ width: 100%;
+border: black;
 	
 }
 
@@ -246,9 +246,9 @@ float: left;
 }
 
 .gallery-box img {
-   margin: 10px 10px;
-	padding: 5px 5px;
-    width: 100%;
+   margin: 10 10 10 10px;
+   padding: 5 5 5 5px;
+   width: 100%;
     overflow: hidden;
     border: black;
 }
