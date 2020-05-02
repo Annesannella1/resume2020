@@ -222,12 +222,6 @@ section p {
 }
 
 /*Gallery page*/
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .gallery {
 	width: 960px;
 	margin: 0 auto;
@@ -257,6 +251,11 @@ float: left;
     width: 100%;
     overflow: hidden;
     border: black;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*Contact page*/
