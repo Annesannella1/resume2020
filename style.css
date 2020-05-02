@@ -204,7 +204,7 @@ section p {
 
 			
 .experience.row {
-  display: inline;
+  float: left;
   margin-bottom: 1em;
   width: 100%;
 }
@@ -217,15 +217,16 @@ section p {
 }
 
 .experience-box img {
+  display: block;
   width: 100%;
 }
 
 /*Gallery page*/
 
 .gallery.row {
-display: inline;	
+float: left;	
  margin-bottom: 1em;
- width: 46%;
+ width: 100%;
 border: black;
 	
 }
