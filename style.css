@@ -204,7 +204,7 @@ section p {
 
 			
 .experience.row {
-  float: left;
+  display: inline;
   margin-bottom: 1em;
   width: 100%;
 }
@@ -217,7 +217,6 @@ section p {
 }
 
 .experience-box img {
-  display: block;
   width: 100%;
 }
 
