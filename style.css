@@ -222,27 +222,21 @@ section p {
 }
 
 /*Gallery page*/
-.gallery {
-width: 960px;
-margin: 0 auto;
-background: #b3c100;
-}
 
 .gallery.row {
-position: relative;
 float: left;	
  margin-bottom: 1em;
- width: 100%;
+ width: 46%;
 border: black;
 	
 }
 
 .gallery-box {
-float: left;	
+float: right;	
   margin: 0 3em;
   width: 200px;
   height: 200px;
-  border: black;
+  
 }
 
 .gallery-box img {
