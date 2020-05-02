@@ -223,7 +223,7 @@ section p {
 /*Gallery page*/
 
 .gallery.row {
-float: left;	
+display: inline;	
  margin-bottom: 1em;
  width: 46%;
 border: black;
@@ -231,7 +231,7 @@ border: black;
 }
 
 .gallery-box {
-float: right;	
+float: left;	
   margin: 0 3em;
   width: 200px;
   height: 200px;
