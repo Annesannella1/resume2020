@@ -221,15 +221,17 @@ section p {
 
 /*Gallery page*/
 
+
+.gallery {
+ background: #b3c100;
+}
+
 .gallery.row {
 float: left;	
  margin-bottom: 1em;
- width: 100%;
-
-	
+ width: 100%;	
 }
-.gallery {
- background: #b3c100;	
+	
 
 .gallery-box {
 float: left;	
