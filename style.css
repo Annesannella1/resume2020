@@ -194,7 +194,7 @@ section p {
   margin: auto;
   width: 800px;
   height: 800px;
-  background: url(experiencedesignson.png) no-repeat center cover;
+  background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #36454f;
   border-radius: 50%;
   overflow: hidden;
