@@ -188,8 +188,6 @@ section p {
   /*background: rgba(255, 255, 255, 0.75);*/
 }
 
-
-
 .svg-container, 
 .svg-container iframe {
   position: relative;	
@@ -227,9 +225,11 @@ section p {
 float: left;	
  margin-bottom: 1em;
  width: 100%;
-border: black;
+
 	
 }
+.gallery {
+ background: #b3c100;	
 
 .gallery-box {
 float: left;	
@@ -244,12 +244,7 @@ float: left;
    padding: 5 5 5 5px;
    width: 100%;
     overflow: hidden;
-    border: black;
-}
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+    
 }
 
 /*Contact page*/
