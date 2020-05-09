@@ -219,35 +219,10 @@ section p {
   width: 100%;
 }
 
-/*Gallery page*/
+/*Gallery page
+is a bootstrap grid*/
 
 
-.gallery {
- background: #b3c100;
-}
-
-.gallery.row {
-float: left;	
- margin-bottom: 1em;
- width: 100%;	
-}
-	
-
-.gallery-box {
-float: left;	
-  margin: 0 3em;
-  width: 200px;
-  height: 200px;
-  
-}
-
-.gallery-box img {
-   margin: 10 10 10 10px;
-   padding: 5 5 5 5px;
-   width: 100%;
-    overflow: hidden;
-    
-}
 
 /*Contact page*/
 .contact {
