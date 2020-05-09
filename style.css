@@ -21,18 +21,13 @@ p {
 }
 
 /*BASE*/
-html {
+html,
+body {
   width: 100%;
   height: 100%;  
 	
 }
 
-body {
-  width: 100%;
-  height: 100%;
-  backbround-color: #b3c100;  
-	
-}
 /*Layout*/
 * {
   box-sizing: border-box;
