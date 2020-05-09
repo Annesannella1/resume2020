@@ -222,6 +222,57 @@ section p {
 /*Gallery page
 is a bootstrap grid*/
 
+section {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+/*z-index: 1;*/	
+  overflow: hidden;
+  transition: all .75s;
+}
+ 
+:target {
+  width: 100%;
+}
+
+section .content {
+  margin: 1em auto;
+  max-width: 900px;
+  width: 60%;
+  color: #873370;
+}
+
+section h1,
+section h2,
+section h3 {
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+section p {
+  margin: .5em 0;
+  font-family: 'Gochi Hand';
+}
+
+/*Home page*/
+/*About page*/
+.summary {
+ background: #b3c100;	
+  /*background: rgba(255, 255, 255, 0.75);*/
+}
+
+.svg-container, 
+.svg-container iframe {
+  position: relative;	
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  background: url(experiencedesignson.png) no-repeat center center;
+  border: 0.5em solid #36454f;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 
 /*Contact page*/
