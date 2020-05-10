@@ -195,7 +195,7 @@ section p {
   width: 800px;
   height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #36454f;
+  border: 0.5em solid #0daddd;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -226,7 +226,7 @@ is a bootstrap grid*/
 /*Contact page*/
 .contact {
 background: #b3c100;
- color:  #873370;
+
   /*background: rgba(255, 255, 255, 0.75);*/
 } 
 
