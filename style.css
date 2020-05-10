@@ -24,7 +24,9 @@ p {
 html,
 body {
   width: 100%;
-  height: 100%;  
+  height: 100%; 
+  max-width: 100%;
+	
 	
 }
 
@@ -232,5 +234,58 @@ background: #b3c100;
 } 
 
 
+}
+/* ================================================= 
+   Practice Media Queries
+==================================================== */
+
+/* Target viewport sizes less than 576px */
+
+@media (max-width: 575px) {
+  
+  nav ul {
+    padding: 6px 0;
+    background: #def1f9;
+    margin: .2em 0;
+ 
+}
+
+/* Target viewport sizes 576px and wider */
+
+@media (min-width: 576px) {
+  
+  nav ul{
+    margin-top: 24px;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 0.45em;
+  }
+  h1 {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* Target a viewport range wider than 575px and narrower than 992px */
+
+@media (min-width: 576px) and (max-width: 991px) {
+  nav ul{
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+/* Target viewport sizes 768px and wider */
+
+@media (min-width: 768px) {
+ 
+}
+
+/* Target viewport sizes 992px and wider */
+
+@media (min-width: 992px) {
+  nav {
+    float: right;
+  }
 }
 
