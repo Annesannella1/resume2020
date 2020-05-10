@@ -47,8 +47,6 @@ position: absolute;
   transition: left .85s linear;
 }
 
-
-
 .nav ul {
   float: left;
   width: 100%;
@@ -242,7 +240,26 @@ background: #b3c100;
 /* Target viewport sizes less than 576px */
 
 @media (max-width: 575px) {
-  
+  html {
+  font: 12px 'Gochi Hand', serif;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: .5em;
+}
+
+h3 {
+  font-size: .5em;
+}
+
+p {
+  font-size: .25em;
+}
+
   nav ul {
     padding: 6px 0;
     background: #def1f9;
