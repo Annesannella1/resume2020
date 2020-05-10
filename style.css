@@ -266,25 +266,12 @@ p {
 
 @media (min-width: 576px) {
   
-  nav ul{
-    margin-top: 24px;
-  }
-  nav li {
-    display: inline-block;
-    margin: 0 0.45em;
-  }
-  h1 {
-    margin-bottom: 1.5em;
-  }
-}
+ 
 
 /* Target a viewport range wider than 575px and narrower than 992px */
 
 @media (min-width: 576px) and (max-width: 991px) {
-  nav ul{
-    float: left;
-    margin-left: 20px;
-  }
+ 
 }
 
 /* Target viewport sizes 768px and wider */
@@ -296,8 +283,6 @@ p {
 /* Target viewport sizes 992px and wider */
 
 @media (min-width: 992px) {
-  nav {
-    float: right;
-  }
+ 
 }
 
