@@ -40,7 +40,7 @@ nav {
 position: absolute;
  /*position: relative;*/
   left: -12em;
-  width: 6em;
+  width: 1em;
   height: 100%;
   background: #b3c100;   /*lime green*/
   font-family: 'Gochi Hand', sans-serif;
@@ -104,7 +104,7 @@ position: absolute;
 /*Social media*/
 .soc-media {
   position: absolute;
-  bottom: 5px;
+  bottom: 1px;
 }
 
 .soc-media li {
@@ -113,7 +113,7 @@ position: absolute;
 
 .soc-media a {
   padding: .5em 0;
-  width: 2em;
+  width: 1em;
   font-weight: normal;
   text-align: center;
 }
