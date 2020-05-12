@@ -40,7 +40,7 @@ nav {
 position: absolute;
  /*position: relative;*/
   left: -12em;
-  width: 1em;
+  width: .25em;
   height: 100%;
   background: #b3c100;   /*lime green*/
   font-family: 'Gochi Hand', sans-serif;
@@ -82,7 +82,7 @@ position: absolute;
   left: 0em;
   padding: .25em 0;
   z-index: 99;
-  width: 2em;
+  width: .75em;
   background: #b3c100;
   text-align: center;
   transition: left .75s ease-in-out;
@@ -120,7 +120,7 @@ position: absolute;
 
 /*Page Wrapper*/
 .wrapper {
-  position: absolute;
+/*   position: absolute; */
   top: 0;
   left: 0;
   z-index: -1;
@@ -131,7 +131,7 @@ position: absolute;
 }
 
 .wrapper > h1 {
-  position: absolute;
+/*   position: absolute; */
   bottom: 15%;
   width: 50%;
   color:  #873370;
@@ -149,7 +149,7 @@ position: absolute;
 
 /*Pages*/
 section {
-  position: absolute;
+/*   position: absolute; */
   top: 0;
   width: 0;
   height: 100%;
