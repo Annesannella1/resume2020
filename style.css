@@ -120,7 +120,7 @@ position: absolute;
 
 /*Page Wrapper*/
 .wrapper {
-/*   position: absolute; */
+position: relative; */
   top: 0;
   left: 0;
   z-index: -1;
@@ -131,7 +131,7 @@ position: absolute;
 }
 
 .wrapper > h1 {
-/*   position: absolute; */
+position: relative; 
   bottom: 15%;
   width: 50%;
   color:  #873370;
@@ -149,7 +149,7 @@ position: absolute;
 
 /*Pages*/
 section {
-/*   position: absolute; */
+  position: relative; 
   top: 0;
   width: 0;
   height: 100%;
