@@ -23,7 +23,7 @@ p {
 /*BASE*/
 html,
 body {
-  width: 50%;
+  width: 320px;
   height: 100%; 
   max-width: 50%;
 	
@@ -40,7 +40,7 @@ nav {
 position: absolute;
  /*position: relative;*/
   left: -12em;
-  width: 320px;
+  width: 20%;
   height: 100%;
   background: #b3c100;   /*lime green*/
   font-family: 'Gochi Hand', sans-serif;
@@ -82,7 +82,7 @@ position: absolute;
   left: 0em;
   padding: 1em 0;
   z-index: 99;
-  width: 3em;
+  width: 10%;
   background: #b3c100;
   text-align: center;
   transition: left .75s ease-in-out;
@@ -113,7 +113,7 @@ position: absolute;
 
 .soc-media a {
   padding: .5em 0;
-  width: 1em;
+  width: 10%em;
   font-weight: normal;
   text-align: center;
 }
@@ -124,7 +124,7 @@ position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  width: 320px;
+  width: 100%;
   height: 100%;
   background: #b3c100;
   
