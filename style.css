@@ -40,7 +40,7 @@ nav {
 position: absolute;
  /*position: relative;*/
   left: -12em;
-  width: .25em;
+  width: 320px;
   height: 100%;
   background: #b3c100;   /*lime green*/
   font-family: 'Gochi Hand', sans-serif;
@@ -49,7 +49,7 @@ position: absolute;
 
 .nav ul {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 .nav a,
@@ -80,9 +80,9 @@ position: absolute;
 .fa-bars {
   position: absolute;
   left: 0em;
-  padding: .25em 0;
+  padding: 1em 0;
   z-index: 99;
-  width: .75em;
+  width: 3em;
   background: #b3c100;
   text-align: center;
   transition: left .75s ease-in-out;
@@ -120,11 +120,11 @@ position: absolute;
 
 /*Page Wrapper*/
 .wrapper {
-position: relative; */
+position: absolute; 
   top: 0;
   left: 0;
   z-index: -1;
-  width: 50%;
+  width: 320px;
   height: 100%;
   background: #b3c100;
   
@@ -133,7 +133,7 @@ position: relative; */
 .wrapper > h1 {
 position: relative; 
   bottom: 15%;
-  width: 50%;
+  width: 100%;
   color:  #873370;
   font-size: 6em;
   text-align: center;
@@ -141,7 +141,7 @@ position: relative;
 
  
 .overlay {
-  width: 50%;
+  width: 100%;
   height: 100%;
  background: rgba(255, 255, 255, 0.2);
 	
@@ -159,13 +159,13 @@ section {
 }
  
 :target {
-  width: 50%;
+  width: 100%;
 }
 
 section .content {
   margin: 1em auto;
   max-width: 300px;
-  width: 20%;
+  width: 60%;
   color: #873370;
 }
 
@@ -190,7 +190,7 @@ section p {
 
 .svg-container, 
 .svg-container iframe {
-  position: relative;	
+  position: absolute;	
   margin: auto;
   width: 300px;
   height: 300px;
@@ -208,7 +208,7 @@ section p {
 
 .svg-container, 
 .svg-container iframe {
-  position: relative;	
+  position: absolute;	
   margin: auto;
   width: 300px;
   height: 300px;
