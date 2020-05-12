@@ -58,7 +58,6 @@ position: absolute;
   display: block;
   color:  #34675c;
   font-weight: bold;
-	text-align: center;
   text-decoration: none;
   transition: background .35s;
 }
@@ -96,7 +95,7 @@ position: absolute;
   display: none;
 }
 [type="checkbox"]:checked + label {
-  left: 3em;
+  left: 1em;
 }
 [type="checkbox"]:checked ~ nav {
   left: 0;
@@ -114,7 +113,7 @@ position: absolute;
 
 .soc-media a {
   padding: .5em 0;
-  width: 10%em;
+  width: 10%;
   font-weight: normal;
   text-align: center;
 }
