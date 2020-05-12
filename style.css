@@ -25,9 +25,8 @@ html,
 body {
   width: 320px;
   height: 100%; 
-  max-width: 50%;
-	
-	
+  max-width: 100%;
+		
 }
 
 /*Layout*/
@@ -50,6 +49,14 @@ position: absolute;
 .nav ul {
   float: left;
   width: 100%;
+}
+
+nav li {    
+  padding: 5px;
+  width: 100%;
+  text-align:center;
+  box-sizing: border-box;
+  font-size: 10px;
 }
 
 .nav a,
@@ -254,7 +261,7 @@ nav li {
   width: 100%;
   text-align:center;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 10px;
 }
 
 nav li:nth-child(1) { background-color: #C7C7C7 }
