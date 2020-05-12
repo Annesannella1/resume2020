@@ -34,14 +34,14 @@ body {
   box-sizing: border-box;
 }
 /* 
-/*Navigation*/
+
 nav {
 position: absolute;
- /*position: relative;*/
+ 
   left: -12em;
   width: 20%;
   height: 100%;
-  background: #b3c100;   /*lime green*/
+  background: #b3c100;  
   font-family: 'Gochi Hand', sans-serif;
   transition: left .85s linear;
 }
@@ -108,7 +108,7 @@ nav li {
   left: 0;
 }
 
-/*Social media*/
+
 .soc-media {
   position: absolute;
   bottom: 1px;
@@ -157,7 +157,7 @@ a{
 	top: 0;
 	width: 100%;
 }
-.page2content,.page3content{
+.summary, .experience, .contact, .gallery{
 	margin-top: 0px;                                 /*****/
 }
 
@@ -301,7 +301,7 @@ a{
 		display: none;
 	}
 
-	.page2content,.page3content{
+	.summary, .experience, .contact, .gallery{
 		margin-top: 60px;          /* set margin top equal to header ka height*/
 	}
 
