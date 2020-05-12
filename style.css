@@ -55,7 +55,7 @@ position: absolute;
 .nav a,
 .fa-bars,
 .soc-media a {
-  display: block;
+  display: inline;
   color:  #34675c;
   font-weight: bold;
   text-decoration: none;
