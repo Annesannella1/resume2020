@@ -201,23 +201,21 @@ section p {
   overflow: hidden;
 }
 
-			
-.experience.row {
-  float: left;
-  margin-bottom: 1em;
-  width: 50%;
+.experience {
+ background: #b3c100;	
+  /*background: rgba(255, 255, 255, 0.75);*/
 }
 
-.experience-box {
-  float: left;
-  margin: 0 3em;
-  width: 100px;
-  height: 100px;
-}
-
-.experience-box img {
-  display: block;
-  width: 50%;
+.svg-container, 
+.svg-container iframe {
+  position: relative;	
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background: url(experiencedesignson.png) no-repeat center center;
+  border: 0.5em solid #2d9cbd;
+ border-radius: 50%;
+  overflow: hidden;
 }
 
 /*Gallery page
@@ -229,6 +227,7 @@ is a bootstrap grid*/
 background: #b3c100;
 
 } 
+			
 
 
 /*   media queries */
