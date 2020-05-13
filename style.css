@@ -147,7 +147,7 @@ a{
 
 /***************************************************************************/
 .logo h1{
-	font-weight: 700;
+    font-weight: 700;
     text-shadow: 3px 2px 0px #fff;
     line-height: 0.87;
 }
@@ -157,7 +157,7 @@ a{
 	top: 0;
 	width: 100%;
 }
-.summary, .experience, .contact, .gallery{
+.summary, .experience, .contact, .Gallery{
 	margin-top: 0px;                                 /*****/
 }
 
@@ -195,7 +195,7 @@ a{
 		margin-left: -250px;
 		overflow: hidden;
 		height: 100vh;
-		background: rgba(17,17,17,0.9);  /* for opacity of side bar without affecting anything */
+		background: teal;  /* for opacity of side bar without affecting anything */
 		opacity: 0.9;                    /* to see background image*/
 
 		transition: all 0.3s ease-in-out;
@@ -227,8 +227,8 @@ a{
 		margin-top: 70px;
 	}
 	.mobilelogo{
-		font-size: 2em;
-		margin: 0;
+	    font-size: 2em;
+	    margin: 0;
 	    font-weight: 700;
 	    text-shadow: 3px 2px 0px #fff;
 	    line-height: 0.87;
