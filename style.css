@@ -195,8 +195,8 @@ a{
 		margin-left: -250px;
 		overflow: hidden;
 		height: 100vh;
-		background: #648B79;  /* for opacity of side bar without affecting anything */
-		opacity: 1.0;                    /* to see background image*/
+		background:  #b3c100;;  /* for opacity of side bar without affecting anything */
+		opacity: 0.5;                    /* to see background image*/
 
 		transition: all 0.3s ease-in-out;
 	}
