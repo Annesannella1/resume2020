@@ -434,7 +434,7 @@ position: absolute;
 }
 
 .wrapper > h1 {
-position: relative; 
+position: absolute; 
   bottom: 15%;
   width: 100%;
   color:  #873370;
