@@ -435,10 +435,10 @@ position: absolute;
 
 .wrapper > h1 {
 position: absolute; 
-  bottom: 15%;
+  bottom: 45%;
   width: 100%;
   color:  #873370;
-  font-size: 6em;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -457,7 +457,7 @@ section {
   width: 0;
   height: 100%;
 /*z-index: 1;*/	
-  overflow: scroll;
+  overflow: hidden;
   transition: all .75s;
 }
  
@@ -467,7 +467,7 @@ section {
 
 section .content {
   margin: 1em auto;
-  max-width: 300px;
+  max-width: 900px;
   width: 60%;
   color: #873370;
 }
@@ -494,9 +494,9 @@ section p {
 .svg-container, 
 .svg-container iframe {
   position: relative;	
-  margin: auto;
-  width: 300px;
-  height: 300px;
+  margin: 2em, auto;
+  width: 800px;
+  height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
  
@@ -512,9 +512,9 @@ section p {
 .svg-container, 
 .svg-container iframe {
   position: relative;	
-  margin: auto;
-  width: 300px;
-  height: 300px;
+  margin: 2em, auto;
+  width: 800px;
+  height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
  border-radius: 50%;
@@ -534,9 +534,9 @@ background: #b3c100;
 .svg-container, 
 .svg-container iframe {
   position: relative;	
-  margin: auto;
-  width: 300px;
-  height: 300px;
+  margin: 2em, auto;
+  width: 800px;
+  height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
   border-radius: 50%;
