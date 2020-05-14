@@ -183,7 +183,7 @@ a{
 		left: 0px;
 		padding: 15px 20px 15px 15px;
 		cursor: pointer;
-		background: #648B79;
+		background:  #b3c100;
 		opacity: 1;
 		transition: all 0.3s ease-in-out;
 	}
@@ -196,7 +196,7 @@ a{
 		overflow: hidden;
 		height: 100vh;
 		background:  #b3c100;;  /* for opacity of side bar without affecting anything */
-		opacity: 0.5;                    /* to see background image*/
+		opacity: 0.8;                    /* to see background image*/
 
 		transition: all 0.3s ease-in-out;
 	}
