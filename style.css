@@ -496,23 +496,23 @@ background: #b3c100;
 
 }
 html {
-  font: 26px 'Gochi Hand', serif;
+  font: 16px 'Gochi Hand', serif;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 p {
-  font-size: 1em;
+  font-size: .50em;
 }
 
 
@@ -582,5 +582,24 @@ p {
 		margin-bottom: -12px;
 		padding-bottom: 9px;
 	}
+}
+html {
+  font: 26px 'Gochi Hand', serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
 }
 
