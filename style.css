@@ -166,7 +166,7 @@ a{
 
 /************************** MOBILES ******************************************/
 
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -287,6 +287,25 @@ a{
 	}
 
 }
+html {
+  font: 8px 'Gochi Hand', serif;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: .75em;
+}
+
+h3 {
+  font-size: .75em;
+}
+
+p {
+  font-size: .25em;
+}
 /*Page Wrapper*/
 .wrapper {
 position: absolute; 
@@ -368,7 +387,7 @@ section p {
   border: 0.5em solid #2d9cbd;
  
   border-radius: 50%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .experience {
@@ -385,7 +404,7 @@ section p {
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
  border-radius: 50%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 /*Gallery page
@@ -407,7 +426,7 @@ background: #b3c100;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: scroll;
 }
 			
 
@@ -417,7 +436,7 @@ background: #b3c100;
 
 /******************************** TABLETS *******************************/
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media (max-width: 1024px){
 	.navmobile{
 		display: none;
 	}
@@ -476,132 +495,29 @@ background: #b3c100;
 	}
 
 }
-/*Page Wrapper*/
-.wrapper {
-position: absolute; 
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: #b3c100;
-  
+html {
+  font: 26px 'Gochi Hand', serif;
 }
 
-.wrapper > h1 {
-position: absolute; 
-  bottom: 45%;
-  width: 100%;
-  color:  #873370;
+h1 {
   font-size: 3em;
-  text-align: center;
 }
 
- 
-.overlay {
-  width: 100%;
-  height: 100%;
- background: rgba(255, 255, 255, 0.2);
-	
+h2 {
+  font-size: 2em;
 }
 
-/*Pages*/
-section {
-  position: absolute; 
-  top: 0;
-  width: 0;
-  height: 100%;
-/*z-index: 1;*/	
-  overflow: scroll;
-  transition: all .75s;
-}
- 
-:target {
-  width: 100%;
+h3 {
+  font-size: 2em;
 }
 
-section .content {
-  margin: 1em auto;
-  max-width: 768px;
-  width: 60%;
-  color: #873370;
+p {
+  font-size: 1em;
 }
 
-section h1,
-section h2,
-section h3 {
-  margin-bottom: .5em;
-  text-align: center;
-}
-
-section p {
-  margin: .5em 0;
-  font-family: 'Gochi Hand';
-}
-
-/*Home page*/
-/*About page*/
-.summary {
- background: #b3c100;	
-  /*background: rgba(255, 255, 255, 0.75);*/
-}
-
-.svg-container, 
-.svg-container iframe {
-	
-  position: relative;	
-  margin: 2em, auto;
-  width: 200px;
-  height: 200px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #2d9cbd;
- 
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.experience {
- background: #b3c100;	
-  /*background: rgba(255, 255, 255, 0.75);*/
-}
-
-.svg-container, 
-.svg-container iframe {
-  position: relative;	
-  margin: 2em, auto;
-  width: 200px;
-  height: 200px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #2d9cbd;
- border-radius: 50%;
-  overflow: hidden;
-}
-
-/*Gallery page
-is a bootstrap grid*/
-
-
-/*Contact page*/
-.contact {
-background: #b3c100;
-
-} 
-
-.svg-container, 
-.svg-container iframe {
-  position: relative;	
-  margin: 2em, auto;
-  width: 200px;
-  height: 200px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #2d9cbd;
-  border-radius: 50%;
-  overflow: hidden;
-}
-			
 
 /******************************** DESKTOPS ******************************/
-@media screen and (min-width:769px ){
+@media (min-width: 1025px ){
 
 	.navmobile{
 		display: none;
@@ -667,128 +583,4 @@ background: #b3c100;
 		padding-bottom: 9px;
 	}
 }
-
-/*Page Wrapper*/
-.wrapper {
-position: absolute; 
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: #b3c100;
-  
-}
-
-.wrapper > h1 {
-position: absolute; 
-  bottom: 45%;
-  width: 100%;
-  color:  #873370;
-  font-size: 3em;
-  text-align: center;
-}
-
- 
-.overlay {
-  width: 100%;
-  height: 100%;
- background: rgba(255, 255, 255, 0.2);
-	
-}
-
-/*Pages*/
-section {
-  position: absolute; 
-  top: 0;
-  width: 0;
-  height: 100%;
-/*z-index: 1;*/	
-  overflow: hidden;
-  transition: all .75s;
-}
- 
-:target {
-  width: 100%;
-}
-
-section .content {
-  margin: 1em auto;
-  max-width: 900px;
-  width: 60%;
-  color: #873370;
-}
-
-section h1,
-section h2,
-section h3 {
-  margin-bottom: .5em;
-  text-align: center;
-}
-
-section p {
-  margin: .5em 0;
-  font-family: 'Gochi Hand';
-}
-
-/*Home page*/
-/*About page*/
-.summary {
- background: #b3c100;	
-  /*background: rgba(255, 255, 255, 0.75);*/
-}
-
-.svg-container, 
-.svg-container iframe {
-  position: relative;	
-  margin: 2em, auto;
-  width: 800px;
-  height: 800px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #2d9cbd;
- 
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.experience {
- background: #b3c100;	
-  /*background: rgba(255, 255, 255, 0.75);*/
-}
-
-.svg-container, 
-.svg-container iframe {
-  position: relative;	
-  margin: 2em, auto;
-  width: 800px;
-  height: 800px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #2d9cbd;
- border-radius: 50%;
-  overflow: hidden;
-}
-
-/*Gallery page
-is a bootstrap grid*/
-
-
-/*Contact page*/
-.contact {
-background: #b3c100;
-
-} 
-
-.svg-container, 
-.svg-container iframe {
-  position: relative;	
-  margin: 2em, auto;
-  width: 800px;
-  height: 800px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #2d9cbd;
-  border-radius: 50%;
-  overflow: hidden;
-}
-}			
-
 
