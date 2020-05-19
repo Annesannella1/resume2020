@@ -138,7 +138,9 @@ a{
 	padding: 0;
 }
 .nav li.navmobile li{
-	display: inline-block;            /* to allign nav items horizontally */
+	display: inline-block; 
+	 padding: 1em .5em;
+	/* to allign nav items horizontally */
 }
 .nav a,.navmobile a{
 	color: white;
@@ -206,7 +208,7 @@ section {
 
 section .content {
   margin: 1em auto;
-  max-width: 300px;
+  max-width: 900px;
   width: 60%;
   color: #873370;
 }
@@ -235,8 +237,8 @@ section p {
 	
   position: relative;	
   margin: 2em, auto;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
  
@@ -253,8 +255,8 @@ section p {
 .svg-container iframe {
   position: relative;	
   margin: 2em, auto;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
  border-radius: 50%;
@@ -275,8 +277,8 @@ background: #b3c100;
 .svg-container iframe {
   position: relative;	
   margin: 2em, auto;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
   border-radius: 50%;
@@ -287,7 +289,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media (max-width: 480px){
+@media screen (max-width: 480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -436,7 +438,7 @@ p {
 
 /******************************** TABLETS *******************************/
 
-@media (max-width: 1024px){
+@media screen (min width: 481px) and (max-width: 1024px){
 	.navmobile{
 		display: none;
 	}
@@ -517,7 +519,7 @@ p {
 
 
 /******************************** DESKTOPS ******************************/
-@media (min-width: 1025px ){
+@media screen (min-width: 1025px ){
 
 	.navmobile{
 		display: none;
