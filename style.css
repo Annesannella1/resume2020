@@ -139,7 +139,7 @@ a{
 }
 .nav li.navmobile li{
 	display: inline-block; 
-	 padding: 1em .5em;
+	 padding: 1em .5em 1em .5em;
 	/* to allign nav items horizontally */
 }
 .nav a,.navmobile a{
@@ -416,7 +416,7 @@ background: #b3c100;
 
 
 html {
-  font: 8px 'Gochi Hand', serif;
+  font: 18px 'Gochi Hand', serif;
 }
 
 h1 {
@@ -434,8 +434,12 @@ h3 {
 p {
   font-size: .25em;
 }
-
+.svg-container, 
+.svg-container iframe {
+  width: 500px;
+  height: 500px;
 			
+}
 }
 /*************************mobile ham ends *******************************/
 /***************************************************************************/
@@ -505,7 +509,7 @@ html {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -518,6 +522,12 @@ h3 {
 
 p {
   font-size: .50em;
+}
+.svg-container, 
+.svg-container iframe {
+  width: 500px;
+  height: 500px;
+			
 }
 
 }
