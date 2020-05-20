@@ -297,6 +297,10 @@ background: #b3c100;
 	.hideme{                      /* hides the logo after certain scroll*/
 		display: none;
 	}
+	.logo{
+		display: none;
+	}
+	
 	.nav{
 		display: none;
 	}
@@ -451,7 +455,7 @@ p {
 	}
 
 	.navlist li{
-		font-size: 1.13rem;
+		font-size: 1rem;
 	}
 	.iamselected{                           /* add this class to whichever li to focus*/
 		border-bottom: 1.5px solid white;          /* adds underline to li*/
