@@ -438,7 +438,7 @@ p {
 
 /******************************** TABLETS *******************************/
 
-@media screen (min width: 481px) and (max-width: 1024px){
+@media screen (min-width: 481px) and (max-width: 1024px){
 	.navmobile{
 		display: none;
 	}
@@ -519,7 +519,7 @@ p {
 
 
 /******************************** DESKTOPS ******************************/
-@media screen (min-width: 1025px ){
+@media screen (min-width: 1026px ){
 
 	.navmobile{
 		display: none;
