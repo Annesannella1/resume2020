@@ -293,13 +293,14 @@ background: #b3c100;
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
-
+        .navwrapper{
+		display: none;
+	}
+	
 	.hideme{                      /* hides the logo after certain scroll*/
 		display: none;
 	}
-	.logo{
-		display: none;
-	}
+	
 	
 	.nav{
 		display: none;
@@ -499,8 +500,6 @@ p {
 	.navlist li{
 		flex-grow: 1;
 	}
-
-}
 html {
   font: 16px 'Gochi Hand', serif;
 }
@@ -521,7 +520,7 @@ p {
   font-size: .50em;
 }
 
-
+}
 /******************************** DESKTOPS ******************************/
 @media only screen and (min-width: 1025px ){
 
@@ -588,7 +587,7 @@ p {
 		margin-bottom: -12px;
 		padding-bottom: 9px;
 	}
-}
+
 html {
   font: 26px 'Gochi Hand', serif;
 }
@@ -609,3 +608,4 @@ p {
   font-size: 1em;
 }
 
+}
