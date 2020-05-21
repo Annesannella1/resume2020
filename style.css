@@ -436,8 +436,9 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  bottom: 20%;
+	
 			
 }
 }
