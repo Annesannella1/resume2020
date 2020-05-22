@@ -241,7 +241,6 @@ section p {
   height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
- 
   border-radius: 50%;
   overflow: scroll;
 }
@@ -454,10 +453,8 @@ p {
 
 /******************************** TABLETS *******************************/
 
-@media only screen and (min-width: 481px) and (max-width: 1024px){
-	.navmobile{
-		display: none;
-	}
+@media only screen and (min-width: 481px) and (max-width: 1024px)
+	
 	.hideme{                      /* hides the logo after certain scroll*/
 		display: none;
 	}
@@ -484,10 +481,12 @@ p {
 	.logo{
 		transition: all 0.3s ease-in-out;
 		padding-bottom: 4%;
+		align-self: start;
+		
 	}
 	.navwrapper{
-		transition: all 0.3s ease-in-out;
-		padding-top:3rem;
+	   transition: all 0.3s ease-in-out;
+	    padding-top:3rem;
 	    padding-right: 1rem;
 	    padding-bottom: 0.7rem;
 	    padding-left: 1rem;
@@ -506,19 +505,19 @@ p {
 	}
 
 	.navlist li a{
-		padding: 20%;
+		padding: 10%;
 	}
 	.navlist{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		
 		justify-content: flex-end;
 		align-items: flex-end;
 	}
 	
 	.navlist li{
 		flex-grow: 1;
+		align-self: end;
 	}
 	
 section{
