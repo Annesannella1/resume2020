@@ -473,6 +473,13 @@ p {
 		border-bottom: 1.5px solid white;          /* adds underline to li*/
 		margin-bottom: -12px;
 		padding-bottom: 10.5px;
+		
+	}
+	.nav{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
 	}
 	.logo{
 		transition: all 0.3s ease-in-out;
