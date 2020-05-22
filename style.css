@@ -443,7 +443,7 @@ p {
 .svg-container, 
 .svg-container iframe {
   width: 100%;
-  bottom: 100%;
+  heigth: 100%;
 	
 			
 }
@@ -505,7 +505,9 @@ p {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: space-between;
+		
+		justify-content: flex-end;
+		align-items: flex-end;
 	}
 	
 	.navlist li{
