@@ -441,6 +441,7 @@ section {
 	
 section .content {
 	display: flex;
+	flex-direction: column;
      }
 	
 html,
