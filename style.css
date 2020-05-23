@@ -421,30 +421,20 @@ section {
 	 max-width: 480px;
 	overflow:scroll;
 	}	
-
-html {
-  font: 18px 'Gochi Hand', serif;
-margin:auto;	
-}
-
-h1 {
-  font-size: 1em;
-	margin:auto;
-}
-
-h2 {
-  font-size: .75em;
-	margin:auto;
-}
-
-h3 {
-  font-size: .75em;
-	margin:auto;
-}
-
-p {
-  font-size: .25em;
-	margin:auto;
+	
+section .content {
+	display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+	
+	}
+	
+section h1,
+section h2,
+section h3, 
+section p	{
+  align-self: start;
 }
 
 .gallery{
@@ -453,10 +443,8 @@ p {
 	
 .svg-container, 
 .svg-container iframe {
-    align-self: start;	
- 
-	
-			
+    align-self: end;	
+ 			
 }
 }
 /*************************mobile ham ends *******************************/
