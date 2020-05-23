@@ -442,22 +442,16 @@ section {
 	}	
 	
 section .content {
-	flex: 1;
+	display: flex;
      }
 	
 section h1,
 section h2,
 section h3, 
-section p	{
-  align-self: flex-start;
-}
-
-
-	
+section p,
 .svg-container, 
 .svg-container iframe {
-    align-self: flex-end;	
- 			
+  flex: 1: ;
 }
 }
 /*************************mobile ham ends *******************************/
