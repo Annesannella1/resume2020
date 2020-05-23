@@ -446,9 +446,14 @@ p {
   font-size: .25em;
 	margin:auto;
 }
+
+.gallery{
+	overlay: scroll;
+	}
+	
 .svg-container, 
 .svg-container iframe {
-    margin: auto;	
+    align-self: start;	
  
 	
 			
@@ -563,7 +568,7 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-	margin:auto;
+	align-self: start;
  
 			
 }
