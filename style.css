@@ -418,7 +418,7 @@ section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	 max-width: 480px;
+	height: 100%;
 	overflow:scroll;
 	}	
 	
@@ -427,6 +427,8 @@ section .content {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+ 	 max-width: 768px;
+         width: 60%;
 	
 	}
 	
@@ -434,7 +436,7 @@ section h1,
 section h2,
 section h3, 
 section p	{
-  align-self: right;
+  align-self: flex-end;
 }
 
 .gallery{
@@ -443,7 +445,7 @@ section p	{
 	
 .svg-container, 
 .svg-container iframe {
-    align-self: left;	
+    align-self: flex-start;	
  			
 }
 }
