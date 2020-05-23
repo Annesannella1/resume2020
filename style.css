@@ -434,7 +434,7 @@ p {
 	
 section {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 		
@@ -446,7 +446,7 @@ section .content {
 	
 .svg-container, 
 .svg-container iframe {
-  flex: 2;
+  display: none;
 }
 }
 /*************************mobile ham ends *******************************/
