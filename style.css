@@ -198,7 +198,7 @@ section {
   width: 0;
   height: 100%;
 /*z-index: 1;*/	
-  overflow: scroll;
+  overflow: hidden;
   transition: all .75s;
 }
  
@@ -242,7 +242,7 @@ section p {
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
   border-radius: 50%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .experience {
@@ -259,7 +259,7 @@ section p {
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
  border-radius: 50%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /*Gallery page
@@ -281,7 +281,7 @@ background: #b3c100;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #2d9cbd;
   border-radius: 50%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /************************** MEDIA QUERIES ************************************/
@@ -417,8 +417,9 @@ background: #b3c100;
 section {
 	display: flex;
 	justify-content: center;
-	align-items: auto;
+	align-items: center;
 	 max-width: 480px;
+	overflow:scroll;
 	}	
 
 html {
@@ -527,8 +528,9 @@ p {
 section{
 	display: flex;
 	justify-content: center;
-	align-items: auto;
+	align-items: center;
 	max-width: 480px;
+	overflow:scroll;
 	}	
 html {
   font: 16px 'Gochi Hand', serif;
