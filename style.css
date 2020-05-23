@@ -437,19 +437,13 @@ section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 768px;
+	
 	
 	}	
 	
 section .content {
-	display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
- 	 max-width: 480px;
-         width: 60%;
-	
-	}
+	flex: 1;
+     }
 	
 section h1,
 section h2,
