@@ -418,7 +418,7 @@ section.content{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	 max-width: 320px;
+	 max-width: 480px;
 	}	
 
 html {
@@ -442,8 +442,8 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 20%;
-  heigth: 20%;
+  width: 100%;
+  heigth: 100%;
 	
 			
 }
@@ -528,7 +528,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 481px;
+	max-width: 480px;
 	}	
 html {
   font: 16px 'Gochi Hand', serif;
@@ -551,8 +551,8 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
 			
 }
 
