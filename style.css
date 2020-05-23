@@ -414,10 +414,10 @@ background: #b3c100;
 	}
 	
 	
-section.content{
+section {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: auto;
 	 max-width: 480px;
 	}	
 
@@ -442,8 +442,8 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 800px;
-  heigth: 800px;
+    margin: auto	
+ 
 	
 			
 }
@@ -521,13 +521,13 @@ p {
 	
 	.navlist li{
 		flex-grow: 1;
-		align-self: center;
+		
 	}
 	
 section{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: auto;
 	max-width: 480px;
 	}	
 html {
@@ -551,8 +551,8 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 800px;
-  height: 800px;
+	margin:auto;
+ 
 			
 }
 
