@@ -434,19 +434,21 @@ p {
 	
 section {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 		
 }	
 	
 section .content {
-	flex: 1;
+	margin: auto;
      }
 	
 .svg-container, 
 .svg-container iframe {
-  display: none;
+  height: 200px;
+width: 200px;
+	margin: auto;
 }
 }
 /*************************mobile ham ends *******************************/
