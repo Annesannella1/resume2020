@@ -414,10 +414,11 @@ background: #b3c100;
 	}
 	
 	
-section{
+section.content{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	 max-width: 320px;
 	}	
 
 html {
@@ -441,8 +442,8 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 100%;
-  heigth: 100%;
+  width: 20%;
+  heigth: 20%;
 	
 			
 }
@@ -454,6 +455,9 @@ p {
 /******************************** TABLETS *******************************/
 
 @media only screen and (min-width: 481px) and (max-width: 1024px)
+	.navmobile{
+             display: none;
+}
 	
 	.hideme{                      /* hides the logo after certain scroll*/
 		display: none;
@@ -511,21 +515,22 @@ p {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: flex-end;
-		align-items: flex-end;
+		justify-content: center;
+		align-items: center;
 	}
 	
 	.navlist li{
 		flex-grow: 1;
-		align-self: end;
+		align-self: center;
 	}
 	
 section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	max-width: 481px;
 	}	
-html {
+section h1 {
   font: 16px 'Gochi Hand', serif;
 }
 
@@ -546,8 +551,8 @@ p {
 }
 .svg-container, 
 .svg-container iframe {
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  height: 40%;
 			
 }
 
@@ -622,6 +627,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	max-width: 1025px;
 	}	
 
 html {
