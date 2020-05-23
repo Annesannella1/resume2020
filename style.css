@@ -412,6 +412,25 @@ background: #b3c100;
 	.changeopacity{
 		opacity: 0;
 	}
+	html {
+  font: 12px 'Gochi Hand', serif;
+}
+
+h1 {
+  font-size: .5em;
+}
+
+h2 {
+  font-size: .2em;
+}
+
+h3 {
+  font-size: .2em;
+}
+
+p {
+  font-size: .1em;
+}
 	
 section {
 	display: flex;
