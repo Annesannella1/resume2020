@@ -519,7 +519,7 @@ width: 200px;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 	}
 	
@@ -527,31 +527,24 @@ width: 200px;
 		flex-grow: 1;
 		
 	}
-	
-section{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	max-width: 480px;
-	overflow:scroll;
-	}	
+		
 html {
-  font: 16px 'Gochi Hand', serif;
+  font: 18px 'Gochi Hand', serif;
 	margin:auto;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1em;
 	margin:auto;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: .75em;
 	margin:auto;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: .75em;
 	margin:auto;
 }
 
@@ -559,11 +552,24 @@ p {
   font-size: .50em;
 	margin:auto;
 }
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+		
+}	
+	
+section .content {
+	margin: auto;
+     }
+	
 .svg-container, 
 .svg-container iframe {
-	align-self: start;
- 
-			
+  height: 600px;
+width: 600px;
+	background: url(rsz_experiencedesignson.png) no-repeat center center;
+	margin: auto;
 }
 
 }
