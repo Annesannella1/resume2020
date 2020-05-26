@@ -627,7 +627,7 @@ width: 600px;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: flex-end;
+		justify-content: space-between;
 		align-items: flex-end;
 	}
 	.navlist li{
@@ -639,12 +639,7 @@ width: 600px;
 		margin-bottom: -12px;
 		padding-bottom: 9px;
 	}
-/* section{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	max-width: 1025px;
-	}	 */
+ 
 
 html {
   font: 26px 'Gochi Hand', serif;
@@ -664,6 +659,20 @@ h3 {
 
 p {
   font-size: 1em;
+}
+
+}
+	
+section .content {
+	margin: auto;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 800px;
+width: 800px;
+	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
+	margin: auto;
 }
 
 }
