@@ -513,7 +513,7 @@ width: 200px;
 	}
 
 	.navlist li a{
-		padding: 10%;
+		padding: 5%;
 	}
 	.navlist{
 		display: flex;
@@ -639,12 +639,12 @@ width: 600px;
 		margin-bottom: -12px;
 		padding-bottom: 9px;
 	}
-section{
+/* section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	max-width: 1025px;
-	}	
+	}	 */
 
 html {
   font: 26px 'Gochi Hand', serif;
