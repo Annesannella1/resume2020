@@ -262,9 +262,20 @@ section p {
   overflow: hidden;
 }
 
-/*Gallery page
-is a bootstrap grid*/
+.gallery {
+ background: #b3c100;
+}
 
+.flexGrid {
+display:flex;
+flex-direction:row;
+justify content: space-between;
+align-items: center;
+}
+
+.flexy1{
+flex-grow: 1;
+}
 
 /*Contact page*/
 .contact {
