@@ -692,5 +692,17 @@ width: 800px;
 	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
 	
 }
-
+	.flexy1,
+	.flexy2,
+	.flexy3 {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+		align-items: center;
+		
+	}
+	
+	.icon{
+	flex-grow:1
+	}
 }
