@@ -496,6 +496,7 @@ width: 200px;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
+		align-items: flex-end;
 	}
 	.logo{
 		transition: all 0.3s ease-in-out;
