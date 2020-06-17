@@ -301,7 +301,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media only screen and (max-width: 480px){
+@media only screen and landscape and (max-width: 480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -472,7 +472,7 @@ width: 200px;
 
 /******************************** TABLETS *******************************/
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) and landscape {
 	.navmobile{
              display: none;
 }
@@ -589,7 +589,7 @@ width: 600px;
 
 }
 /******************************** DESKTOPS ******************************/
-@media only screen and (min-width: 1025px ){
+@media only screen and landscape and (min-width: 1025px ){
 
 	.navmobile{
 		display: none;
