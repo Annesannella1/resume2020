@@ -273,7 +273,9 @@ justify content: space-between;
 align-items:center;
 }
 
-.flexy1{
+.flexy1,
+.flexy2,
+.flexy3 {
 flex-grow: 1;
 }
 
@@ -462,6 +464,7 @@ width: 200px;
 	background: url(rsz_experiencedesignson.png) no-repeat center center;
 	margin: auto;
 }
+	
 }
 /*************************mobile ham ends *******************************/
 /***************************************************************************/
