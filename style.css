@@ -265,6 +265,9 @@ section p {
 .gallery {
  background: #b3c100;
 }
+ .wrapper > h1 { 
+  dispaly:none;
+ }
 
 .Flex-Grid {
 display:flex;
@@ -301,7 +304,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media only screen and (min-width: 321px) and (max-width: 480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -431,18 +434,22 @@ background: #b3c100;
 
 h1 {
   font-size: 1em;
+	margin:auto;
 }
 
 h2 {
   font-size: .75em;
+	margin:auto;
 }
 
 h3 {
   font-size: .5em;
+	margin:auto;
 }
 
 p {
   font-size: .5em;
+	margin:auto;
 }
 	
 section {
@@ -557,27 +564,27 @@ flex-grow: 1;
 		
 html {
   font: 18px 'Gochi Hand', serif;
-/* 	margin:auto; */
+	margin:auto;
 }
 
 h1 {
   font-size: 1em;
-/* 	margin:auto; */
+	margin:auto;
 }
 
 h2 {
   font-size: .75em;
-/* 	margin:auto; */
+	margin:auto;
 }
 
 h3 {
   font-size: .75em;
-/* 	margin:auto; */
+	margin:auto;
 }
 
 p {
   font-size: .50em;
-/* 	margin:auto; */
+	margin:auto;
 }
 section {
 	display: flex;
