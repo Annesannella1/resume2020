@@ -29,106 +29,26 @@ body {
 		
 }
 
-/*Layout*/
-* {
-  box-sizing: border-box;
-}
-/* 
-
-nav {
-position: absolute;
- 
-  left: -12em;
-  width: 20%;
-  height: 100%;
-  background: #b3c100;  
-  font-family: 'Gochi Hand', sans-serif;
-  transition: left .85s linear;
-}
-
-.nav ul {
-  float: left;
-  width: 100%;
-}
-
-nav li {    
-  padding: 5px;
-  width: 100%;
-  text-align:center;
-  box-sizing: border-box;
-  font-size: 10px;
-}
-
-.nav a,
-.fa-bars,
-.soc-media a {
-  display: inline;
-  color:  #34675c;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background .35s;
-}
-.nav a:hover,
-.fa-bars:hover,
-.soc-media a:hover {
-  background: #b7b8b6;
-}
-.nav a:active,
-.fa-bars:active,
-.soc-media a:active {
-  background: #b7b8b6;
-}
-
-.nav a {
-  padding: 1em .5em;
-  width: 50%;
-}
-
-.fa-bars {
-  position: absolute;
-  left: 0em;
-  padding: 1em 0;
-  z-index: 99;
-  width: 10%;
-  background: #b3c100;
-  text-align: center;
-  transition: left .75s ease-in-out;
-}
-.fa-bars:hover {
-  cursor: pointer;
-}
-
-[type="checkbox"] {
-  display: none;
-}
-[type="checkbox"]:checked + label {
-  left: 1em;
-}
-[type="checkbox"]:checked ~ nav {
-  left: 0;
-}
-
-
-.soc-media {
-  position: absolute;
-  bottom: 1px;
-}
-
-.soc-media li {
-  float: left;
-}
-
-.soc-media a {
-  padding: .5em 0;
-  width: 10%;
-  font-weight: normal;
-  text-align: center;
-}
- */
-
 .nav{
-	font-family:'Dancing Script', cursive;
-}
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		font-family:'Dancing Script', cursive;
+	}
+	.logo{
+		transition: all 0.3s ease-in-out;
+		padding-bottom: 4%;
+		align-self: start;
+		
+	}
+	.navwrapper{
+	   align-self:-end;
+	    padding-top:3rem;
+	    padding-right: 1rem;
+	  
+	
 a{
 	text-decoration: none;
 }
