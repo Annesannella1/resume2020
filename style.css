@@ -583,7 +583,7 @@ flex-grow: 1;
 		flex-basis: 20%;
 	}	
 	.navlist{
-		flex-basis: 55%;
+		flex-basis: 75%;
 	}
 	.navlist li{
 		font-size: 1.3rem;
