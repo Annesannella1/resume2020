@@ -1,7 +1,7 @@
 /*Typography*/
 
 html {
-  font: 26px 'Gochi Hand', serif;
+  font: 20px 'Gochi Hand', serif;
 }
 
 h1 {
@@ -472,7 +472,7 @@ flex-grow: 1;
 	}
 		
 html {
-  font: 14px 'Gochi Hand', serif;
+  font: 16px 'Gochi Hand', serif;
 	margin:auto;
 }
 
@@ -597,27 +597,27 @@ flex-grow: 1;
  
 
 html {
-  font: 26px 'Gochi Hand', serif;
+  font: 20px 'Gochi Hand', serif;
 	margin:auto;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 	margin:auto;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1em;
 	margin:auto;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1em;
 	margin:auto;
 }
 
 p {
-  font-size: 1em;
+  font-size: .75em;
 	margin:auto;
 }
 
