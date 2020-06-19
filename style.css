@@ -173,9 +173,7 @@ section p {
 .gallery {
  background: #b3c100;
 }
- .wrapper > h1 { 
-  display:none;
- }
+
 
 .Flex-Grid {
 display:flex;
@@ -184,6 +182,9 @@ justify content: space-between;
 align-items:center;
 }
 
+ .Flex-Grid .wrapper > h1 { 
+  display:none;
+ }
 .flexy1,
 .flexy2,
 .flexy3 {
