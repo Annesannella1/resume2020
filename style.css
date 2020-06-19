@@ -182,7 +182,7 @@ justify content: space-between;
 align-items:center;
 }
 
- .Flex-Grid show-header-id wrapper > h1 { 
+ show-header-id .wrapper > h1 { 
   display:none;
  }
 .flexy1,
@@ -472,7 +472,7 @@ flex-grow: 1;
 	}
 		
 html {
-  font: 18px 'Gochi Hand', serif;
+  font: 14px 'Gochi Hand', serif;
 	margin:auto;
 }
 
@@ -509,8 +509,8 @@ section .content {
 	
 .svg-container, 
 .svg-container iframe {
-  height: 600px;
-width: 600px;
+  height: 400px;
+width: 400px;
 	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
 	margin: auto;
 }
