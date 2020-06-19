@@ -31,24 +31,10 @@ body {
 
 .nav{
 
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: space-between;
+	
 		font-family:'Dancing Script', cursive;
 	}
-	.logo{
-		transition: all 0.3s ease-in-out;
-		padding-bottom: 4%;
-		align-self: start;
-		
-	}
-	.navwrapper{
-	   align-self:end;
-	    padding-top:1rem;
-	    padding-right: 1rem;
 	  
-	
  a{
 	text-decoration: none;
 }
