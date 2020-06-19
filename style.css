@@ -45,11 +45,11 @@ body {
 	}
 	.navwrapper{
 	   align-self:end;
-	    padding-top:3rem;
+	    padding-top:1rem;
 	    padding-right: 1rem;
 	  
 	
-/* a{
+ a{
 	text-decoration: none;
 }
 .nav ul,.navmobile ul{
@@ -67,13 +67,13 @@ body {
 }
 
  
-
+/************************************************************/
 .logo h1{
     font-weight: 700;
     text-shadow: 3px 2px 0px #fff;
     line-height: 0.87;
 }
-		*/
+		
 /***************************for fixed nav*********************/
 .header{
 	position: fixed;
