@@ -339,8 +339,8 @@ background: #b3c100;
 	.changeopacity{
 		opacity: 0;
 	}
-	html {
-  font: 12px 'Gochi Hand', serif;
+		html {
+  font: 16px 'Gochi Hand', serif;
 }
 
 h1 {
@@ -372,16 +372,17 @@ section {
 }	
 	
 section .content {
-	margin: auto;
+	margin:1em;
      }
 	
 .svg-container, 
 .svg-container iframe {
-  height: 200px;
-width: 200px;
+  height: 250px;
+width: 250px;
 	background: url(rsz_experiencedesignson.png) no-repeat center center;
-	margin: auto;
-}
+	margin: 1em;
+
+
 	.Flex-Grid {
 display:flex;
 flex-direction:row;
