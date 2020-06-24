@@ -417,7 +417,7 @@ flex-grow: 1;
 		font-size: 1rem;
 	}
 	.iamselected{                           /* add this class to whichever li to focus*/
-		border-bottom: 1.5px solid white;          /* adds underline to li*/
+		border-bottom: 1.5px solid #b3c100;          /* adds underline to li*/
 		margin-bottom: -12px;
 		padding-bottom: 10.5px;
 		
@@ -590,7 +590,7 @@ flex-grow: 1;
 	}
 	.iamselected{                          /* add this class to whichever li to focus*/
 								           /* adds underline to li*/
-		border-bottom: 3px solid white;
+		border-bottom: 3px solid #b3c100;
 		margin-bottom: -12px;
 		padding-bottom: 9px;
 	}
