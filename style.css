@@ -182,9 +182,7 @@ justify content: space-between;
 align-items:center;
 }
 
- #show-header-id .wrapper > h1 { 
-  display:none;
- }
+
 .flexy1,
 .flexy2,
 .flexy3 {
