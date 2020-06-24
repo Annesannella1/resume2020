@@ -342,7 +342,7 @@ background: #b3c100;
 		opacity: 0;
 	}
 html {
-  font: 16px 'Gochi Hand', serif;
+  font: 12px 'Gochi Hand', serif;
 }
 
 h1 {
@@ -392,10 +392,17 @@ justify content: space-between;
 align-items:flex-start;
 }
 
-.flexy1,
-.flexy2,
+.flexy1{
+	flex-basis 25%
+	}
+	
+.flexy2{
+	flex-basis:25%
+
+	}
+	
 .flexy3 {
-flex-grow: 1;
+flex-basis: 25%;
 }
 	
 }
