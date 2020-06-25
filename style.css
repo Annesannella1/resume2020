@@ -68,7 +68,10 @@ body {
     text-shadow: 3px 2px 0px #fff;
     line-height: 0.87;
 }
-		
+	
+.navlist {
+item-align:end;
+}
 /***************************for fixed nav*********************/
 .header{
 position:fixed;
