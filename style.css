@@ -48,8 +48,7 @@ body {
 	padding: 0;
 }
 .nav li.navmobile li{
-	display: inline-block; 
-	 padding: 1em .5em 1em .5em;
+	  padding: 1em .5em 1em .5em;
 
 }
 .nav a,.navmobile a{
@@ -66,7 +65,7 @@ body {
 		
 /***************************for fixed nav*********************/
 .header{
-	position: fixed;
+
 	top: 0;
 	width: 100%;
 }
