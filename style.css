@@ -63,6 +63,7 @@ body {
  
 /************************************************************/
 .logo h1{
+	item-align:start;
     font-weight: 700;
     text-shadow: 3px 2px 0px #fff;
     line-height: 0.87;
