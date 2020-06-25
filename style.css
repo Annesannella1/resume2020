@@ -33,12 +33,12 @@ body {
 		
 }
 
-.navwrapper .nav{
+.navwrapper nav{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
 	align-items:center;
-		font-family:'Dancing Script', cursive;
+	font-family:'Dancing Script', cursive;
 	}
 	  
  a{
@@ -67,8 +67,8 @@ body {
     line-height: 0.87;
 }
 	
-.navlist ul {
-item-align:end;
+ul navlist{
+     item-align:end;
 }
 /***************************for fixed nav*********************/
 .header{
