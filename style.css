@@ -34,6 +34,10 @@ body {
 }
 
 .nav{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
 
 	
 		font-family:'Dancing Script', cursive;
@@ -48,6 +52,7 @@ body {
 	padding: 0;
 }
 .nav li.navmobile li{
+	flex-grow: 1;
 	  padding: 1em .5em 1em .5em;
 
 }
@@ -65,7 +70,7 @@ body {
 		
 /***************************for fixed nav*********************/
 .header{
-
+position:fixed;
 	top: 0;
 	width: 100%;
 }
