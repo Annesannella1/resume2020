@@ -71,11 +71,11 @@ ul.navlist{
      item-align:end;
 }
 /***************************for fixed nav*********************/
-.header{
+/* .header{
 position:fixed;
 	top: 0;
 	width: 100%;
-}
+} */
 		
 .summary, .experience, .contact, .Gallery{
 	margin-top: 0px;                                 /*****/
