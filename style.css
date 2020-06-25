@@ -33,13 +33,13 @@ body {
 		
 }
 
-.nav{
+.navwrapper{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
 	align-items:center;
-
-	
+}
+	.nav{
 		font-family:'Dancing Script', cursive;
 	}
 	  
@@ -52,7 +52,7 @@ body {
 	padding: 0;
 }
 .nav li.navmobile li{
-	flex-grow: 1;
+	item-align:center;
 	  padding: 1em .5em 1em .5em;
 
 }
