@@ -33,13 +33,11 @@ body {
 		
 }
 
-.navwrapper{
+.navwrapper .nav{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
 	align-items:center;
-}
-	.nav{
 		font-family:'Dancing Script', cursive;
 	}
 	  
@@ -69,7 +67,7 @@ body {
     line-height: 0.87;
 }
 	
-.navlist {
+.navlist ul {
 item-align:end;
 }
 /***************************for fixed nav*********************/
