@@ -71,11 +71,10 @@ body {
      item-align:end;
 }
 /***************************for fixed nav*********************/
-/* .header{
-position:fixed;
-	top: 0;
-	width: 100%;
-} */
+.header{
+display:flex;
+
+} 
 		
 .summary, .experience, .contact, .Gallery{
 	margin-top: 0px;                                 /*****/
