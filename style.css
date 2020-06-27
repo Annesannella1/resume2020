@@ -33,7 +33,7 @@ body {
 		
 }
 
-.navwrapper.nav{
+.navwrapper.nav ul{
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
@@ -68,7 +68,7 @@ align-self:flex-start;
     line-height: 0.87;
 }
 	
-.ul .navlist {
+ul.navlist {
      align-self: flex-end;
 }
 /***************************for fixed nav*********************/
