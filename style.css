@@ -51,8 +51,7 @@ body {
 	
 }
 .nav li.navmobile li{
-	align-item:center;
-	  padding: 1em .5em 1em .5em;
+       padding: 1em .5em 1em .5em;
 
 }
 .nav a,.navmobile a{
@@ -68,7 +67,7 @@ align-self:flex-start;
     line-height: 0.87;
 }
 	
-ul.navlist {
+.nav li, ul.navlist {
      align-self: flex-end;
 }
 /***************************for fixed nav*********************/
