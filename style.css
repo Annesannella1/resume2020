@@ -27,8 +27,7 @@ body{
   height: 100%; 
   max-width: 100%; 
 	
-}
-.nav{
+}.nav{
 	font-family:'Dancing Script', cursive;
 	}
 	  
@@ -41,16 +40,24 @@ body{
 	padding: 0;
 	
 }
-.nav li,.navmobile li{
-	display:inline-block;
-       
 
+.navlist{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+.nav li,.navmobile li {
+	flex-grow:1;
+} 
 }
+
 .nav a,.navmobile a{
 	color: white;
 }
 
- 
+
 /************************************************************/
 .logo h1{
     font-weight: 700;
