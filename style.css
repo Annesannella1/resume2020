@@ -72,7 +72,9 @@ body {
 }
 /***************************for fixed nav*********************/
 .header{
-display:flex;
+position:fixed;
+	top:0px;
+	max-width:100%;
 
 } 
 		
