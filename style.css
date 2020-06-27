@@ -67,7 +67,7 @@ align-self:flex-start;
     line-height: 0.87;
 }
 	
-.navlist ul{
+.navlist .iamselected{
      align-self: flex-end;
 }
 /***************************for fixed nav*********************/
