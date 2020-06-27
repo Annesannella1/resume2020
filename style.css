@@ -22,7 +22,8 @@ p {
 
 /*BASE*/
 html,
-body {
+body,
+nav {
 /*   width: 100%;
   height: 100%; 
   max-width: 100%; */
@@ -33,24 +34,20 @@ body {
 		
 }
 
-.navwrapper.nav ul{
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
-	align-items:center;
+.navwrapper.nav{
 	font-family:'Dancing Script', cursive;
 	}
 	  
  a{
 	text-decoration: none;
 }
-.nav ul,.navmobile ul{
+.navmobile ul{
 	list-style: none;                
 	margin: 0;
 	padding: 0;
 	
 }
-.nav li.navmobile li{
+.navmobile li{
        padding: 1em .5em 1em .5em;
 
 }
@@ -66,9 +63,12 @@ align-self:flex-start;
     text-shadow: 3px 2px 0px #fff;
     line-height: 0.87;
 }
-	
-.nav li, ul.navlist {
+.nav ul{
      align-self: flex-end;
+}
+
+.nav li{
+	align-center:center;
 }
 /***************************for fixed nav*********************/
 .header{
