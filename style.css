@@ -48,9 +48,10 @@ body {
 	list-style: none;                
 	margin: 0;
 	padding: 0;
+	
 }
 .nav li.navmobile li{
-	item-align:center;
+	align-item:center;
 	  padding: 1em .5em 1em .5em;
 
 }
@@ -67,7 +68,7 @@ align-self:flex-start;
     line-height: 0.87;
 }
 	
-.navlist .iamselected{
+.ul .navlist {
      align-self: flex-end;
 }
 /***************************for fixed nav*********************/
