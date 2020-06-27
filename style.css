@@ -41,13 +41,13 @@ nav {
  a{
 	text-decoration: none;
 }
-.navmobile ul{
+.nav ul,.navmobile ul{
 	list-style: none;                
 	margin: 0;
 	padding: 0;
 	
 }
-.navmobile li{
+.nav li,.navmobile li{
        padding: 1em .5em 1em .5em;
 
 }
