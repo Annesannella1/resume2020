@@ -554,7 +554,7 @@ flex-grow: 1;
 /******************************** DESKTOPS ******************************/
 @media only screen and (max-width: 994px){
 	background{
-	color: light yellow;
+	color: yellow;
 	}
 	.navmobile{
 		display: none;
@@ -676,6 +676,6 @@ width: 800px;
 	}
 	
 	.icon{
-	flex-grow:1
+	flex-grow:1;
 	}
 }
