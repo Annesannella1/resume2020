@@ -218,7 +218,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media only screen and (min-width: 319px) and (max-width 420px){
+@media only screen and (max-width 420px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -543,7 +543,7 @@ flex-grow: 1;
 
 }
 /******************************** DESKTOPS ******************************/
-@media only screen and (min-width: 994px) and (max-width: 1280px){
+@media only screen and (max-width: 994px){
 
 	.navmobile{
 		display: none;
