@@ -207,7 +207,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media screen and (max-width 480px){
+@media screen and (max-width: 480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -241,7 +241,7 @@ background: #b3c100;
 		margin-left: -250px;
 		overflow: hidden;
 		height: 100vh;
-		background:  #b3c100;;  /* for opacity of side bar without affecting anything */
+		background:  #b3c100;  /* for opacity of side bar without affecting anything */
 		opacity: 0.8;                    /* to see background image*/
 
 		transition: all 0.3s ease-in-out;
