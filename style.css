@@ -48,13 +48,16 @@ body{
 		justify-content: space-between;
 		align-items: flex-end;
 	}
+.navlist li{
+     flex-grow:1;
+}
 .nav li,.navmobile li {
-	flex-grow:1;
+	margin:0 auto;
 } 
 
 
 .nav a,.navmobile a{
-	color: white;
+	color: black;
 }
 
 /************************************************************/
@@ -222,6 +225,9 @@ background: #b3c100;
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
+background{
+	    color: light pink;
+	}
         .navwrapper{
 		display: none;
 	}
@@ -417,6 +423,9 @@ flex-basis: 25%;
 	.navmobile{
              display: none;
 }
+	background{
+	color: tomato;
+	}
 	
 	.hideme{                      /* hides the logo after certain scroll*/
 		display: none;
@@ -544,7 +553,9 @@ flex-grow: 1;
 }
 /******************************** DESKTOPS ******************************/
 @media only screen and (max-width: 994px){
-
+	background{
+	color: light yellow;
+	}
 	.navmobile{
 		display: none;
 	}
