@@ -51,12 +51,11 @@ body{
 .nav li,.navmobile li {
 	flex-grow:1;
 } 
-}
+
 
 .nav a,.navmobile a{
 	color: white;
 }
-
 
 /************************************************************/
 .logo h1{
@@ -414,7 +413,7 @@ flex-basis: 25%;
 
 /******************************** TABLETS *******************************/
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (max-width: 481px) and (max-width: 1024px) {
 	.navmobile{
              display: none;
 }
