@@ -1,5 +1,9 @@
 /*Typography*/
 
+*{
+	box-sizing: border-box;
+}
+
 html {
   font: 20px 'Gochi Hand', serif;
 }
