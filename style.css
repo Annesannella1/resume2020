@@ -225,10 +225,7 @@ background: #b3c100;
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
-background{
-	    color: light pink;
-	}
-        .navwrapper{
+       .navwrapper{
 		display: none;
 	}
 	
@@ -349,7 +346,8 @@ background{
 		opacity: 0;
 	}
 html {
-  font: 12px 'Gochi Hand', serif;
+	background: light pink;
+ font: 12px 'Gochi Hand', serif;
 }
 
 h1 {
@@ -423,9 +421,7 @@ flex-basis: 25%;
 	.navmobile{
              display: none;
 }
-	background{
-	color: tomato;
-	}
+	
 	
 	.hideme{                      /* hides the logo after certain scroll*/
 		display: none;
@@ -494,7 +490,8 @@ flex-basis: 25%;
 	}
 		
 html {
-  font: 16px 'Gochi Hand', serif;
+	background: tomato;
+	font: 16px 'Gochi Hand', serif;
 	margin:auto;
 }
 
@@ -553,9 +550,7 @@ flex-grow: 1;
 }
 /******************************** DESKTOPS ******************************/
 @media only screen and (max-width: 994px){
-	background{
-	color: yellow;
-	}
+	
 	.navmobile{
 		display: none;
 	}
@@ -621,7 +616,8 @@ flex-grow: 1;
  
 
 html {
-  font: 20px 'Gochi Hand', serif;
+	background: yellow;
+	font: 20px 'Gochi Hand', serif;
 	margin:auto;
 }
 
