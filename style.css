@@ -409,7 +409,7 @@ width: 250px;
 display:flex;
 flex-direction:row;
 justify content: space-between;
-align-items:flex-start;
+align-items:center;
 }
 
 .flexy1{
@@ -432,7 +432,7 @@ flex-basis: 25%;
 
 /******************************** TABLETS *******************************/
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
 	.navmobile{
              display: none;
 }
@@ -564,7 +564,7 @@ flex-grow: 1;
 
 }
 /******************************** DESKTOPS ******************************/
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 1025px){
 	
 	.navmobile{
 		display: none;
@@ -604,7 +604,7 @@ flex-grow: 1;
 		flex-basis: 20%;
 	}	
 	.navlist{
-		flex-basis: 75%;
+		flex-basis: 55%;
 	}
 	.navlist li{
 		font-size: 1.3rem;
