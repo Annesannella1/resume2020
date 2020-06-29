@@ -143,8 +143,6 @@ section p {
   height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #195e83;
-	
-
   border-radius: 50%;
   overflow: hidden;
 }
@@ -157,7 +155,7 @@ section p {
 .svg-container, 
 .svg-container iframe {
   position: relative;	
-  margin: 2em, auto;
+  margin: .5em, auto;
   width: 800px;
   height: 800px;
   background: url(experiencedesignson.png) no-repeat center center;
@@ -207,7 +205,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -403,7 +401,7 @@ flex-basis: 25%;
 
 /******************************** TABLETS *******************************/
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 	.navmobile{
              display: none;
 }
@@ -535,7 +533,7 @@ flex-grow: 1;
 
 }
 /******************************** DESKTOPS ******************************/
-@media screen and (min-width: 769px){
+@media only screen and (min-width: 769px){
 	
 	.navmobile{
 		display: none;
