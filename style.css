@@ -28,8 +28,11 @@ p {
 html,
 body{
   width: 100%;
-  height: 100%; 	
+  height: 100%; 
+	max-width:100%;
+	
 }
+
 .nav{
 	font-family:'Dancing Script', cursive;
 }
@@ -37,11 +40,11 @@ a{
 	text-decoration: none;
 }
 .nav ul,.navmobile ul{
-	list-style: none;                 /* remove dots of li */
+	list-style: none;                 
 	margin: 0;
 	padding: 0;
 }
-.nav li.navmobile li{
+.nav li,.navmobile li{
 	display: inline-block;            /* to allign nav items horizontally */
 }
 .nav a,.navmobile a{
