@@ -26,20 +26,20 @@ $(document).ready(function(){
 
 /**************** to change from trans to black when scrolled *************/
 
-	console.log( $(document).scrollTop() );
+// 	console.log( $(document).scrollTop() );
 
-	$(document).scroll(function(){
-		if( $(document).scrollTop() > 95 )
-		{
-			$('.navwrapper').addClass("notonhomepage");
-			$('.logo').addClass("hideme");
-		}
-		else{
-			$('.navwrapper').removeClass("notonhomepage");
-			$('.logo').removeClass("hideme");
-		}
+// 	$(document).scroll(function(){
+// 		if( $(document).scrollTop() > 95 )
+// 		{
+// 			$('.navwrapper').addClass("notonhomepage");
+// 			$('.logo').addClass("hideme");
+// 		}
+// 		else{
+// 			$('.navwrapper').removeClass("notonhomepage");
+// 			$('.logo').removeClass("hideme");
+// 		}
 
-	});
+// 	});
 /******************** hide n show nav *************************/
 
 	$('.toggleMenu').click(function(){
