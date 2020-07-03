@@ -72,7 +72,7 @@ a{
 	margin: 0;
 	padding: 0;
 }
-.nav li,.navmobile li{
+.nav li .navmobile li{
 	display: inline-block;            /* to allign nav items horizontally */
 }
 .nav a,.navmobile a{
@@ -280,11 +280,9 @@ background: #b3c100;
 		position: absolute;
 		top: 10px;
 		right: 10px;
-
 		cursor: pointer;
 		opacity: 0.7;
-
-		transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
 	}
 	.cross:hover{
 		opacity: 1;
@@ -360,8 +358,8 @@ background: #b3c100;
 	.changeopacity{
 		opacity: 0;
 	}
+	
 html {
-	background: light pink;
  font: 12px 'Gochi Hand', serif;
 }
 
@@ -449,6 +447,7 @@ flex-basis: 25%;
 	.navlist li{
 		font-size: 1rem;
 	}
+	
 	.iamselected{                           /* add this class to whichever li to focus*/
 		border-bottom: 1.5px solid white;          /* adds underline to li*/
 		margin-bottom: -12px;
@@ -499,7 +498,6 @@ flex-basis: 25%;
 	}
 		
 html {
-	background: tomato;
 	font: 16px 'Gochi Hand', serif;
 	margin:auto;
 }
@@ -618,14 +616,13 @@ flex-grow: 1;
 	}
 	.iamselected{                          /* add this class to whichever li to focus*/
 								           /* adds underline to li*/
-		border-bottom: 3px solid #b3c100;
+		border-bottom: 3px solid white;
 		margin-bottom: -12px;
 		padding-bottom: 9px;
 	}
  
 
 html {
-	background: yellow;
 	font: 20px 'Gochi Hand', serif;
 	margin:auto;
 }
