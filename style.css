@@ -258,7 +258,7 @@ background: #b3c100;
 		left: 0px;
 		padding: 15px 20px 15px 15px;
 		cursor: pointer;
-		background:  #b3c100;
+		background:  #648B79;
 		opacity: 1;
 		transition: all 0.3s ease-in-out;
 	}
@@ -270,7 +270,7 @@ background: #b3c100;
 		margin-left: -250px;
 		overflow: hidden;
 		height: 100vh;
-		background:  #b3c100;  /* for opacity of side bar without affecting anything */
+		background:  rgba(17,17,17,0.9);   /* for opacity of side bar without affecting anything */
 		opacity: 0.8;                    /* to see background image*/
 
 		transition: all 0.3s ease-in-out;
