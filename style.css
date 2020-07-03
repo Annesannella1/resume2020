@@ -3,6 +3,10 @@
 *{
 	box-sizing: border-box;
 }
+img{
+	max-width: 100%;                   /* making images responsive */
+	height: auto;
+}
 .page1{
 	background: url("https://lh3.googleusercontent.com/qKStVFJYxhbACOk_bVVEbdR_cYenumOocCi7n69HL9syokOO8HEoWPclk_cdk4vXAPcK6fCSgwFqoUNB8XnIRomNKQ8arilwA2jK3DIdzj9-ZzSSaexKt2DEdmmqiJN9_pjKSqVYX1o8_q_oHKuirzFy3hQfzE4j2GXVWjy1iFeo8XDIJNJYXEzpUa8mxy7yDmR9Po3yIib23Br2PMVSaubuVSQAdimZsKZnOna3olrlyYWkLkMHVrd72HdLvIkcs1b1Ofpsm3IcaJLHPzozk-lJChrAQ19kpfea-VwAr03x0V2MDQ-MSLPcy9kthfkW8Wjhk4SOEOeb8CzKJTnAD8SSNFQtnOfeEwGdhrHS8lOK_OyfY5JJQSfcWjLTvE4IkMCDI4e8aAYgmn1XVQz7qkotCQ2WZYatbSMPAX04uFcC8m5oN1l827roFGR9vbvcbT9ayDFsrlxHxA6cNYlyWE_zO053S_DGOD42oh2FUScf04qelCyUWHoqEqgbh8PPJ2isZUis9cpyaL-19ufZbSf1S8-AIhZKFhHalJBzTdr2gwcmQkdm1_KOIH9gPl1HrfC9_j_hVKloawiM7fTpZT6rFjx1idDgSwsnr9LkmeRlYl2Kvqb-BqDszL6Smgva8euh0VLSKO_DpTzA48zqDsNhWxygOP_MWhJKMUWm=w1164-h662-no") no-repeat center center;
 	width: 100%;
@@ -72,8 +76,8 @@ a{
 	margin: 0;
 	padding: 0;
 }
-.nav li .navmobile li{
-	display: inline-block;            /* to allign nav items horizontally */
+.nav li.navmobile li{
+	display: inline-block;        
 }
 .nav a,.navmobile a{
 	color: white;
@@ -93,7 +97,7 @@ a{
 	width: 100%;
 }
 .summary, .experience, .contact, .Gallery{
-	margin-top: 0px;                                 /*****/
+	margin-top: 0px;                                
 }
 /*Page Wrapper*/
 .wrapper {
@@ -258,7 +262,7 @@ background: #b3c100;
 		left: 0px;
 		padding: 15px 20px 15px 15px;
 		cursor: pointer;
-		background:  #648B79;
+		background:  #b3c100;
 		opacity: 1;
 		transition: all 0.3s ease-in-out;
 	}
@@ -270,7 +274,7 @@ background: #b3c100;
 		margin-left: -250px;
 		overflow: hidden;
 		height: 100vh;
-		background:  rgba(17,17,17,0.9);   /* for opacity of side bar without affecting anything */
+		background:  #b3c100;   /* for opacity of side bar without affecting anything */
 		opacity: 0.8;                    /* to see background image*/
 
 		transition: all 0.3s ease-in-out;
@@ -425,12 +429,13 @@ flex-basis: 25%;
 	
 }
 /*************************mobile ham ends *******************************/
-/***************************************************************************/
+
 
 
 /******************************** TABLETS *******************************/
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
+
 	.navmobile{
              display: none;
 }
