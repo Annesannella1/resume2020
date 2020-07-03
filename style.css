@@ -470,7 +470,7 @@ flex-basis: 25%;
 	}
 	                          /******** for trans to black scrolling of nav ******/
 	.navwrapper{
-		background: transparent;
+		background: tomato;
 		padding-top:1rem;
 		transition: all 0.3s ease-in-out;
 	}
@@ -575,7 +575,7 @@ flex-grow: 1;
     	padding-left: 1rem;
 	}                                  /***** scrolling trans to black***********/
 	.navwrapper{
-		background: transparent;
+		background: black;
 		transition: all 0.3s ease-in-out;
 	}
 
