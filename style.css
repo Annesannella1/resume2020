@@ -240,7 +240,7 @@ background: #b3c100;
 
 /************************** MOBILES ******************************************/
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width:480px){
 /*******************************************************************************/
 /*********************** hamburger menu for mobile******************************/
 /*******************************************************************************/
@@ -434,7 +434,7 @@ flex-basis: 25%;
 
 /******************************** TABLETS *******************************/
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width:481px) and (max-width:1024px) {
 
 	.navmobile{
              display: none;
@@ -561,7 +561,7 @@ flex-grow: 1;
 
 }
 /******************************** DESKTOPS ******************************/
-@media only screen and (min-width: 1025px){
+@media screen and (min-width:1025px){
 	
 	.navmobile{
 		display: none;
