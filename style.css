@@ -43,7 +43,8 @@ a{
 	padding: 0;
 }
 .nav li,.navmobile li{
-	display: inline-block;        
+	display: inline-block;  
+	padding: 9px 12px 9px 9px;
 }
 .nav a,.navmobile a{
 	color: white;
