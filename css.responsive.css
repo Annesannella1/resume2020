@@ -1,1 +1,450 @@
 
+/************************** MEDIA QUERIES ************************************/
+
+/************************** MOBILES ******************************************/
+
+@media only screen and (max-width:480px){
+/*******************************************************************************/
+/*********************** hamburger menu for mobile******************************/
+/*******************************************************************************/
+       .navwrapper{
+		display: none;
+	}
+	
+	.hideme{                      /* hides the logo after certain scroll*/
+		display: none;
+	}
+	
+	
+	.nav{
+		display: none;
+	}
+	.toggleMenu{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		padding: 15px 20px 15px 15px;
+		cursor: pointer;
+		background:  #b3c100;
+		opacity: 1;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.sidemenu{
+		position: fixed;
+		top: 0px;
+		width: 240px;
+		margin-left: -250px;
+		overflow: hidden;
+		height: 100vh;
+		background:  #b3c100;   /* for opacity of side bar without affecting anything */
+		opacity: 0.8;                    /* to see background image*/
+
+		transition: all 0.3s ease-in-out;
+	}
+
+	.cross{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+		opacity: 0.7;
+                transition: all 0.3s ease-in-out;
+	}
+	.cross:hover{
+		opacity: 1;
+	}
+	.mobilelogoinsidebar h1 {
+		margin: 0;
+	    font-weight: 700;
+	    text-shadow: 3px 2px 0px #fff;
+	    line-height: 0.87;
+	}
+	.mobilelogoinsidebar a{
+		color: white;
+	}
+	.mobilelogoinsidebar{
+		margin-top: 70px;
+	}
+	.mobilelogo{
+	    font-size: 2em;
+	    margin: 0;
+	    font-weight: 700;
+	    text-shadow: 3px 2px 0px #fff;
+	    line-height: 0.87;
+	    margin-top: 20px;
+	    transition: all 10s ease-in-out;
+	}
+	.mobilelogo a{
+		color: white;
+	}
+	.navmobile{
+		width: 100vw;
+	}
+	.signup{
+		font-size: 1.6rem;
+		width: 200px;
+		padding: 3px 0px;
+		border: solid 1px white;
+		color: white;
+		text-align: center;
+		margin:30px auto 20px auto;
+		transition: all 0.3s ease-in-out;
+	}
+	.signup:hover{
+		background-color: white;
+		color: #111;
+		transition: all 0.3s ease-in-out;
+	}
+	.signup a:hover{
+		color: black;
+	}
+	.navmobile .navlistmobile{
+		font-size: 1.4rem;
+		margin:20px;
+		display: block;
+		width: 200px;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	.navlistmobile li{
+		padding: 12px 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+		color: #D8D8D8;
+		border-bottom:solid 1px #D8D8D8;
+		cursor: pointer;
+
+		transition: all 0.3s ease-in-out;
+	}
+
+	.showmenu{
+		margin-left: 0px;
+	}
+
+	.changeopacity{
+		opacity: 0;
+	}
+	
+html {
+ font: 12px 'Gochi Hand', serif;
+}
+
+h1 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h2 {
+  font-size: .75em;
+	margin:auto;
+}
+
+h3 {
+  font-size: .5em;
+	margin:auto;
+}
+
+p {
+  font-size: .5em;
+	margin:auto;
+}
+	
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+		
+}	
+	
+section .content {
+	margin:1em;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 250px;
+width: 250px;
+	background: url(rsz_experiencedesignson.png) no-repeat center center;
+	margin: 1em;
+
+ 	.Flex-Grid {
+display:flex;
+flex-direction:row;
+justify content: space-between;
+align-items:center;
+}
+
+.flexy1{
+	flex-basis: 25%;
+	}
+	
+.flexy2{
+	flex-basis:25%;
+
+	}
+	
+.flexy3 {
+flex-basis: 25%;
+} 
+	
+}
+/*************************mobile ham ends *******************************/
+
+
+
+/******************************** TABLETS *******************************/
+
+@media only screen and (min-width:481px) and (max-width:1024px) {
+
+	.navmobile{
+             display: none;
+}
+	
+	
+	.hideme{                      /* hides the logo after certain scroll*/
+		display: none;
+	}
+
+	.summary, .experience, .contact, .Gallery{
+		margin-top: 60px;          /* set margin top equal to header ka height*/
+	}
+
+	.navlist li{
+		font-size: 1rem;
+	}
+	
+	.iamselected{                           /* add this class to whichever li to focus*/
+		border-bottom: 1.5px solid white;          /* adds underline to li*/
+		margin-bottom: -12px;
+		padding-bottom: 10.5px;
+		
+	}
+
+	.logo{
+		transition: all 0.3s ease-in-out;
+		padding-bottom: 4%;
+		align-self: start;
+		
+	}
+	.navwrapper{
+	   transition: all 0.3s ease-in-out;
+	    padding-top:3rem;
+	    padding-right: 1rem;
+	    padding-bottom: 0.7rem;
+	    padding-left: 1rem;
+	}
+	                          /******** for trans to black scrolling of nav ******/
+	.navwrapper{
+		background: tomato;
+		padding-top:1rem;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.notonhomepage{             /* add this class when you want to shift to black nav*/
+		background: rgba(0, 0, 0, 0.7);
+		border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+		padding-top: 1.3rem;
+	}
+
+	.navlist li a{
+		padding: 5%;
+	}
+	.navlist{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	
+	.navlist li{
+		flex-grow: 1;
+		
+	}
+		
+html {
+	font: 16px 'Gochi Hand', serif;
+	margin:auto;
+}
+
+h1 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h2 {
+  font-size: .75em;
+	margin:auto;
+}
+
+h3 {
+  font-size: .75em;
+	margin:auto;
+}
+
+p {
+  font-size: .50em;
+	margin:auto;
+}
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+		
+}	
+	
+section .content {
+	margin: auto;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 400px;
+width: 400px;
+	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
+	margin: auto;
+}
+	
+	.Flex-Grid {
+display:flex;
+flex-direction:row;
+justify content: space-between;
+align-items:center;
+}
+
+.flexy1,
+.flexy2,
+.flexy3 {
+flex-grow: 1;
+}
+
+}
+/******************************** DESKTOPS ******************************/
+@media only screen and (min-width:1025px){
+	
+	.navmobile{
+		display: none;
+	}
+
+	.summary, .experience, .contact, .Gallery{
+		margin-top: 62px;          /* set margin top equal to header ka height*/
+	}
+
+
+	.navwrapper{
+		transition: all 0.3s ease-in-out;
+		padding-top: 3.5rem;
+    	padding-right: 1rem;
+    	padding-bottom: 0.7rem;
+    	padding-left: 1rem;
+	}                                  /***** scrolling trans to black***********/
+	.navwrapper{
+		background: black;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.notonhomepage{             /* add this class when you want to shift to black nav*/
+		background: rgba(0, 0, 0, 0.7);
+		border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+		padding-top: 1.2rem;
+	}
+	.nav{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.logo{
+		transition: all 0.3s ease-in-out;
+		flex-basis: 20%;
+	}	
+	.navlist{
+		flex-basis: 55%;
+	}
+	.navlist li{
+		font-size: 1.3rem;
+	}
+	.navlist li a{
+		padding: 20%;
+	}
+	.navlist{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.navlist li{
+		flex-grow: 1;
+	}
+	.iamselected{                          /* add this class to whichever li to focus*/
+								           /* adds underline to li*/
+		border-bottom: 3px solid white;
+		margin-bottom: -12px;
+		padding-bottom: 9px;
+	}
+ 
+
+html {
+	font: 20px 'Gochi Hand', serif;
+	margin:auto;
+}
+
+h1 {
+  font-size: 2em;
+	margin:auto;
+}
+
+h2 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h3 {
+  font-size: 1em;
+	margin:auto;
+}
+
+p {
+  font-size: .75em;
+	margin:auto;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+		
+}	
+	
+section .content {
+	flex-grow:1;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 800px;
+width: 800px;
+	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
+	
+}
+	.flexy1,
+	.flexy2,
+	.flexy3 {
+	display: flex;
+	flex-direction:row;
+		flex-wrap: wrap;
+	justify-content: space-between;
+		align-items: center;
+		
+	}
+	
+	.icon{
+	flex-grow:1;
+	}
+}
