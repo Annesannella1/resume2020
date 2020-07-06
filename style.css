@@ -42,7 +42,7 @@ a{
 	margin: 0;
 	padding: 0;
 }
-.nav li.navmobile li{
+.nav li,.navmobile li{
 	display: inline-block;        
 }
 .nav a,.navmobile a{
