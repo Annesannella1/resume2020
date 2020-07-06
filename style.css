@@ -134,7 +134,6 @@ section {
   top: 0;
   width: 0;
   height: 100%;
-/*z-index: 1;*/	
   overflow: hidden;
   transition: all .75s;
 }
@@ -434,7 +433,7 @@ flex-basis: 25%;
 
 /******************************** TABLETS *******************************/
 
-@media screen and (min-width:481px) and (max-width:1024px) {
+@media screen only and (min-width:481px) and (max-width:1024px) {
 
 	.navmobile{
              display: none;
