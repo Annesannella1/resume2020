@@ -207,7 +207,7 @@ flex-basis: 25%;
 		display: none;
 	}
 
-	.summary, .experience, .contact, .Gallery{
+	.summary,.experience,.contact,.Gallery{
 		margin-top: 60px;          /* set margin top equal to header ka height*/
 	}
 
@@ -329,7 +329,7 @@ flex-grow: 1;
 		display: none;
 	}
 
-	.summary, .experience, .contact, .Gallery{
+	.summary,.experience,.contact,.Gallery{
 		margin-top: 62px;          /* set margin top equal to header ka height*/
 	}
 
