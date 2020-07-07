@@ -42,7 +42,7 @@ a{
 	margin: 0;
 	padding: 0;
 }
-.nav li,.navmobile li{
+.nav li.navmobile li{
 	display: inline-block;  
 	padding: 9px 12px 9px 9px;
 }
@@ -63,7 +63,7 @@ a{
 	top: 0;
 	width: 100%;
 }
-.summary, .experience, .contact, .Gallery{
+.summary,.experience,.contact,.Gallery{
 	margin-top: 0px;                                
 }
 /*Page Wrapper*/
