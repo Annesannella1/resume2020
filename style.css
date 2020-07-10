@@ -7,13 +7,41 @@ body{
 	font-family:'Dancing Script', cursive;
 	text-align: center;
 }
-
 *{
 	box-sizing: border-box;
 }
 img{
 	max-width: 100%;                   /* making images responsive */
 	height: auto;
+}
+
+
+page1{
+	background: url("experiencedesigns.png") no-repeat center center;
+	width: 100%;
+	height: 100vh;
+}
+.page2,.page3{
+	width: 100%;
+	min-height: 70vh;
+	height: auto;
+	background: grey;
+	color: white;
+	padding: 0% 10%;
+	font-size: 1.5rem;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.page3{
+	background: white;
+	color:#1d9a47;
+}
+.page4{
+	width: 100%;
+	height: 100vh;
+	background: #8cca8c;
 }
 
 html {
@@ -82,7 +110,6 @@ a{
 	margin-top: 0px;                                
 }
 /*Page Wrapper*/
-.page1,
 .wrapper {
   position: absolute; 
   top: 0;
@@ -112,10 +139,6 @@ a{
 }
 
 /*Pages*/
-.page2,
-.page3,
-.page4,
-.page5,
 section {
   position: absolute; 
   top: 0;
