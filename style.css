@@ -1,4 +1,50 @@
 /*Typography*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	line-height: 1.5;
+	font-family:'Dancing Script', cursive;
+	text-align: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;                   /* making images responsive */
+	height: auto;
+}
+
+/*********************************** PAGE1 2 3********************************/
+.page1{
+	background: url("https://lh3.googleusercontent.com/qKStVFJYxhbACOk_bVVEbdR_cYenumOocCi7n69HL9syokOO8HEoWPclk_cdk4vXAPcK6fCSgwFqoUNB8XnIRomNKQ8arilwA2jK3DIdzj9-ZzSSaexKt2DEdmmqiJN9_pjKSqVYX1o8_q_oHKuirzFy3hQfzE4j2GXVWjy1iFeo8XDIJNJYXEzpUa8mxy7yDmR9Po3yIib23Br2PMVSaubuVSQAdimZsKZnOna3olrlyYWkLkMHVrd72HdLvIkcs1b1Ofpsm3IcaJLHPzozk-lJChrAQ19kpfea-VwAr03x0V2MDQ-MSLPcy9kthfkW8Wjhk4SOEOeb8CzKJTnAD8SSNFQtnOfeEwGdhrHS8lOK_OyfY5JJQSfcWjLTvE4IkMCDI4e8aAYgmn1XVQz7qkotCQ2WZYatbSMPAX04uFcC8m5oN1l827roFGR9vbvcbT9ayDFsrlxHxA6cNYlyWE_zO053S_DGOD42oh2FUScf04qelCyUWHoqEqgbh8PPJ2isZUis9cpyaL-19ufZbSf1S8-AIhZKFhHalJBzTdr2gwcmQkdm1_KOIH9gPl1HrfC9_j_hVKloawiM7fTpZT6rFjx1idDgSwsnr9LkmeRlYl2Kvqb-BqDszL6Smgva8euh0VLSKO_DpTzA48zqDsNhWxygOP_MWhJKMUWm=w1164-h662-no") no-repeat center center;
+	width: 100%;
+	height: 100vh;
+}
+.page2,.page3{
+	width: 100%;
+	min-height: 70vh;
+	height: auto;
+	background: grey;
+	color: white;
+	padding: 0% 10%;
+	font-size: 1.5rem;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.page3{
+	background: white;
+	color:#1d9a47;
+}
+.page4{
+	width: 100%;
+	height: 100vh;
+	background: #8cca8c;
+}
+
 
 
 html {
