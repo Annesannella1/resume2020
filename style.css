@@ -1,16 +1,16 @@
 /*Typography*/
-body{
+/* body{
 	margin: 0;
 	padding: 0;
 	font-size: 17px;
 	line-height: 1.5;
 	font-family:'Dancing Script', cursive;
 	text-align: center;
-}
+} */
 *{
 	box-sizing: border-box;
 }
-img{
+/* img{
 	max-width: 100%;                   /* making images responsive */
 	height: auto;
 }
@@ -43,7 +43,7 @@ img{
 	height: 100vh;
 	background: #8cca8c;
 }
-
+ */
 html {
   font: 20px 'Gochi Hand', serif;
 }
