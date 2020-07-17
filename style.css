@@ -173,42 +173,7 @@ body{
 	
 }
 
-.nav{
-	font-family:'Dancing Script', cursive;
-}
 
-a{
-	text-decoration: none;
-}
-.nav ul,.navmobile ul{
-	list-style: none;                 
-	margin: 0;
-	padding: 0;
-}
-.nav li.navmobile li{
-	display: inline-block;  
-	padding: 9px 12px 9px 9px;
-}
-.nav a,.navmobile a{
-	color: white;
-}
-
-
-/***************************************************************************/
-.logo h1{
-    font-weight: 700;
-    text-shadow: 3px 2px 0px #fff;
-    line-height: 0.87;
-}
-/***************************for fixed nav*********************/
-.header{
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.summary,.experience,.contact,.Gallery{
-	margin-top: 0px;                                
-}
 /*Page Wrapper*/
 .wrapper {
   position: absolute; 
