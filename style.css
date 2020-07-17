@@ -8,9 +8,9 @@
 }
 
 :root {
-   --header-bg: rgba(162, 215, 41, 70);
-   --black: #051014;
-   --m-green: #4F772D;
+   --header-bg: #b3c100;
+   --black: #195e83;
+   --m-green: #b3c100;
 }
 
 html {
