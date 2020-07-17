@@ -34,7 +34,9 @@ body {
 }
 
 .header-wrapper {
-   
+   opacity: 0.9;                   
+
+		transition: all 0.3s ease-in-out;
 }
 
 #header-img {
