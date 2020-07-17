@@ -1,8 +1,149 @@
 /*Typography*/
 
-*{
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Caudex:400,400i,700|Open+Sans:400,400i,600,700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
 }
+
+:root {
+   --header-bg: rgba(162, 215, 41, 70);
+   --black: #051014;
+   --m-green: #4F772D;
+}
+
+html {
+   font-size: 10px;
+}
+
+body {
+   color: var(--black);
+}
+
+
+/* header styling */
+
+ header {
+   background: var(--header-bg);
+   text-align: center;
+   position: fixed;
+   width: 100%;
+   z-index: 999;
+   display: grid;
+}
+
+.header-wrapper {
+   
+}
+
+#header-img {
+   max-width: 60px;
+   height: auto;
+   margin: 1rem;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+
+   /* navigation styling  */
+
+nav {
+   position: absolute;
+   text-align: left;
+   top: 100%;
+   left: 0;
+   background: var(--header-bg);
+   width: 100%;
+   display: none;
+}
+   
+ul {
+   list-style: none;
+}
+
+nav li {
+   margin-bottom: 1.2rem;
+   margin-left: 2rem;
+}   
+  
+
+nav a {
+   font-size: 1.6rem;
+   font-family: open sans, sans serif;
+   font-weight: 600;
+   color: var(--black);
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+nav a:hover {
+   color: var(--m-green);
+}
+
+
+      /* navigation-toggle */
+
+.nav-toggle:checked ~ nav {
+   display: block;
+}
+
+.nav-toggle {
+   display: none;
+}
+
+.nav-toggle-label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-left: 2rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+   display: block;
+   background: var(--black);
+   height: 3px;
+   width: 30px;
+   border-radius: 3px;
+   position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+   content: '';
+   position: absolute;
+}
+
+.nav-toggle-label span::before {
+   bottom: 6px;
+}
+
+.nav-toggle-label span::after {
+   top: 6px;
+}
+
+.nav-toggle-label:hover {
+   cursor: pointer;
+}
+
+.nav-toggle-label span:hover {
+   background: var(--m-green);
+}
+
+.nav-toggle-label span:hover:before {
+   background: var(--m-green);
+}
+
+.nav-toggle-label span:hover:after {
+   background: var(--m-green);
+}
+
 html {
   font: 20px 'Gochi Hand', serif;
 }
