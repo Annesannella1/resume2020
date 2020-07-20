@@ -34,14 +34,14 @@ body {
 }
 
 .header-wrapper {
-   opacity: 0.5;                   
+   opacity: 0.9;                   
    transition: all 0.3s ease-in-out;
 }
 
 #header-img {
-   max-width: 100px;
+   max-width: 115px;
    height: auto;
-   margin: 1rem;
+   margin: 0 auto;
    margin-right: auto;
    margin-left: auto;
 }
@@ -66,12 +66,12 @@ ul {
 
 nav li {
    margin-bottom: 1.2rem;
-   margin-left: 2rem;
+   margin-left: 1.2rem;
 }   
   
 
 nav a {
-   font-size: 1.2rem;
+   font-size: 1.1rem;
    font-family: "Gochi Hand", open sans, sans serif;
    font-weight: 600;
    color: var(--black);
@@ -273,7 +273,7 @@ section p {
   border-radius: 50%;
   overflow: hidden;
 }
-
+.svg-container,
 .svg-container iframe:hover{
 	 transform: scale(1.2) rotate(360deg);
 }
