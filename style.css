@@ -328,7 +328,7 @@ a:hover:before, a:hover:after{
 
 
 
-@media (max-width:650px){
+/* @media (max-width:650px){
 a{
   width:50%;
   height:100vh;
@@ -339,7 +339,7 @@ a{
 a{
   width:100%;
 }
-}
+} */
 /* .Flex-Grid {
 display:flex;
 flex-direction:row;
