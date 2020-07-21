@@ -50,7 +50,7 @@
       
 }
 html {
- font: 12px 'Gochi Hand', serif;
+ font: 1em, 'Gochi Hand', serif;
 }
 
 h1 {
@@ -92,7 +92,7 @@ width: 250px;
 	background: url(rsz_experiencedesignson.png) no-repeat center center;
 	margin: 1em;
 
- 	.Flex-Grid {
+/*  	.Flex-Grid {
 display:flex;
 flex-direction:row;
 justify content: space-between;
@@ -111,7 +111,7 @@ align-items:center;
 .flexy3 {
 flex-basis: 25%;
 } 
-	
+	 */
 }
 /*************************mobile ham ends *******************************/
 
