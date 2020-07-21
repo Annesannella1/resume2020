@@ -285,7 +285,7 @@ section p {
 
 .galwrapper{font-size:0;}/*for inline block spacing*/
 }
-
+body{font-family:Sarala; background:#444;}
 
 a{
   display:inline-block;
