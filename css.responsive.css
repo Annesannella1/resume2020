@@ -1,54 +1,8 @@
 
-@media (min-width: 560px) {
-   .nav-toggle-label {
-      display: none;
-   }
-   
-   header {
-      display: grid;
-      grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
-   }
-   
-   #header-img {
-      grid-column: 2 / 3;
-   }
-   
-   nav {
-      all: unset;  /* takes out every styling I've done above for this element */
-      grid-column: 3 / 4;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-   }
-  
-   nav ul {
-      display: flex;
-      justify-content: flex-end;
-      border: solid red; 
-   }
-   
-   nav li {
-      margin-left: 3rem;
-      margin-bottom: 0;
-   }
-   
-   nav a {
-      position: relative;
-   }
-   
-   nav a:hover:after {
-      content: '';
-      display: block;
-      height: 1px;
-      border-radius: 1px;
-      background: var(--m-green);
-      position: absolute;
-      bottom: -0.5rem;
-      left: 0;
-      right: 0;
-   }
-      
-}
+
+
+@media (max-width:559px) {
+	
 html {
  font: 1em, 'Gochi Hand', serif;
 }
@@ -65,7 +19,7 @@ h2 {
 
 h3 {
   font-size: .5em;
-	margin:auto;
+	margin:auto;							/*mobile responsiveness for section pages only.*/
 }
 
 p {
@@ -92,34 +46,63 @@ width: 250px;
 	background: url(rsz_experiencedesignson.png) no-repeat center center;
 	margin: 1em;
 
-/*  	.Flex-Grid {
-display:flex;
-flex-direction:row;
-justify content: space-between;
-align-items:center;
-}
-
-.flexy1{
-	flex-basis: 25%;
-	}
-	
-.flexy2{
-	flex-basis:25%;
 
 	}
-	
-.flexy3 {
-flex-basis: 25%;
-} 
-	 */
 }
-/*************************mobile ham ends *******************************/
 
 
+@media (min-width:560px) and (max-width:1025px) {
 
-/******************************** TABLETS *******************************/
+ {
+   .nav-toggle-label {
+      display: none;
+   }
+   
+   header {
+      display: grid;
+      grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
+   }
+   
+   #header-img {
+      grid-column: 2 / 3;
+   }
+   
+   nav {
+      all: unset;  /* takes out every styling I've done above for this element */
+      grid-column: 3 / 4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+   }
+  
+   nav ul {
+      display: flex;								/*For tablet navigation and section responsiveness*/
 
-@media (min-width:561px) and (max-width:1025px) {
+	   justify-content: flex-end;
+      border: solid red; 
+   }
+   
+   nav li {
+      margin-left: 3rem;
+      margin-bottom: 0;
+   }
+   
+   nav a {
+      position: relative;
+   }
+   
+   nav a:hover:after {
+      content: '';
+      display: block;
+      height: 1px;
+      border-radius: 1px;
+      background: var(--m-green);
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      right: 0;
+   }
+     
 
 html {
 	font: 16px 'Gochi Hand', serif;
