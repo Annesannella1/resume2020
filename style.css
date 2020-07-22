@@ -34,6 +34,9 @@ body {
 }
 
 .header-wrapper {
+	position:fixed;
+	heigth:10%;
+	width:100%; 
    opacity: 0.9;                   
    transition: all 0.3s ease-in-out;
 }
