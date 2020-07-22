@@ -304,7 +304,7 @@ background: #b3c100;
  background: #b3c100;
 }
 
-.galwrapper{font-size:0;}/*for inline block spacing*/
+/* .galwrapper{font-size:0;}/*for inline block spacing
 }
 body{font-family:Sarala; background:#444;}
 
@@ -347,9 +347,7 @@ a:hover:before, a:hover:after{
   opacity:1;
 }
 
-
-
-/* @media (max-width:650px){
+ @media (max-width:650px){
 a{
   width:50%;
   height:100vh;
@@ -361,7 +359,8 @@ a{
   width:100%;
 }
 } */
-/* .Flex-Grid {
+ 
+.Flex-Grid {
 display:flex;
 flex-direction:row;
 justify content: space-between;
@@ -374,5 +373,5 @@ align-items:center;
 .flexy3 {
 flex-grow: 1;
 }
- */
+
 
