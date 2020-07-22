@@ -279,6 +279,24 @@ section p {
 	 transform: scale(1.2) rotate(360deg);
 }
 
+/*Contact page*/
+.contact {
+background: #b3c100;
+
+} 
+
+.svg-container, 
+.svg-container iframe {
+  position: relative;	
+  margin: 2em, auto;
+  width: 800px;
+  height: 800px;
+  background: url(experiencedesignson.png) no-repeat center center;
+  border: 0.5em solid #195e83;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .gallery {
  background: #b3c100;
 }
@@ -354,21 +372,4 @@ align-items:center;
 flex-grow: 1;
 }
  */
-/*Contact page*/
-.contact {
-background: #b3c100;
-
-} 
-
-.svg-container, 
-.svg-container iframe {
-  position: relative;	
-  margin: 2em, auto;
-  width: 800px;
-  height: 800px;
-  background: url(experiencedesignson.png) no-repeat center center;
-  border: 0.5em solid #195e83;
-  border-radius: 50%;
-  overflow: hidden;
-}
 
