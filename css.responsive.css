@@ -137,7 +137,7 @@ section {
 }	
 	
 section .content {
-	margin: 2em;
+	margin: 1em;
      }
 	
 .svg-container, 
@@ -145,10 +145,10 @@ section .content {
   height: 400px;
 width: 400px;
 	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
-	margin: 2em;
+	margin: 1em;
 }
 	
-	.Flex-Grid {
+.Flex-Grid {
 display:flex;
 flex-direction:row;
 justify content: space-between;
