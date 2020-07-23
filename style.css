@@ -33,10 +33,7 @@ body {
    display: grid;
 }
 
-.header-wrapper {
-	position:fixed;
-	heigth:10%;
-	width:100%; 
+.header-wrapper { 
    opacity: 0.9;                   
    transition: all 0.3s ease-in-out;
 }
@@ -277,10 +274,7 @@ section p {
   border-radius: 50%;
   overflow: hidden;
 }
-.svg-container,
-.svg-container iframe:hover{
-	 transform: scale(1.2) rotate(360deg);
-}
+
 
 /*Contact page*/
 .contact {
