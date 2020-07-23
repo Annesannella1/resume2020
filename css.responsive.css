@@ -105,7 +105,7 @@ width: 250px;
      
 
 html {
-	font: 16px 'Gochi Hand', serif;
+	font: 1em 'Gochi Hand', serif;
 	margin:auto;
 }
 
@@ -137,7 +137,7 @@ section {
 }	
 	
 section .content {
-	margin: auto;
+	margin: 2em;
      }
 	
 .svg-container, 
@@ -145,7 +145,7 @@ section .content {
   height: 400px;
 width: 400px;
 	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
-	margin: auto;
+	margin: 2em;
 }
 	
 	.Flex-Grid {
@@ -167,7 +167,7 @@ flex-grow: 1;
 	
 
 html {
-	font: 20px 'Gochi Hand', serif;
+	font: 1.2em 'Gochi Hand', serif;
 	margin:auto;
 }
 
@@ -208,6 +208,7 @@ section .content {
   height: 800px;
 width: 800px;
 	background: url(rsz_experiencedesignson-2.png) no-repeat center center;
+	margin: auto;
 	
 }
 	.flexy1,
