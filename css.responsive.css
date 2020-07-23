@@ -110,60 +110,6 @@ flex-grow: 1;
 
 
 
-@media (min-width:560px) and (max-width:1025px) {
-
- {
-   .nav-toggle-label {
-      display: none;
-   }
-   
-   header {
-      display: grid;
-      grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
-   }
-   
-   #header-img {
-      grid-column: 2 / 3;
-   }
-   
-   nav {
-      all: unset;  /* takes out every styling I've done above for this element */
-      grid-column: 3 / 4;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-	   border:solid purple;
-   }
-  
-   nav ul {
-      display: flex;								/*For tablet navigation and section responsiveness*/
-
-	   justify-content: flex-end;
-      border: solid purple; 
-   }
-   
-   nav li {
-      margin-left: 3rem;
-      margin-bottom: 0;
-   }
-   
-   nav a {
-      position: relative;
-   }
-   
-   nav a:hover:after {
-      content: '';
-      display: block;
-      height: 1px;
-      border-radius: 1px;
-      background: var(--m-green);
-      position: absolute;
-      bottom: -0.5rem;
-      left: 0;
-      right: 0;
-   }
-     
-
 /******************************** DESKTOPS ******************************/
 @media (min-width:1026px){
 	
