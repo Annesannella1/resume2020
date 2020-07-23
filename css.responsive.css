@@ -1,6 +1,7 @@
 
-@media (min-width: 560px) {
-   .nav-toggle-label {
+@media (min-width: 561px) and(max-width: 1025px) {
+   
+.nav-toggle-label {
       display: none;
    }
    
