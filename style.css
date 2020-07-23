@@ -195,13 +195,13 @@ nav a:hover {
    }
       
 }
-@media (max-width:559px) {
+/* @media (max-width:559px) {
 	
 html {
  font: 1em, 'Gochi Hand', serif;		/*move these mobile specs to style*/
 }
 
-h1 {
+/* h1 {
   font-size: 1em;
 	margin:auto;
 }
@@ -216,7 +216,7 @@ h3 {
 	margin:auto;							/*mobile responsiveness for section pages only.*/
 }
 
-p {
+/* p {
   font-size: .5em;
 	margin:auto;
 }
@@ -243,9 +243,9 @@ width: 250px;
 
 	}
 }
-
-
-
+ */
+ */
+ */
 
 
 
@@ -283,7 +283,7 @@ html,
 body{
   width: 100%;
   height: 100%; 
-  max-width:100%;
+  max-width:100vh;
 	
 }
 
