@@ -364,7 +364,7 @@ section p {
   margin: 2em, auto;
   width: 250px;
   height: 250px;
-  background: url(rsz-experiencedesignson.png) no-repeat center center;
+  background: url(rsz_experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #195e83;
   border-radius: 50%;
   overflow: hidden;
@@ -381,7 +381,7 @@ section p {
   margin: .5em, auto;
   width: 250px;
   height: 250px;
-  background: url(rsz-experiencedesignson.png) no-repeat center center;
+  background: url(rsz_experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #195e83;
   border-radius: 50%;
   overflow: hidden;
@@ -398,9 +398,9 @@ background: #b3c100;
 .svg-container iframe {
   position: relative;	
   margin: 2em, auto;
-  width: 800px;
-  height: 800px;
-  background: url(experiencedesignson.png) no-repeat center center;
+  width: 250px;
+  height: 250px;
+  background: url(rsz_experiencedesignson.png) no-repeat center center;
   border: 0.5em solid #195e83;
   border-radius: 50%;
   overflow: hidden;
