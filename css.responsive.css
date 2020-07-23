@@ -6,7 +6,7 @@
    
    header {
       display: grid;
-      grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
+      grid-template-columns: 1fr auto minmax(560px, 2fr) 1fr;
    }
    
    #header-img {
@@ -19,6 +19,7 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+	   border: solid purple;
    }
   
    nav ul {
@@ -77,7 +78,7 @@ section {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	border:solid purple:	
+	border:solid purple;	
 }	
 	
 section .content {
