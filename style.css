@@ -145,7 +145,56 @@ nav a:hover {
 .nav-toggle-label span:hover:after {
    background: var(--m-green);
 }
-
+@media (min-width: 560px) {
+   .nav-toggle-label {
+      display: none;
+   }
+   
+   header {
+      display: grid;
+      grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
+   }
+   
+   #header-img {
+      grid-column: 2 / 3;
+   }
+   
+   nav {
+      all: unset;  /* takes out every styling I've done above for this element */
+      grid-column: 3 / 4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+   }
+  
+   nav ul {
+      display: flex;
+      justify-content: flex-end;
+     /* border: solid red; */
+   }
+   
+   nav li {
+      margin-left: 3rem;
+      margin-bottom: 0;
+   }
+   
+   nav a {
+      position: relative;
+   }
+   
+   nav a:hover:after {
+      content: '';
+      display: block;
+      height: 3px;
+      border-radius: 3px;
+      background: var(--m-green);
+      position: absolute;
+      bottom: -0.5rem;
+      left: 0;
+      right: 0;
+   }
+      
+}
 html {
   font: 6em, 'Gochi Hand', serif;
 }
