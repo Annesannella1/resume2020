@@ -6,7 +6,7 @@
    
    header {
       display: grid;
-      grid-template-columns: 1fr auto minmax(560px, 2fr) 1fr;
+      grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
    }
    
    #header-img {
