@@ -105,7 +105,7 @@ width: 250px;
      
 
 html {
-	font: 1em 'Gochi Hand', serif;
+	font: 1em, 'Gochi Hand', serif;
 	margin:auto;
 }
 
@@ -167,7 +167,7 @@ flex-grow: 1;
 	
 
 html {
-	font: 1.2em 'Gochi Hand', serif;
+	font: 1.2em, 'Gochi Hand', serif;
 	margin:auto;
 }
 
