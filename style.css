@@ -14,7 +14,7 @@
 }
 
 html {
-   font-size: 20px;
+   font-size: 10px;
 }
 
 body {
@@ -103,6 +103,7 @@ nav a:hover {
    height: 100%;
    display: flex;
    align-items: center;
+	border: solid tomato;
 }
 
 .nav-toggle-label span,
@@ -145,6 +146,8 @@ nav a:hover {
 .nav-toggle-label span:hover:after {
    background: var(--m-green);
 }
+
+
 @media (min-width: 560px) {
    .nav-toggle-label {
       display: none;
