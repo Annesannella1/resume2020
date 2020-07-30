@@ -21,6 +21,12 @@ body {
    color: var(--black);
 }
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 /* header styling */
 
