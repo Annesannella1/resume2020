@@ -162,7 +162,7 @@ flex-grow: 1;
 
 
 /******************************** DESKTOPS ******************************/
-@media (min-width:1026px){
+@media (min-width:1026px) {
 	
 .nav-toggle-label {
       display: none;
