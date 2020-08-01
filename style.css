@@ -188,55 +188,6 @@ nav a:hover {
     }
 }
 
-	
-html {
- font: 1em, 'Gochi Hand', serif;		/*move these mobile specs to style*/
-}
-
-h1 {
-  font-size: 1em;
-	margin:auto;
-}
-
-h2 {
-  font-size: .75em;
-	margin:auto;
-}
-
-h3 {
-  font-size: .5em;
-	margin:auto;							/*mobile responsiveness for section pages only.*/
-}
-
- p {
-  font-size: .5em;
-	margin:auto;
-}
-	
-section {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	border:solid tomato;	
-}	
-	
-section .content {
-	margin:1em;
-     }
-	
-.svg-container, 
-.svg-container iframe {
-  height: 250px;
-width: 250px;
-	background: url(rsz_experiencedesignson.png) no-repeat center center;
-	margin: 1em;
-
-
-	}
-}
-
-
 
 /*Page Wrapper*/
 .wrapper {
@@ -358,4 +309,54 @@ section p {
 .flexy1, .flexy2, .flexy3 {
     flex-grow: 1;
 }
+
+@media screen and (max-width:300px;) {
+	
+html {
+ font: 1em, 'Gochi Hand', serif;		/*move these mobile specs to style*/
+}
+
+h1 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h2 {
+  font-size: .75em;
+	margin:auto;
+}
+
+h3 {
+  font-size: .5em;
+	margin:auto;							/*mobile responsiveness for section pages only.*/
+}
+
+ p {
+  font-size: .5em;
+	margin:auto;
+}
+	
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border:solid tomato;	
+}	
+	
+section .content {
+	margin:1em;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 250px;
+width: 250px;
+	background: url(rsz_experiencedesignson.png) no-repeat center center;
+	margin: 1em;
+
+
+	}
+}
+
 
