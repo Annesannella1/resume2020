@@ -310,7 +310,7 @@ section p {
     flex-grow: 1;
 }
 
-@media screen and (max-width:300px;) {
+@media (max-width:559px) {
 	
 html {
  font: 1em, 'Gochi Hand', serif;		/*move these mobile specs to style*/
