@@ -1,0 +1,361 @@
+/*Typography*/
+@import url('https://fonts.googleapis.com/css?family=Caudex:400,400i,700|Open+Sans:400,400i,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-bg: #b3c100;
+    --black: #195e83;
+    --m-green: #873370;
+    ;
+}
+
+html {
+    width: 100%;
+        HEIGHT:100%;
+    MAX-WIDTH:100%;    
+    font-size: 20px;
+}
+
+body {
+    color: var(--black);
+}
+
+/* header styling */
+header {
+    background: var(--header-bg);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: grid;
+}
+
+.header-wrapper {
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+}
+
+#header-img {
+    max-width: 115px;
+    height: auto;
+    margin: .25rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* navigation styling  */
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--header-bg);
+    width: 100%;
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    margin: .05rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+nav a {
+    font-size: 1.1rem;
+    font-family: "Gochi Hand", open sans, sans serif;
+    font-weight: 600;
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: var(--m-green);
+}
+/* navigation-toggle */
+
+.nav-toggle:checked ~ nav {
+    display: block;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span, .nav-toggle-label span::before, .nav-toggle-label span::after {
+    display: block;
+    background: var(--black);
+    height: 3px;
+    width: 30px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.nav-toggle-label span::before, .nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 6px;
+}
+
+.nav-toggle-label span::after {
+    top: 6px;
+}
+
+.nav-toggle-label:hover {
+    cursor: pointer;
+}
+
+.nav-toggle-label span:hover {
+    background: var(--m-green);
+}
+
+.nav-toggle-label span:hover:before {
+    background: var(--m-green);
+}
+
+.nav-toggle-label span:hover:after {
+    background: var(--m-green);
+}
+
+@media (min-width: 560px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(460px, 2fr) 1fr;
+    }
+
+    #header-img {
+        grid-column: 2 / 3;
+    }
+
+    nav {
+        all: unset;
+        /* takes out every styling I've done above for this element */
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        /* border: solid red; */
+    }
+
+    nav li {
+        margin-left: 3rem;
+        margin-bottom: 0;
+    }
+
+    nav a {
+        position: relative;
+    }
+
+    nav a:hover:after {
+        content: '';
+        display: block;
+        height: 3px;
+        border-radius: 3px;
+        background: var(--m-green);
+        position: absolute;
+        bottom: -0.5rem;
+        left: 0;
+        right: 0;
+    }
+}
+
+	
+html {
+ font: 1em, 'Gochi Hand', serif;		/*move these mobile specs to style*/
+}
+
+h1 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h2 {
+  font-size: .75em;
+	margin:auto;
+}
+
+h3 {
+  font-size: .5em;
+	margin:auto;							/*mobile responsiveness for section pages only.*/
+}
+
+ p {
+  font-size: .5em;
+	margin:auto;
+}
+	
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border:solid tomato;	
+}	
+	
+section .content {
+	margin:1em;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 250px;
+width: 250px;
+	background: url(rsz_experiencedesignson.png) no-repeat center center;
+	margin: 1em;
+
+
+	}
+}
+
+
+
+/*Page Wrapper*/
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #b3c100;
+}
+
+.wrapper > h1 {
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    color: #873370;
+    font-size: 3em;
+    text-align: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/*Pages*/
+section {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: all .75s;
+}
+
+:target {
+    width: 100%;
+}
+
+section .content {
+    margin: 1em auto;
+    max-width: 900px;
+    width: 60%;
+    color: #873370;
+}
+
+section h1, section h2, section h3 {
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+section p {
+    margin: .5em 0;
+    font-family: 'Gochi Hand';
+}
+
+/*Home page*/
+/*About page*/
+.summary {
+    background: #b3c100;
+}
+
+.svg-container, .svg-container iframe {
+    position: relative;
+    margin: 2em, auto;
+    width: 250px;
+    height: 250px;
+    background: url(rsz_experiencedesignson.png) no-repeat center center;
+    border: 0.5em solid #195e83;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.experience {
+    background: #b3c100;
+}
+
+.svg-container, .svg-container iframe {
+    position: relative;
+    margin: .5em, auto;
+    width: 250px;
+    height: 250px;
+    background: url(rsz_experiencedesignson.png) no-repeat center center;
+    border: 0.5em solid #195e83;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*Contact page*/
+.contact {
+    background: #b3c100;
+}
+
+.svg-container, .svg-container iframe {
+    position: relative;
+    margin: 2em, auto;
+    width: 250px;
+    height: 250px;
+    background: url(rsz_experiencedesignson.png) no-repeat center center;
+    border: 0.5em solid #195e83;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.gallery {
+    background: #b3c100;
+}
+
+.Flex-Grid {
+    display: flex;
+    flex-direction: row;
+    justify content: space-between;
+    align-items: center;
+    border: solid black;
+}
+
+.flexy1, .flexy2, .flexy3 {
+    flex-grow: 1;
+}
+
