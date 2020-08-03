@@ -167,7 +167,6 @@ nav a:hover {
     }
 
     nav li {
-        margin-left: 3rem;
         margin-bottom: 0;
     }
 
@@ -361,6 +360,59 @@ width: 250px;
 
 	}
 }
+
+@media (min-width: 1024px) {
+    
+    html {
+        font: 2em,'Gochi Hand', serif; 
+    }
+  h1 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h2 {
+  font-size: 1em;
+	margin:auto;
+}
+
+h3 {
+  font-size: 1em;
+	margin:auto;						
+}
+
+ p {
+  font-size: 1em;
+	margin:auto;
+}
+	
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border:solid purple;	
+}	
+	
+section .content {
+	margin:auto;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 800px;
+width: 800px;
+	background: url(experiencedesignson.png) no-repeat center center;
+	margin: auto;
+
+
+	}
+}
+
+  
+
+
+
 
 
 
