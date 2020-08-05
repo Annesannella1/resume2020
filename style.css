@@ -234,7 +234,7 @@ section .content {
     max-width: 900px;
     width: 60%;
     color: #873370;
-    font-size:.5em;
+    font-size: 1em;
 	font-family: "Gochi Hand", open sans, sans serif;
     
 }
@@ -257,7 +257,7 @@ section p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: .5em, auto;
+    margin: 2em, auto;
     width: 250px;
     height: 250px;
     background: url(rsz_experiencedesignson.png) no-repeat center center;
@@ -272,7 +272,7 @@ section p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: .5em, auto;
+    margin: 2em, auto;
     width: 250px;
     height: 250px;
     background: url(rsz_experiencedesignson.png) no-repeat center center;
@@ -288,7 +288,7 @@ section p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: .5em, auto;
+    margin: 2em, auto;
     width: 250px;
     height: 250px;
     background: url(rsz_experiencedesignson.png) no-repeat center center;
