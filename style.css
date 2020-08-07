@@ -205,7 +205,7 @@ nav a:hover {
     width: 100%;
     color: #873370;
     font-size: 3em;
-	font-family: "Gochi Hand", open sans, sans serif;
+	font-family: "Shadows Into Light", open sans, sans serif;
     text-align: center;
 }
 
@@ -235,7 +235,7 @@ section .content {
     width: 60%;
     color: #873370;
     font-size: 1em;
-	font-family: "Gochi Hand", open sans, sans serif;
+	font-family: "Shadows Into Light", open sans, sans serif;
     
 }
 
@@ -317,7 +317,7 @@ section p {
 @media (max-width:559px) {
 	
 html {
- font: 1em, 'Gochi Hand', serif;		/*move these mobile specs to style*/
+ font: 1em, 'Shadows Into Light', serif;		/*move these mobile specs to style*/
 }
 
 h1 {
@@ -366,7 +366,7 @@ width: 250px;
 @media (min-width: 1024px) {
     
     html {
-        font: 2em,'Gochi Hand', serif; 
+        font: 2em,'Shadows Into Light', serif; 
     }
   h1 {
   font-size: 1em;
