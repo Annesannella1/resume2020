@@ -6,7 +6,7 @@
 }
 
 :root {
-    --header-bg: #e2dc54;
+    --header-bg: #ecdccb;
     --black: #000;
     --m-green: #4fb399;
     ;
@@ -253,7 +253,7 @@ section p {
 /*Home page*/
 /*About page*/
 .summary {
-    background: #b3c100;
+    background: #ecdccb;
 }
 
 .svg-container, .svg-container iframe {
@@ -262,13 +262,13 @@ section p {
     width: 250px;
     height: 250px;
     background: url(Mcedlogo.png) no-repeat center center;
-    border: 0.5em solid #fff;
+    border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
 
 .experience {
-    background: #b3c100;
+    background: #ecdccb;
 }
 
 .svg-container, .svg-container iframe {
@@ -277,14 +277,14 @@ section p {
     width: 250px;
     height: 250px;
     background: url(Mcedlogo.png) no-repeat center center;
-    border: 0.5em solid #fff;
+    border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
 
 /*Contact page*/
 .contact {
-    background: #b3c100;
+    background: #ecdccb;
 }
 
 .svg-container, .svg-container iframe {
@@ -293,13 +293,13 @@ section p {
     width: 250px;
     height: 250px;
     background: url(Mcedlogo.png) no-repeat center center;
-    border: 0.5em solid #fff;
+    border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
 
 .gallery {
-    background: #b3c100;
+    background: #ecdccb;
 }
 
 .Flex-Grid {
