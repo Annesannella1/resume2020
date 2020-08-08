@@ -6,9 +6,9 @@
 }
 
 :root {
-    --header-bg: #b3c100;
+    --header-bg: #e2dc54;
     --black: #000;
-    --m-green: #7f5100;
+    --m-green: #4fb399;
     ;
 }
 
@@ -261,7 +261,7 @@ section p {
     margin: 2em, auto;
     width: 250px;
     height: 250px;
-    background: url(midcenturyedlogo.png) no-repeat center center;
+    background: url(Mcedlogo.png) no-repeat center center;
     border: 0.5em solid #fff;
     border-radius: 50%;
     overflow: hidden;
@@ -276,7 +276,7 @@ section p {
     margin: 2em, auto;
     width: 250px;
     height: 250px;
-    background: url(midcenturyedlogo.png) no-repeat center center;
+    background: url(Mcedlogo.png) no-repeat center center;
     border: 0.5em solid #fff;
     border-radius: 50%;
     overflow: hidden;
@@ -292,7 +292,7 @@ section p {
     margin: 2em, auto;
     width: 250px;
     height: 250px;
-    background: url(midcenturyedlogo.png) no-repeat center center;
+    background: url(Mcedlogo.png) no-repeat center center;
     border: 0.5em solid #fff;
     border-radius: 50%;
     overflow: hidden;
@@ -357,7 +357,7 @@ section .content {
 .svg-container iframe {
   height: 250px;
 width: 250px;
-	background: url(midcenturyedlogo.png) no-repeat center center;
+	background: url(Mcedlogo.png) no-repeat center center;
 	margin: 1em;
 
 
@@ -405,7 +405,7 @@ section .content {
 .svg-container iframe {
   height: 800px;
 width: 800px;
-	background: url(midcenturyedlogo.png) no-repeat center center;
+	background: url(Mcedlogo.png) no-repeat center center;
 	margin: auto;
 
 
