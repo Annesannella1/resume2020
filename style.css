@@ -367,7 +367,7 @@ width: 250px;
 @media (min-width: 1024px) {
     
     html {
-        font: 20px, 'Londrino Solid', cursive;; 
+        font: 15px, 'Londrino Solid', cursive;; 
     }
   h1 {
   font-size: 1em;
@@ -375,17 +375,17 @@ width: 250px;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: .75em;
 	margin:auto;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: .75em;
 	margin:auto;						
 }
 
  p {
-  font-size: 1em;
+  font-size: .5em;
 	margin:auto;
 }
 	
