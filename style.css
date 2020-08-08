@@ -8,7 +8,7 @@
 :root {
     --header-bg: #b3c100;
     --black: #195e83;
-    --m-green: #873370;
+    --m-green: #7f5100;
     ;
 }
 
@@ -203,7 +203,8 @@ nav a:hover {
     position: absolute;
     bottom: 45%;
     width: 100%;
-    color: #873370;
+/*     color: #873370; purple*/
+	color: #7f5100:
     font-size: 5em;
 	font-family: 'Londrina Solid', cursive;
     text-align: center;
@@ -233,7 +234,7 @@ section .content {
     margin: 1em auto;
     max-width: 900px;
     width: 60%;
-    color: #873370;
+    color: #7f5100;
     font-size: 2em;
 	font-family: 'Londrina Solid', cursive;
     
