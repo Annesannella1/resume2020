@@ -196,14 +196,14 @@ nav a:hover {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: #ecbcbb;
+    background: #ecdccb;
 }
 
 .wrapper > h1 {
     position: absolute;
     bottom: 45%;
     width: 100%;
-/*     color: #873370; purple*/
+/*     color: #873370; purple */
 	color: #7f5100:
     font-size: 5em;
 	font-family: 'Londrina Solid', cursive;
@@ -318,7 +318,7 @@ section p {
 @media (max-width:559px) {
 	
 html {
- font: 20px,  'Londrina Solid', cursive;;		/*move these mobile specs to style*/
+ font: 12px,  'Londrina Solid', cursive;;		/*move these mobile specs to style*/
 }
 
 h1 {
