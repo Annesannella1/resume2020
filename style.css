@@ -1,5 +1,5 @@
 /*Typography*/
-@@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -196,7 +196,7 @@ nav a:hover {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: #b3c100;
+    background: #ecdccbb;
 }
 
 .wrapper > h1 {
@@ -235,7 +235,7 @@ section .content {
     max-width: 900px;
     width: 60%;
     color: #7f5100;
-    font-size: 2em;
+    font-size: .5em;
 	font-family: 'Londrina Solid', cursive;
     
 }
