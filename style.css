@@ -314,6 +314,9 @@ section p {
 
 .flexy1, .flexy2, .flexy3 {
     flex-grow: 1;
+	 border: 0.5em solid #000;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 @media (max-width:559px) {
