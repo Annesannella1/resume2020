@@ -324,7 +324,7 @@ justify-content:center;
 @media (max-width:559px) {
 	
 html {
- font: 12px,  'Londrina Solid', cursive;;		/*move these mobile specs to style*/
+ font: 9px,  'Londrina Solid', cursive;;		
 }
 
 h1 {
@@ -369,15 +369,58 @@ width: 250px;
 
 	}
 }
-@media (min-width:560px) and (max-width: 1023px) {
+
+
+@media(min-width:560px) and (max-width: 1023px) {
 	
-	section {
+	html {
+ font: 12px,  'Londrina Solid', cursive;;	
+}
+
+h1 {
+  font-size: 3em;
+	margin:auto;
+}
+
+h2 {
+  font-size: 2em;
+	margin:auto;
+}
+
+h3 {
+  font-size: 2em;
+	margin:auto;							/*Tablet pages only.*/
+}
+
+ p {
+  font-size: 1em;
+	margin:auto;
+}
+	
+section {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	border:solid grey;
-		
+	border:solid orange;	
+}	
+	
+section .content {
+	margin:1em;
+     }
+	
+.svg-container, 
+.svg-container iframe {
+  height: 250px;
+width: 250px;
+	background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
+	margin: 1em;
+
+
+	}
+}
+	
+	
 		
 		
 @media (min-width: 1024px) {
