@@ -225,7 +225,13 @@ section {
     height: 100%;
     overflow: hidden;
     transition: all .75s;
-}
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border:solid tomato;	
+}	
+	
 
 :target {
     width: 100%;
@@ -259,7 +265,7 @@ section p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: 2em, auto;
+    margin: 1em;
     width: 250px;
     height: 250px;
     background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
@@ -274,7 +280,7 @@ section p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: 2em, auto;
+    margin: 1em;
     width: 250px;
     height: 250px;
     background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
