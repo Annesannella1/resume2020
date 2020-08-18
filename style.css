@@ -205,8 +205,8 @@ nav a:hover {
     bottom: 45%;
     width: 100%;
 /*     color: #873370; purple */
-	color: #7f5100:
-    font-size: 2em;
+	color: #7f5100;
+    font-size: 5em;
 	font-family: 'Londrina Solid', cursive;
     text-align: center;
 }
@@ -371,7 +371,7 @@ width: 250px;
 }
 
 
-@media(min-width:560px) and (max-width: 1023px) {
+@media (min-width:560px) and (max-width:1023px) {
 	
 	html {
  font: 12px,  'Londrina Solid', cursive;;	
