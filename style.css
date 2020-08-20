@@ -307,7 +307,7 @@ section p {
 
 .svg-container1, .svg-container1 iframe {
     position: relative;
-    margin: 1em;
+    margin: 1.5em;
     width: 600px;
     height: 600px;
     background: url(rsz_vergeflyer.jpg) no-repeat center center;
