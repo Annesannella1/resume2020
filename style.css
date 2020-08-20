@@ -308,8 +308,8 @@ section p {
 .svg-container1, .svg-container1 iframe {
     position: relative;
     margin: 1em;
-    width: 250px;
-    height: 250px;
+    width: 600px;
+    height: 600px;
     background: url(Copy of Karaoke Night Flyer-2.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
@@ -318,25 +318,18 @@ section p {
 .Flex-Grid {
     display: flex;
     flex-direction: row;
-justify-content:space-around;
+justify-content:space-between;
 align-items: center;   
   
 }
 
 .flexy1, .flexy2, .flexy3 {
     flex-grow: 1;
-
 	 border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.big-grid {
-	flex-grow: 1;
-	border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-}
 
 @media (max-width:559px) {
 	
