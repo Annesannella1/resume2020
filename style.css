@@ -309,7 +309,7 @@ section p {
     display: flex;
     flex-direction: row;
 justify-content:center;
-    align-items: center;
+   
   
 }
 
@@ -323,7 +323,7 @@ justify-content:center;
 
 .big-grid {
   flex: auto;
-item-align center;
+item-align: center;
 	border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
