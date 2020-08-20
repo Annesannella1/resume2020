@@ -310,7 +310,7 @@ section p {
     margin: 1em;
     width: 600px;
     height: 600px;
-    background: url(VergeFlyer.jpg) no-repeat center center;
+    background: url(VergeFlyer.jpg) no-repeat center cover;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
