@@ -321,6 +321,14 @@ justify-content:center;
     overflow: hidden;
 }
 
+.big-grid {
+  flex: auto;
+item-align center;
+	border: 0.5em solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 @media (max-width:559px) {
 	
 html {
