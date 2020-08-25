@@ -214,9 +214,7 @@ nav a:hover {
     font-size: 5em;
 	font-family: 'Londrina Solid', cursive;
     text-align: center;
- background: url('Distressed8.png') no-repeat center center  ;
-  background-size: cover;
-  overflow: hidden;
+
 }
 
 .overlay {
