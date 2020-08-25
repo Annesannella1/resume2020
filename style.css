@@ -21,9 +21,7 @@ html {
 
 body {
     color: var(--black);
-	 background: url('Distressed8.png') no-repeat center center  ;
-  background-size: cover;
-  overflow: hidden;
+	
 }
 
 /* header styling */
@@ -34,6 +32,9 @@ header {
     width: 100%;
     z-index: 999;
     display: grid;
+	 background: url('Distressed8.png') no-repeat center center  ;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .header-wrapper {
