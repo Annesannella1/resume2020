@@ -32,9 +32,7 @@ header {
     width: 100%;
     z-index: 999;
     display: grid;
-	 background: url('Distressed8.png') no-repeat center center  ;
-  background-size: cover;
-  overflow: hidden;
+	
 }
 
 .header-wrapper {
@@ -201,6 +199,9 @@ nav a:hover {
     width: 100%;
     height: 100%;
     background: #ecdccb;
+	 background: url('Distressed8.png') no-repeat center center  ;
+  background-size: cover;
+  overflow: hidden;
  
 }
 
