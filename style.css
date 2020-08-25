@@ -300,7 +300,6 @@ section p {
 /*Contact page*/
 .contact {
     background: #ecdccb;
-	display: grid;
 	 background: url('Distressed8.png') no-repeat center center  ;
   background-size: cover;
   overflow: hidden;
