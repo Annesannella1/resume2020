@@ -199,8 +199,8 @@ nav a:hover {
     width: 100%;
     height: 100%;
   
-	 background: url('rsz_2distressed8.png') no-repeat center center  ;
-  background-size: cover;
+	 background-image: url('rsz_2distressed8.png') ;
+  background-repeat: repeat;
   overflow: hidden;
    background: #ecdccb;
 }
