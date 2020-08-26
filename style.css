@@ -320,6 +320,7 @@ section p {
     background: #ecdccb;
 	 background: url('rsz_2distressed8.png') no-repeat center center  ;
   background-size: cover;
+	z-index:-1;
   overflow: hidden;
 }
 
