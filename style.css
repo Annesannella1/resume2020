@@ -317,11 +317,10 @@ section p {
 }
 
 .gallery {
-    background: #ecdccb;
-	 background: url('rsz_2distressed8.png') no-repeat center center  ;
+    background: url('rsz_2distressed8.png') no-repeat center center  ;
   background-size: cover;
-	z-index:-1;
   overflow: hidden;
+	 background: #ecdccb;
 }
 
 .svg-container1, .svg-container1 iframe {
