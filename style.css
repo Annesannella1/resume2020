@@ -335,17 +335,16 @@ section p {
 }
 .Flex-Grid {
     display: flex;
-    flex-direction: row;
-justify-content:space-between;
-align-items: center;   
+justify-content:space-between;   
   
 }
 
 .flexy1, .flexy2, .flexy3 {
-    flex-grow: 1;
+    display:flex;
 	 border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
+	flex:1;
 }
 
 
