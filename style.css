@@ -344,6 +344,7 @@ justify-content:space-between;
 	 border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
+	height:100px;
 	flex:1;
 }
 
