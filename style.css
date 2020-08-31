@@ -340,11 +340,12 @@ justify-content:space-between;
 }
 
 .flexy1, .flexy2, .flexy3 {
-    display:flex;
+    display:auto;
 	 border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 	height:100px;
+	width:100px;
 	flex:1;
 }
 
