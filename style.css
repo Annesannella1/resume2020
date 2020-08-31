@@ -324,7 +324,7 @@ section p {
 }
 
 .svg-container1, .svg-container1 iframe {
-    display: auto;
+    display:auto;
     margin: 1.5em;
     width: 600px;
     height: 600px;
@@ -334,8 +334,17 @@ section p {
     overflow: hidden;
 }
 
+
+.svg-container-flexgrid {
+      display: flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+	justify-content:space-between;
+	
+       }
+
 .svg-container2, .svg-container2 iframe {
-    display: flex;
+    flex-grow:1;
     margin: .25em;
     width: 200px;
     height: 200px;
@@ -343,11 +352,11 @@ section p {
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
-	flex:1;
+	
 }
 
 .svg-container3, .svg-container3 iframe {
-    display: flex;
+    flex-grow:1;
     margin: .25em;
     width: 200px;
     height: 200px;
@@ -355,11 +364,10 @@ section p {
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
-	flex:1;
 }
 
 .svg-container4, .svg-container4 iframe {
-    display: flex;
+    flex-grow:1;
     margin: .25em;
     width: 200px;
     height: 200px;
@@ -371,7 +379,7 @@ section p {
 }
 
 .svg-container5, .svg-container5 iframe {
-    display: flex;
+    flex-grow:1;
     margin: .25em;
     width: 200px;
     height: 200px;
@@ -383,7 +391,7 @@ section p {
 }
 
 .svg-container6, .svg-container6 iframe {
-    display: flex;
+    flex-grow:1;
     margin: .25em;
     width: 150px;
     height: 200px;
@@ -395,7 +403,7 @@ section p {
 }
 
 .svg-container7, .svg-container7 iframe {
-    display: flex;
+    flex-grow:1;
     margin: .25em;
     width: 200px;
     height: 200px;
