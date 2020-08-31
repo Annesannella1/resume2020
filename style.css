@@ -335,10 +335,10 @@ section p {
 }
 
 .svg-container2, .svg-container2 iframe {
-    display: auto;
-    margin: 1.5em;
-    width: 150px;
-    height: 150px;
+    display: inline auto;
+    margin: .25em;
+    width: 200px;
+    height: 200px;
     background: url(preview.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
@@ -346,10 +346,10 @@ section p {
 }
 
 .svg-container3, .svg-container3 iframe {
-    display: auto;
-    margin: 1.5em;
-    width: 150px;
-    height: 150px;
+    display: inline auto;
+    margin: .25em;
+    width: 200px;
+    height: 200px;
     background: url(preview-2.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
@@ -357,10 +357,10 @@ section p {
 }
 
 .svg-container4, .svg-container4 iframe {
-    display: auto;
-    margin: 1.5em;
-    width: 150px;
-    height: 150px;
+    display: inline auto;
+    margin: .25em;
+    width: 200px;
+    height: 200px;
     background: url(preview-3.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
@@ -368,48 +368,39 @@ section p {
 }
 
 .svg-container5, .svg-container5 iframe {
-    display: auto;
-    margin: 1.5em;
-    width: 150px;
-    height: 150px;
-    background: url(preview-3.jpeg) no-repeat center center;
-    border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.svg-container6, .svg-container6 iframe {
-    display: auto;
-    margin: 1.5em;
-    width: 150px;
-    height: 150px;
+    display: inline auto;
+    margin: .25em;
+    width: 200px;
+    height: 200px;
     background: url(preview-4.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.svg-container7, .svg-container7 iframe {
-    display: auto;
-    margin: 1.5em;
+.svg-container6, .svg-container6 iframe {
+    display: inline auto;
+    margin: .25em;
     width: 150px;
-    height: 150px;
+    height: 200px;
     background: url(preview-5.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.svg-container8, .svg-container8 iframe {
-    display: auto;
-    margin: 1.5em;
-    width: 150px;
-    height: 150px;
+.svg-container7, .svg-container7 iframe {
+    display: inline auto;
+    margin: .25em;
+    width: 200px;
+    height: 200px;
     background: url(preview-6.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 }
+
+
 
 @media (max-width:559px) {
 	
