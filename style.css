@@ -340,7 +340,7 @@ justify-content:space-between;
 }
 
 .flexy1, .flexy2, .flexy3 {
-    display:auto;
+    display:flex;
 	 border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
