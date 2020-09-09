@@ -514,7 +514,7 @@ width: 250px;
 @media (min-width: 1024px) {
     
     html {
-        font: 20px, 'Londrino Solid', cursive;
+        font: 15px, 'Londrino Solid', cursive;
     }
   h1 {
   font-size: 3em;
