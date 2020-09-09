@@ -412,7 +412,7 @@ section p {
 @media (max-width:559px) {
 	
 html {
- font: 9px,  'Londrina Solid', cursive;;		
+ font: 9px,  'Londrina Solid', cursive;		
 }
 
 h1 {
@@ -462,7 +462,7 @@ width: 250px;
 @media (min-width:560px) and (max-width:1023px) {
 	
 	html {
- font: 12px,  'Londrina Solid', cursive;;	
+ font: 12px,  'Londrina Solid', cursive;	
 }
 
 h1 {
@@ -514,7 +514,7 @@ width: 250px;
 @media (min-width: 1024px) {
     
     html {
-        font: 20px, 'Londrino Solid', cursive;; 
+        font: 20px, 'Londrino Solid', cursive;
     }
   h1 {
   font-size: 3em;
