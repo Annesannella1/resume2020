@@ -408,7 +408,7 @@ width: 250px;
 }
 
 
-@media (min-width:560px) and (max-width:1023px) 
+@media (min-width:560px) and (max-width:1023px) {
     .nav-toggle-label {
         display: none;
     }
@@ -456,9 +456,6 @@ width: 250px;
         left: 0;
         right: 0;
     }
-
-
-
 	
 	html {
  font: 12px,  'Londrina Solid', cursive;	
@@ -506,10 +503,7 @@ width: 250px;
 
 	}
 }
-	
-	
-		
-		
+			
 @media (min-width: 1024px) {
 
     .nav-toggle-label {
@@ -560,8 +554,6 @@ width: 250px;
         right: 0;
     }
 
-
-    
     html {
         font: 15px, 'Londrino Solid', cursive;
     }
@@ -607,14 +599,3 @@ width: 800px;
 
 	}
 }
-
-  
-
-
-
-
-
-
-
-
-
