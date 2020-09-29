@@ -246,6 +246,13 @@ section p {
     background: #ecdccb;
 
 }
+.contact-img {
+ max-width: 115px;
+    height: auto;
+    margin: .25rem;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .svg-container, .svg-container iframe {
     position: relative;
