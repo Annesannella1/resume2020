@@ -246,8 +246,8 @@ section p {
     background: #ecdccb;
 
 }
-.contact-img {
- max-width: 100px;
+#contact-img {
+ max-width: 50px;
     height: auto;
     margin: .25rem;
     margin-right: auto;
