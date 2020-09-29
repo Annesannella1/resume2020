@@ -292,7 +292,7 @@ section p {
 
 .svg-container2, .svg-container2 iframe {
     flex-grow:1;
-    margin: .25em;
+    margin: auto;
     width: 200px;
     height: 200px;
     background: url(preview.jpeg) no-repeat center center;
@@ -304,7 +304,7 @@ section p {
 
 .svg-container3, .svg-container3 iframe {
     flex-grow:1;
-    margin: .25em;
+    margin: auto;
     width: 200px;
     height: 200px;
     background: url(preview-2.jpeg) no-repeat center center;
@@ -315,7 +315,7 @@ section p {
 
 .svg-container4, .svg-container4 iframe {
     flex-grow:1;
-    margin: .25em;
+    margin: auto;
     width: 200px;
     height: 200px;
     background: url(preview-3.jpeg) no-repeat center center;
@@ -327,7 +327,7 @@ section p {
 
 .svg-container5, .svg-container5 iframe {
     flex-grow:1;
-    margin: .25em;
+    margin: auto;
     width: 200px;
     height: 200px;
     background: url(preview-4.jpeg) no-repeat center center;
@@ -339,7 +339,7 @@ section p {
 
 .svg-container6, .svg-container6 iframe {
     flex-grow:1;
-    margin: .25em;
+    margin: auto;
     width: 200px;
     height: 200px;
     background: url(preview-5.jpeg) no-repeat center center;
@@ -351,7 +351,7 @@ section p {
 
 .svg-container7, .svg-container7 iframe {
     flex-grow:1;
-    margin: .25em;
+    margin: auto;
     width: 200px;
     height: 200px;
     background: url(preview-6.jpeg) no-repeat center center;
@@ -397,9 +397,6 @@ section .content {
 	margin:1em;
      }
 	
-#contact-img {
-	margin: 1em;
-}
 
 .svg-container, 
 .svg-container iframe {
