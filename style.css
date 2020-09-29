@@ -7,7 +7,7 @@
 
 :root {
     --header-bg: #ecdccb;
-    --black: #000;
+    --black: #eb5942;
     --m-green: #4fb399;
     ;
 }
@@ -191,7 +191,7 @@ section .content {
     margin: 1em;
     max-width: 900px;
     width: 45%;
-    color: #7f5100;
+    color: #eb5942;
     font-size: .5em;
     font-family: 'Londrina Solid', cursive;
     
