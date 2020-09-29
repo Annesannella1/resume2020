@@ -157,7 +157,7 @@ nav a:hover {
     width: 100%;
 /*     color: #873370; purple */
 	color: #7f5100;
-    font-size: 5em;
+    font-size: 3em;
 	font-family: 'Londrina Solid', cursive;
     text-align: center;
 
@@ -340,7 +340,7 @@ section p {
 .svg-container6, .svg-container6 iframe {
     flex-grow:1;
     margin: .25em;
-    width: 150px;
+    width: 200px;
     height: 200px;
     background: url(preview-5.jpeg) no-repeat center center;
     border: 0.5em solid #000;
@@ -388,7 +388,7 @@ h3 {
 section {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	border:solid tomato;	
 }	
@@ -397,6 +397,12 @@ section .content {
 	margin:1em;
      }
 	
+#contact-img {
+	 height: 100px;
+width: 100px;
+	margin: 1em;
+}
+
 .svg-container, 
 .svg-container iframe {
   height: 250px;
@@ -406,7 +412,7 @@ width: 250px;
 
 
 	}
-}
+
 
 
 @media (min-width:737px) and (max-width:1023px) {
