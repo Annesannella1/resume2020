@@ -362,7 +362,7 @@ section p {
 }
 	
 html {
- font: 9px,  'Londrina Solid', cursive;		
+ font: 6px,  'Londrina Solid', cursive;		
 }
 
 h1 {
@@ -398,8 +398,8 @@ section .content {
      }
 	
 #contact-img {
-	 height: 100px;
-width: 100px;
+	 height: 300px;
+width: 300px;
 	margin: 1em;
 }
 
