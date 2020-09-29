@@ -247,7 +247,7 @@ section p {
 
 }
 #contact-img {
- max-width: 115px;
+ max-width: 600px;
     height: auto;
     margin: .25rem;
     margin-right: auto;
@@ -256,7 +256,7 @@ section p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: 1em;
+    margin: .25em;
     width: 250px;
     height: 250px;
     background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
