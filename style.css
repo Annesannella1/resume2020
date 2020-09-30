@@ -404,7 +404,9 @@ section .content {
      }
 	
 section .img {
-	margin:1em;
+	max-width: 100px;
+    height: auto;
+    margin:1em;
 	}
 	
 .svg-container, 
