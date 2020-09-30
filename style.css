@@ -256,8 +256,6 @@ section img {
 
 }
 
- 
-
 .svg-container, .svg-container iframe {
     position: relative;
     margin: .25em;
@@ -364,9 +362,7 @@ section img {
     overflow: hidden;
 	
 }
-@media (max-width:736px) {
-
-	
+@media (max-width:736px) {	
 html {
  font: 6px,  'Londrina Solid', cursive;		
 }
@@ -404,7 +400,7 @@ section .content {
      }
 	
 #contact-img {
-	max-width: 100px;
+	max-width: 200px;
     height: auto;
     margin:1em;
 	}
@@ -415,15 +411,14 @@ section .content {
 width: 250px;
 	background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
 	margin: 1em;
-
-
-	}
+}
 .svg-container-flexgrid {
       display: flex;
-      flex-direction:col;
+      flex-direction:column;
 	justify-content:center;
 	align-items:center;
        }
+	
 }
 
 @media (min-width:737px) and (max-width:1023px) {
