@@ -403,7 +403,7 @@ section .content {
 	margin:1em;
      }
 	
-section .img {
+#contact-img {
 	max-width: 100px;
     height: auto;
     margin:1em;
