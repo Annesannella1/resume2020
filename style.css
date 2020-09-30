@@ -389,20 +389,20 @@ h3 {
 	
 section {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	border:solid burlywood;	
 }	
 	
 section .content {
-	margin:1em;
+	margin:auto;
      }
 	
 #contact-img {
 	max-width: 200px;
     height: auto;
-    margin:1em;
+    margin:auto;
 	}
 	
 .svg-container, 
@@ -410,7 +410,7 @@ section .content {
   height: 250px;
 width: 250px;
 	background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
-	margin: 1em;
+	margin: auto;
 }
 .svg-container-flexgrid {
       display: flex;
