@@ -207,6 +207,15 @@ section p {
     font-family: 'Londrina Solid';
 }
 
+section img {
+    max-width: 600px;
+    height: auto;
+    margin: .25rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+	
+
 /*Home page*/
 /*About page*/
 .summary {
@@ -246,13 +255,8 @@ section p {
     background: #ecdccb;
 
 }
-#contact-img {
- max-width: 600px;
-    height: auto;
-    margin: .25rem;
-    margin-right: auto;
-    margin-left: auto;
-}
+
+ 
 
 .svg-container, .svg-container iframe {
     position: relative;
@@ -399,7 +403,10 @@ section .content {
 	margin:1em;
      }
 	
-
+section .img {
+	margin:1em;
+	}
+	
 .svg-container, 
 .svg-container iframe {
   height: 250px;
