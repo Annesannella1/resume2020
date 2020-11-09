@@ -305,63 +305,71 @@ section img {
     overflow: scroll;
 	
 }
-/*
+
 .svg-container3, .svg-container3 iframe {
-    flex-grow:1;
-    margin: auto;
+/*    flex-grow:1;
+    margin: auto;*/
+display:inline-block;
+	margin:1.5em; 
     width: 200px;
     height: 200px;
-    background: url(preview-2.jpeg) no-repeat cover center;
+    background: url(preview-2.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .svg-container4, .svg-container4 iframe {
-    flex-grow:1;
-    margin: auto;
+/*     flex-grow:1;
+    margin: auto; */
+	display:inline-block;
+	margin:1.5em; 
     width: 200px;
     height: 200px;
-    background: url(preview-3.jpeg) no-repeat cover center;
+    background: url(preview-3.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: scroll;
 
 }
 
 .svg-container5, .svg-container5 iframe {
-    flex-grow:1;
-    margin: auto;
-    width: 200px;
+/*     flex-grow:1;
+    margin: auto; */
+    display:inline-block;
+	margin:1.5em; width: 200px;
     height: 200px;
-    background: url(preview-4.jpeg) no-repeat cover center;
+    background: url(preview-4.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: scroll;
 	
 }
 
 .svg-container6, .svg-container6 iframe {
-    flex-grow:1;
-    margin: auto;
-    width: 200px;
+/*     flex-grow:1;
+    margin: auto; */
+display:inline-block;
+	margin:1.5em;     width: 200px;
     height: 200px;
-    background: url(preview-5.jpeg) no-repeat cover center;
+    background: url(preview-5.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: scroll;
 	
 }
 
 .svg-container7, .svg-container7 iframe {
-    flex-grow:1;
-    margin: auto;
-    width: 200px;
+/*     flex-grow:1;
+    margin: auto; */
+    display:inline-block;
+	margin:1.5em; 
+	width: 200px;
     height: 200px;
-    background: url(preview-6.jpeg) no-repeat cover center;
+    background: url(preview-6.jpeg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: scroll;
 	
 } */
 @media (max-width:736px) {	
