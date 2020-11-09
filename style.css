@@ -277,13 +277,13 @@ section img {
     margin: 1.5em;
     width: 200px;
     height: 200px;
-    background: url(rsz_abstractbotanicalshapes.png) no-repeat cover center; 
+    background: url(rsz_1rsz_vergeflyer.jpg) no-repeat center cover; 
     border: 0.5em solid #000;
     border-radius: 50%;
    
 }
 
-.svg-container-flexgrid {
+/* .svg-container-flexgrid {
       display: flex;
       flex-direction:row;
       flex-wrap:wrap;
@@ -362,7 +362,7 @@ section img {
     border-radius: 50%;
     overflow: hidden;
 	
-}
+} */
 @media (max-width:736px) {	
 html {
  font: 6px,  'Londrina Solid', cursive;		
