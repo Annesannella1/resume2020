@@ -283,20 +283,19 @@ section img {
    
 }
 
-
-/* .svg-container-flexgrid {
+.svg-container-flexgrid {
       display: flex;
       flex-direction:row;
       flex-wrap:wrap;
 	justify-content:space-between;
 	
-       } */
+       } 
 
 .svg-container2, .svg-container2 iframe {
-/*     flex-grow:1;
-    margin: auto; */
-	display:auto;
-	margin:1.5em;
+ flex-grow:1;
+    margin: auto; 
+/* 	display:auto;
+	margin:1.5em; */
     width: 200px;
     height: 200px;
     background: url(preview.jpeg) no-repeat cover center;
