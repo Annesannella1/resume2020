@@ -293,9 +293,9 @@ section img {
        } 
 
 .svg-container2, .svg-container2 iframe {
- flex-grow:1;
-    margin: auto; 
-/* 	display:auto;
+/* flex-grow:1;
+    margin: auto;*/ 
+	display:inline-block;
 	margin:1.5em; 
     width: 200px;
     height: 200px;
@@ -305,7 +305,7 @@ section img {
     overflow: hidden;
 	
 }
-
+/*
 .svg-container3, .svg-container3 iframe {
     flex-grow:1;
     margin: auto;
