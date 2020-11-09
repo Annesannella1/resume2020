@@ -277,7 +277,7 @@ section img {
     margin: 1.5em;
     width: 500px;
     height: 500px;
-    background: url(rsz_1rsz_vergeflyer.jpg) no-repeat center cover; 
+    background: url(rsz_1rsz_vergeflyer.jpg) no-repeat center center; 
     border: 0.5em solid #000;
     border-radius: 50%;
 	overflow:hidden;
