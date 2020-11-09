@@ -280,6 +280,7 @@ section img {
     background: url(rsz_1rsz_vergeflyer.jpg) no-repeat center cover; 
     border: 0.5em solid #000;
     border-radius: 50%;
+	overflow:hidden;
    
 }
 
