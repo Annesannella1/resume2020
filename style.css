@@ -277,7 +277,7 @@ section img {
     margin: 1.5em;
     width: 200px;
     height: 200px;
-    background: url(rsz_abstractbotanicalshapes.png) no-repeat center cover; 
+    background: url(rsz_abstractbotanicalshapes.png) no-repeat cover center; 
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -299,7 +299,7 @@ section img {
 	margin:1.5em;
     width: 200px;
     height: 200px;
-    background: url(preview.jpeg) no-repeat center cover;
+    background: url(preview.jpeg) no-repeat cover center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -311,7 +311,7 @@ section img {
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(preview-2.jpeg) no-repeat center cover;
+    background: url(preview-2.jpeg) no-repeat cover center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -322,7 +322,7 @@ section img {
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(preview-3.jpeg) no-repeat center cover;
+    background: url(preview-3.jpeg) no-repeat cover center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -334,7 +334,7 @@ section img {
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(preview-4.jpeg) no-repeat center cover;
+    background: url(preview-4.jpeg) no-repeat cover center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -346,7 +346,7 @@ section img {
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(preview-5.jpeg) no-repeat center cover;
+    background: url(preview-5.jpeg) no-repeat cover center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -358,7 +358,7 @@ section img {
     margin: auto;
     width: 200px;
     height: 200px;
-    background: url(preview-6.jpeg) no-repeat center cover;
+    background: url(preview-6.jpeg) no-repeat cover center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
