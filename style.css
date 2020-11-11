@@ -190,9 +190,9 @@ section {
 section .content {
     margin: 1em;
     max-width: 900px;
-    width: 45%;
+    width: 100%;
     color: #eb5942;
-    font-size: .5em;
+    font-size: 1em;
     font-family: 'Londrina Solid', cursive;
     
 }
