@@ -15,7 +15,7 @@
 html {
     width: 100%;
      heigth:100%;
-    max-width:75%;    
+    max-width:60%;    
    
 }
 
@@ -484,7 +484,7 @@ width: 250px;
 	
 	html {
  font: 12px,  'Londrina Solid', cursive;
-		max_width:100%;
+		max-width:100%;
 }
 
 h1 {
@@ -581,7 +581,7 @@ width: 250px;
     }
 
     html {
-        font: 40px, 'Londrino Solid', cursive;
+        font: 24px, 'Londrino Solid', cursive;
 	    max-width:100%;
     }
   h1 {
