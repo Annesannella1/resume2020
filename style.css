@@ -15,7 +15,7 @@
 html {
     width: 100%;
      heigth:100%;
-    max-width:60%;    
+    max-width:75%;    
    
 }
 
@@ -374,7 +374,8 @@ display:inline-block;
 } */
 @media (max-width:736px) {	
 html {
- font: 6px,  'Londrina Solid', cursive;		
+ font: 6px,  'Londrina Solid', cursive;	
+	
 }
 
 h1 {
@@ -482,7 +483,8 @@ width: 250px;
     }
 	
 	html {
- font: 12px,  'Londrina Solid', cursive;	
+ font: 12px,  'Londrina Solid', cursive;
+		max_width:100%;
 }
 
 h1 {
@@ -580,6 +582,7 @@ width: 250px;
 
     html {
         font: 40px, 'Londrino Solid', cursive;
+	    max-width:100%;
     }
   h1 {
   font-size: 3em;
