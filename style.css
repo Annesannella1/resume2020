@@ -21,6 +21,8 @@ html {
 
 body {
     color: var(--black);
+ overflow-y: scroll;
+
 	
 }
 
