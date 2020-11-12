@@ -21,7 +21,7 @@ html {
 
 body {
     color: var(--black);
- overflow-y: scroll;
+
 
 	
 }
@@ -374,7 +374,11 @@ display:inline-block;
     overflow: hidden;
 	
 } */
-@media (max-width:736px) {	
+@media (max-width:736px) {
+	body {
+	 overflow: scroll;
+	}
+	
 html {
  font: 6px,  'Londrina Solid', cursive;	
 	
@@ -483,7 +487,9 @@ width: 250px;
         left: 0;
         right: 0;
     }
-	
+	body {
+		overflow:scroll;
+	}
 	html {
  font: 12px,  'Londrina Solid', cursive;
 		max-width:100%;
