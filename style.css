@@ -282,7 +282,7 @@ section img {
     background: url(abstractbotanicalshapes.jpg) no-repeat center center; 
     border: 0.5em solid #000;
     border-radius: 50%;
-	overflow:scroll;
+	overflow:hidden;
    
 }
 
@@ -304,7 +304,7 @@ section img {
     background: url(200art-print-wall-mockup-placed-in-a-minimalistic-room-1959-el1.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: scroll;
+    overflow: hidden;
 	
 }
 
@@ -318,7 +318,7 @@ display:inline-block;
     background: url(200mockup-featuring-a-framed-poster-placed-against-a-concrete-wall-4479-el1-8.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .svg-container4, .svg-container4 iframe {
@@ -331,7 +331,7 @@ display:inline-block;
     background: url(200mockup-featuring-a-picture-frame-standing-on-top-of-a-small-white-bookcase-499-el-3.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: scroll;
+    overflow: hidden;
 
 }
 
@@ -344,7 +344,7 @@ display:inline-block;
     background: url(200preview-4.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: scroll;
+    overflow: hidden;
 	
 }
 
@@ -357,7 +357,7 @@ display:inline-block;
     background: url(200preview-5.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: scroll;
+    overflow: hidden;
 	
 }
 
@@ -371,7 +371,7 @@ display:inline-block;
     background: url(200mockup-featuring-a-picture-frame-standing-on-top-of-a-small-white-bookcase-499-el-5.jpg) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
-    overflow: scroll;
+    overflow: hidden;
 	
 } */
 @media (max-width:736px) {	
