@@ -375,15 +375,16 @@ display:inline-block;
 	
 } */
 @media (max-width:736px) {
-body {
-   overflow: scroll;
-	}
+
 	
 html {
  font: 6px,  'Londrina Solid', cursive;	
 	
 }
 
+body {
+   overflow: scroll;
+	}
 h1 {
   font-size: 3em;
 	margin:auto;
@@ -487,13 +488,12 @@ width: 250px;
         left: 0;
         right: 0;
     }	
-body {
-   overflow:scroll;
-	}
 html {
  font: 12px,  'Londrina Solid', cursive;
 }
-
+body {
+   overflow: scroll;
+	}
 h1 {
   font-size: 3em;
 	margin:auto;
