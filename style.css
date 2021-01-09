@@ -43,7 +43,7 @@ header {
 }
 
 #header-img {
-    max-width: 115px;
+    max-width: 100%;
     height: auto;
     margin: .25rem;
     margin-right: auto;
@@ -211,7 +211,7 @@ section p {
 }
 
 section img {
-    max-width: 600px;
+    max-width: 100%;
     height: auto;
     margin: .25rem;
     margin-right: auto;
@@ -419,7 +419,7 @@ section .content {
      }
 	
 #contact-img {
-	max-width: 200px;
+	max-width: 100%;
     height: auto;
     margin:auto;
 	}
