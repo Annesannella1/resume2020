@@ -276,7 +276,7 @@ section img {
 }
 
 .svg-container1, .svg-container1 iframe {
-    display:block;
+    display:inline-block;
     margin: 1.5em;
     width: 500px;
     height: 500px;
