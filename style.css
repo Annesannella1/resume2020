@@ -280,24 +280,17 @@ section img {
     margin: 1.5em;
     width: 500px;
     height: 500px;
-    background: url(abstractbotanicalshapes.jpg) no-repeat center center; 
+    background: url(anneisolated-100.jpg) no-repeat center center; 
     border: 0.5em solid #000;
     border-radius: 50%;
 	overflow:hidden;
    
 }
 
-/* .svg-container-flexgrid {
-      display: flex;
-      flex-direction:row;
-      flex-wrap:wrap;
-	justify-content:space-between;
-	
-       } */
 
-.svg-container2, .svg-container2 iframe {
-/* flex-grow:1;
-    margin: auto;*/ 
+
+/* .svg-container2, .svg-container2 iframe {
+
 	display:inline-block;
 	margin:1.5em; 
     width: 200px;
@@ -310,8 +303,7 @@ section img {
 }
 
 .svg-container3, .svg-container3 iframe {
-/*    flex-grow:1;
-    margin: auto;*/
+
 display:inline-block;
 	margin:1.5em; 
     width: 200px;
@@ -323,8 +315,7 @@ display:inline-block;
 }
 
 .svg-container4, .svg-container4 iframe {
-/*     flex-grow:1;
-    margin: auto; */
+
 	display:inline-block;
 	margin:1.5em; 
     width: 200px;
@@ -337,8 +328,7 @@ display:inline-block;
 }
 
 .svg-container5, .svg-container5 iframe {
-/*     flex-grow:1;
-    margin: auto; */
+
     display:inline-block;
 	margin:1.5em; width: 200px;
     height: 200px;
@@ -350,8 +340,7 @@ display:inline-block;
 }
 
 .svg-container6, .svg-container6 iframe {
-/*     flex-grow:1;
-    margin: auto; */
+
 display:inline-block;
 	margin:1.5em;     width: 200px;
     height: 200px;
@@ -363,8 +352,7 @@ display:inline-block;
 }
 
 .svg-container7, .svg-container7 iframe {
-/*     flex-grow:1;
-    margin: auto; */
+
     display:inline-block;
 	margin:1.5em; 
 	width: 200px;
@@ -424,7 +412,7 @@ display:inline-block;
   border: 1px solid black;
 }
 
-
+ */
 
 */
 @media (max-width:736px) {
