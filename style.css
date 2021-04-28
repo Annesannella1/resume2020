@@ -286,7 +286,7 @@ section img {
 	overflow:hidden;
    
 }
- .svg-container1, .svg-container1 iframe:hover {
+ .svg-container1, .svg-container1 iframe  a:hover {
    display:inline-block;
     margin: 1.5em;
     width: 500px;
