@@ -199,7 +199,7 @@ section .content a{
     font-family: 'Londrina Solid', cursive;
     
 }
-section .content a:hover {
+ H .section .content a:hover {
     position: relative;
     margin: .25em;
 	height: 250px;
