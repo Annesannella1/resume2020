@@ -189,8 +189,8 @@ section {
     width: 100%;
 }
 
-section .content {
-	position: relative;
+section .content a{
+    position: relative;
     margin: 1em;
     max-width: 900px;
     width: 100%;
@@ -199,6 +199,17 @@ section .content {
     font-family: 'Londrina Solid', cursive;
     
 }
+section .content a:hover {
+    position: relative;
+    margin: 1em;
+    margin: .25em;
+    width: 250px;
+    background: url(anneisolatersz_1rsz_mcedlogo.png) no-repeat center center;
+    border: 0.5em solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+    
 
 section h1, section h2, section h3 {
     margin-bottom: .5em;
