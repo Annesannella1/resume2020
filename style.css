@@ -204,8 +204,8 @@ section .content a:hover {
     margin: 1em;
     margin: .25em;
     width: 250px;
-    background: url(anneisolatersz_1rsz_mcedlogo.png) no-repeat center center;
-    border: 0.5em solid #000;
+    background: url(anneisolated-100.jpg) no-repeat center center;
+    border: 0.5em solid red;
     border-radius: 50%;
     overflow: hidden;
 }
