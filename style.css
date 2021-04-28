@@ -275,7 +275,7 @@ section img {
 	 background: #ecdccb;
 }
 
-.svg-container1, .svg-container1 iframe {
+.svg-container1, .svg-container1 iframe hover{
     display:inline-block;
     margin: 1.5em;
     width: 500px;
