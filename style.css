@@ -275,7 +275,7 @@ section img {
 	 background: #ecdccb;
 }
 
-.svg-container1, .svg-container1 iframe hover{
+.svg-container1, .svg-container1 iframe {
     display:inline-block;
     margin: 1.5em;
     width: 500px;
@@ -286,16 +286,16 @@ section img {
 	overflow:hidden;
    
 }
- .svg-container1:hover 
+ .svg-container1:hover {
    display:inline-block;
     margin: 1.5em;
     width: 500px;
     height: 500px;
     background: url(anneisolated-100.jpg) no-repeat center center; 
-    border: 0.5em solid #000;
+    border: 0.5em solid ##eb5942;
     border-radius: 50%;
 	overflow:hidden;
-   
+} 
 
 
 /* .svg-container2, .svg-container2 iframe {
