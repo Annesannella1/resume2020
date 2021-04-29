@@ -458,11 +458,11 @@ section .content {
 	margin:auto;
      }
 	
-#contact-img {
+/* #contact-img {
 	max-width: 100%;
     height: auto;
     margin:auto;
-	}
+	} */
 	
 .svg-container, 
 .svg-container iframe {
