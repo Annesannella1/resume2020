@@ -438,22 +438,22 @@ body {
 	}
 h1 {
   font-size: 2em;
-	margin:auto;
+	margin:.25em;
 }
 
 h2 {
   font-size: 1em;
-	margin:auto;
+	margin:.25em;
 }
 
 h3 {
   font-size: .5em;
-	margin:auto;							/*mobile responsiveness for section pages only.*/
+	margin:.25em;							/*mobile responsiveness for section pages only.*/
 }
 
  p {
   font-size: .25em;
-	margin:auto;
+	margin:.25em;
 }
 	
 section {
@@ -465,7 +465,7 @@ section {
 }	
 	
 section .content {
-	margin:auto;
+	margin: .25em;
      }
 	
 /* #contact-img {
@@ -482,12 +482,12 @@ width: 250px;
 	margin: auto;
 }
 	
-.svg-container-flexgrid {
+/* .svg-container-flexgrid {
       display: flex;
       flex-direction:column;
 	justify-content:center;
 	align-items:center;
-       }
+       } */
 	
 }
 
