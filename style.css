@@ -434,7 +434,7 @@ html {
 }
 
 body {
-   overflow: scroll;
+   overflow: hidden;
 	}
 h1 {
   font-size: 2em;
@@ -544,7 +544,7 @@ html {
  font: 12px,  'Londrina Solid', cursive;
 }
 body {
-   overflow: scroll;
+   overflow: hidden;
 	}
 h1 {
   font-size: 3em;
