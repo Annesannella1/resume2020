@@ -212,19 +212,19 @@ section .content a{
     
 
 section h1, section h2, section h3 {
-    margin-bottom: .5em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
 section p {
-    margin: .5em;
+    margin: 1em;
     font-family: 'Londrina Solid';
 }
 
 section img {
     max-width: 100%;
     height: auto;
-    margin: .25rem;
+    margin: 1rem;
     margin-right: auto;
     margin-left: auto;
 }
