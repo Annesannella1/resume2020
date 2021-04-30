@@ -419,7 +419,7 @@ display:inline-block;
 
 	
 html {
- font: 4px,  'Londrina Solid', cursive;	
+ font: 6px,  'Londrina Solid', cursive;	
 	
 }
 
@@ -427,22 +427,22 @@ body {
    overflow: scroll;
 	}
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 	margin:auto;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1em;
 	margin:auto;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: .5em;
 	margin:auto;							/*mobile responsiveness for section pages only.*/
 }
 
  p {
-  font-size: 1em;
+  font-size: .25em;
 	margin:auto;
 }
 	
