@@ -286,7 +286,17 @@ section img {
 	 background: #ecdccb;
 }
 
-
+ ,svg-container1, .svg-container1 iframe {
+    position: relative;
+    margin: .25em;
+	height: 250px;
+    width: 250px;
+    background: url(anneisolated-100.jpg) no-repeat center center;
+    border: 0.5em solid tomato;
+    border-radius: 50%;
+    overflow: hidden;
+}
+    
 
 
 /* .svg-container2, .svg-container2 iframe {
