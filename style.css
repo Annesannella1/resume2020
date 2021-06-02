@@ -218,7 +218,8 @@ section h1, section h2, section h3 {
 
 section p {
     margin: 1em;
-    font-family: 'Londrina Solid';
+/*     font-family: 'Londrina Solid'; */
+	font-family: Tahoma, Verdana, sans-serif;
 }
 
 section img {
