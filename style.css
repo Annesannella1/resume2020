@@ -160,7 +160,7 @@ nav a:hover {
 /*     color: #873370; purple */
 	color: #7f5100;
     font-size: 3em;
-	font-family: 'Londrina Solid', cursive;
+	font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     text-align: center;
 
 }
@@ -196,7 +196,7 @@ section .content a{
     width: 100%;
     color: #eb5942;
     font-size: 1em;
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     
 }
  H .section .content a:hover {
@@ -221,7 +221,7 @@ section h1, section h2, section h3 {
 section p {
      margin: auto; 
 /*     font-family: 'Londrina Solid'; */
-	font-family: Tahoma, Verdana, sans-serif;
+	font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 section img {
