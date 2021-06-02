@@ -693,7 +693,7 @@ width: 800px;
     height: 800px;
     width: 800px;
     background: url(anneisolated-100.jpg) no-repeat center center;
-    border: 0.5em solid green;
+    border: 0.5em var(--m-green);
     border-radius: 50%;
     overflow: hidden;
 }
