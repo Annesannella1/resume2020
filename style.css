@@ -291,21 +291,20 @@ section img {
 }
     
 
-
-/* .svg-container2, .svg-container2 iframe {
+ .svg-container2, .svg-container2 iframe {
 
 	display:inline-block;
 	margin:1.5em; 
     width: 200px;
     height: 200px;
-    background: url(200art-print-wall-mockup-placed-in-a-minimalistic-room-1959-el1.jpg) no-repeat center center;
+    background: url(anneisolated-100.jpg)) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
 	
 }
 
-.svg-container3, .svg-container3 iframe {
+/* .svg-container3, .svg-container3 iframe {
 
 display:inline-block;
 	margin:1.5em; 
@@ -414,10 +413,10 @@ display:inline-block;
   margin: 20px;
   border: 1px solid black;
 }
-
  */
+ 
 
-*/
+
 @media (max-width:736px) {
 
 	
