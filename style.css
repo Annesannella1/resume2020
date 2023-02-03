@@ -209,7 +209,7 @@ section h1, section h2, section h3 {
 }
 
 section p {
-     margin: auto; 
+     margin: 1em; 
 /*     font-family: 'Londrina Solid'; */
 	font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
