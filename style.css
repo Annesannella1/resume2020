@@ -211,8 +211,7 @@ section h1, section h2, section h3 {
     list-style: square;
  }
 section li {
-	margin: .5em;
-	text-align: center;
+	text-align: left;
 }
 	 
 section p {
