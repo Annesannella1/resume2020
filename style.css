@@ -207,7 +207,14 @@ section h1, section h2, section h3 {
 	margin: 2em;
     text-align: center;
 }
-
+ section ul {
+    list-style: square;
+ }
+section li {
+	margin: .5em;
+	text-align: center;
+}
+	 
 section p {
      margin: 1em; 
 /*     font-family: 'Londrina Solid'; */
