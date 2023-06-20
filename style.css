@@ -208,13 +208,13 @@ section h1, section h2, section h3 {
     text-align: center;
 }
  section ul {
+	 list-style: square;
 	 text-align: center;
     
  }
 
 section li {
-	list-style: square;
-	display: block;
+	text-align: left;
 }
 	 
 section p {
