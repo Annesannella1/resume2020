@@ -201,7 +201,7 @@ section .content a{
 }
 
   
-section h1, section h2, section h3 {
+section h1, section h2, section h3, section ul {
 
 /*     margin-bottom: 1em;  */
 	margin: 2em;
