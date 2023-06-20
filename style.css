@@ -210,34 +210,21 @@ section h1, section h2, section h3 {
 
 
 
- section .content ul{
-    clear:both;
-
-    margin: 0;
-
-    padding: 0;
-    text-align:center;
+ section ul{
     background: turquoise;
     width: 35%;
     list-style: square;
 	
  }
 
-section .content ul li {
+section li {
     display:block;
-
-    position: relative;
 
     height: auto;
 
     padding: 0;
 
-    margin-left: 10px;
-
-
-    text-align: center;
-
-    white-space: nowrap;
+    text-align: left;
 
 }
 
