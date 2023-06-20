@@ -218,12 +218,6 @@ section h1, section h2, section h3 {
  }
 
 section li {
-    display:block;
-
-    height: auto;
-
-    padding: 0;
-
     text-align: left;
 
 }
