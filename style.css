@@ -209,7 +209,7 @@ section h1, section h2, section h3 {
 }
  section ul {
     list-style: square;
-    text-align: center;
+    align-items: center;
  }
 
 section li {
