@@ -208,18 +208,7 @@ section h1, section h2, section h3 {
     text-align: center;
 }
 
-#experience {
-    position:absolute;
 
-    top:0;
-
-    width:0;
-
-    margin-left:auto;
-
-    margin-right:auto;
-
-}
 
  section .content ul{
     clear:both;
