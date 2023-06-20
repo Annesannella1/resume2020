@@ -210,8 +210,9 @@ section h1, section h2, section h3 {
  section ul li{
 	 background: turquoise;
 	 width: 35%;
+	 float: center;
 	 list-style: square;
-	 text-align: center;
+	 text-align: left;
 
     
  }
