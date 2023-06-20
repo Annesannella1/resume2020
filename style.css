@@ -208,6 +208,7 @@ section h1, section h2, section h3 {
     text-align: center;
 }
  section ul {
+	 margin-left: 1.2em;
 	 list-style: square;
 	 text-align: center;
     
