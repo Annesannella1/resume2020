@@ -211,9 +211,9 @@ section h1, section h2, section h3 {
 #experience {
     position:absolute;
 
-    top:20%;
+    top:0;
 
-    width:100%;
+    width:0;
 
     margin-left:auto;
 
@@ -245,14 +245,13 @@ section h1, section h2, section h3 {
 
     margin-left: 10px;
 
-    list-style: none;
 
     text-align: center;
 
-    white-space: wrap;
+    white-space: nowrap;
 
 }
-}
+
 	 
 section p {
      margin: 1em; 
