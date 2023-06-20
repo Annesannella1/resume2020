@@ -221,7 +221,7 @@ section h1, section h2, section h3 {
 
 }
 
- #experience ul{
+ section .content ul{
     clear:both;
 
     margin: 0;
@@ -234,7 +234,7 @@ section h1, section h2, section h3 {
 	
  }
 
-#experience ul li {
+section .content ul li {
     display:block;
 
     position: relative;
