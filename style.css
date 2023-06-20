@@ -207,19 +207,17 @@ section h1, section h2, section h3 {
 	margin: 2em;
     text-align: center;
 }
- section ul li{
+ section ul{
 	 background: turquoise;
 	 width: 35%;
-	 float: center;
+	 float: right;
 	 list-style: square;
-	 text-align: left;
-
-    
+	
  }
 
-/*section li {
+section li {
 	text-align: left;
-}*/
+}
 	 
 section p {
      margin: 1em; 
