@@ -207,17 +207,18 @@ section h1, section h2, section h3 {
 	margin: 2em;
     text-align: center;
 }
- section ul {
-	 background: light purple;
+ section ul li{
+	 background: turquoise;
 	 width: 35%;
 	 list-style: square;
+	 text-align: center;
 
     
  }
 
-section li {
+/*section li {
 	text-align: left;
-}
+}*/
 	 
 section p {
      margin: 1em; 
