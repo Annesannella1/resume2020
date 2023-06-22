@@ -196,12 +196,12 @@ section .content a{
     width: 100%;
     color: #eb5942;
     font-size: 1em;
-    font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "cursive";
+    font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     
 }
 
   
-section h1, section h2, section h3, section ul {
+section h1, section h2, section h3 {
 
 /*     margin-bottom: 1em;  */
 	margin: 2em;
