@@ -196,7 +196,7 @@ section .content a{
     width: 100%;
     color: #eb5942;
     font-size: 1em;
-    font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "cursive";
     
 }
 
@@ -208,18 +208,19 @@ section h1, section h2, section h3, section ul {
     text-align: center;
 }
 
-flex-container {
+.flex-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	
 }
- flex-container ul li {
+ .flex-container ul {
     background: turquoise;
     list-style: square;
 	
  }
-
+.flex-container li {
+	text-align: left;
 
 	 
 section p {
