@@ -61,7 +61,7 @@ nav {
     display: none;
 }
 
-ul {
+ nav ul {
     list-style: none;
 }
 
@@ -160,7 +160,7 @@ nav a:hover {
 /*     color: #873370; purple */
 	color: #7f5100;
     font-size: 3em;
-	font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'Loudrina', "cursive";
     text-align: center;
 
 }
@@ -196,7 +196,7 @@ section .content a{
     width: 100%;
     color: #eb5942;
     font-size: 1em;
-    font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-family: 'Londrina', "sans-serif";
     
 }
 
@@ -211,16 +211,10 @@ section h1, section h2, section h3 {
 section p {
      margin: 1em; 
 /*     font-family: 'Londrina Solid'; */
-	font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'Londrina', "cursive";
 }
 
-section img {
-    max-width: 100%;
-    height: auto;
-    margin: 1rem;
-    margin-right: auto;
-    margin-left: auto; 
-} 
+
 	
 
 /*Home page*/
@@ -304,119 +298,6 @@ section img {
 	
 }
 
-/* .svg-container3, .svg-container3 iframe {
-
-display:inline-block;
-	margin:1.5em; 
-    width: 200px;
-    height: 200px;
-    background: url(200mockup-featuring-a-framed-poster-placed-against-a-concrete-wall-4479-el1-8.jpg) no-repeat center center;
-    border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.svg-container4, .svg-container4 iframe {
-
-	display:inline-block;
-	margin:1.5em; 
-    width: 200px;
-    height: 200px;
-    background: url(200mockup-featuring-a-picture-frame-standing-on-top-of-a-small-white-bookcase-499-el-3.jpg) no-repeat center center;
-    border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-
-}
-
-.svg-container5, .svg-container5 iframe {
-
-    display:inline-block;
-	margin:1.5em; width: 200px;
-    height: 200px;
-    background: url(200preview-4.jpg) no-repeat center center;
-    border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-	
-}
-
-.svg-container6, .svg-container6 iframe {
-
-display:inline-block;
-	margin:1.5em;     width: 200px;
-    height: 200px;
-    background: url(200preview-5.jpg) no-repeat center center;
-    border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-	
-}
-
-.svg-container7, .svg-container7 iframe {
-
-    display:inline-block;
-	margin:1.5em; 
-	width: 200px;
-    height: 200px;
-    background: url(200mockup-featuring-a-picture-frame-standing-on-top-of-a-small-white-bookcase-499-el-5.jpg) no-repeat center center;
-    border: 0.5em solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-	
-} 
-.prof{
-  background-color: red;
- 
-}
-
-.prof-p{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  
-}
-
-.project{
-  display: grid;
-  background-color: transparent; 
-  width: 100%; 
-  text-align: center;
-  margin: auto;
-  grid-template-columns: 50% 50%; 
-  grid-template-rows: 200px 200px;
-  grid-gap: 20px 0px;
-}
-
-.pj1{
-  padding: 20px 20px;
-  margin: 20px;
-  color: black;
-  border: 1px solid black;;
-  
-}
-.pj2{
-  padding: 20px 20px;
-  color: black;
-  margin: 20px;
-  border: 1px solid black;
-}
-.pj3{
-  padding-top: 20px;
-  color: black;
-  margin: 20px;
-  border: 1px solid black;;
-}
-.pj4{
-  padding-top: 20px;
-  color: black;
-  margin: 20px;
-  border: 1px solid black;
-}
- */
- 
-
-
 @media (max-width:736px) {
 
 	
@@ -462,14 +343,14 @@ section .content {
 	
 section .content ul li {
 	list-style: square;
-	text-align: left; 
+	text-align: center; 
 	
 .svg-container, 
 .svg-container iframe {
   height: 250px;
-width: 250px;
-	background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
-	margin: auto;
+  width: 250px;
+  background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
+  margin: auto;
 }
 	
 
