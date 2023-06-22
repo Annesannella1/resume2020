@@ -208,19 +208,18 @@ section h1, section h2, section h3, section ul {
     text-align: center;
 }
 
-
-
- section ul{
+flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+ flex-container ul li {
     background: turquoise;
-    width: 35%;
     list-style: square;
 	
  }
 
-section li {
-    text-align: left;
-
-}
 
 	 
 section p {
