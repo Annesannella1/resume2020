@@ -215,7 +215,8 @@ section li {
 	 
 section p {
      margin: 1em; 
-     font-family: 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+     font-family: .25em, 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+     text-align: center;
 }
 
 section img {
@@ -452,7 +453,7 @@ h3 {
 
  p {
   font-size: .25em;
-  margin:.25em;
+  margin: .5em;
 }
 	
 section {
@@ -658,8 +659,9 @@ h3 {
 }
 
  p {
-  font-size: 1.5em;
-	margin:20px;
+  font-size: 1.0em;
+  margin:auto;
+	 
 }
 	
 section {
