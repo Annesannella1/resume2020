@@ -214,7 +214,7 @@ section li {
 } */
 	 
 section p {
-     margin: 1em; 
+     margin: auto; 
      font-family: .25em, 'Lobster', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
      text-align: center;
 }
@@ -237,7 +237,7 @@ section img {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: 1em;
+    margin: auto;
     width: 250px;
     height: 250px;
     background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
@@ -253,7 +253,7 @@ section img {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: 1em;
+    margin: auto;
     width: 250px;
     height: 250px;
     background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
@@ -270,7 +270,7 @@ section img {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: .25em;
+    margin: auto;
     width: 250px;
     height: 250px;
     background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
@@ -434,26 +434,26 @@ section img {
 }
 
 body {
-   overflow: hidden;
+   overflow: scroll;
 	}
 h1 {
   font-size: 2em;
-  margin:.25em;
+  margin:auto;
 }
 
 h2 {
   font-size: 1em;
-  margin:.25em;
+  margin:auto;
 }
 
 h3 {
   font-size: .5em;
-  margin:.25em;							/*mobile responsiveness for section pages only.*/
+  margin:auto;							/*mobile responsiveness for section pages only.*/
 }
 
  p {
   font-size: .25em;
-  margin: .5em;
+  margin: auto;
 }
 	
 section {
@@ -465,7 +465,7 @@ section {
 }	
 	
 section .content {
-	margin: .25em;
+	margin: auto;
      }
 	
  #contact-img {
@@ -563,7 +563,7 @@ h3 {
 
  p {
   font-size: 1em;
-  margin:1em;
+  margin:auto;
 }
 	
 section {
@@ -575,7 +575,7 @@ section {
 }	
 	
 section .content {
-	margin:1em;
+	margin:auto;
      }
 	
 .svg-container, 
@@ -583,7 +583,7 @@ section .content {
   height: 250px;
   width: 250px;
   background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
-  margin: 1em;
+  margin: auto;
 
 
 }
