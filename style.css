@@ -155,7 +155,7 @@ nav a:hover {
 
 .wrapper > h1 {
     position: absolute;
-    bottom: 45%;
+    bottom: 25%;
     width: 100%;
 /*     color: #873370; purple */
 	color: #7f5100;
@@ -193,7 +193,6 @@ section .content a{
     position: relative;
 	
     margin: auto;
-	margin-top: 50%;
     max-width: 900px;
     width: 100%;
     color: #eb5942;
@@ -204,7 +203,7 @@ section .content a{
 
   
 section h1, section h2, section h3 {
-    margin: 2em;
+    margin: auto;
     text-align: center;
 }
 /* section ul {
@@ -286,7 +285,7 @@ section img {
 	 background: #ecdccb;
 }
 
- .svg-container1, .svg-container1 iframe {
+/* .svg-container1, .svg-container1 iframe {
     position: relative;
     margin: .25em;
     height: 250px;
@@ -436,29 +435,30 @@ section img {
 }
 
 body {
-        margin-top; 50%;
-	overflow: scroll; /* margin: auto; */
-	}
-h1 {
+   overflow: scroll;
+   margin: auto; 
+	
+}
+ h1 {
   font-size: 2em;
- /* margin: auto; */
+  margin: auto; 
 }
 
 h2 {
   font-size: 1em;
- /* margin: auto; */
+  margin: auto; 
 
 }
 
 h3 {
   font-size: .5em;
-	 /* margin: auto; */
+  margin: auto; 
   						/*mobile responsiveness for section pages only.*/
 }
 
  p {
   font-size: .25em;
-	  /* margin: auto; */
+ margin: auto; 
 }
 	
 section {
@@ -672,7 +672,7 @@ h3 {
 section {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	border:solid purple;	
 }	
