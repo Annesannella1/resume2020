@@ -191,7 +191,9 @@ section {
 
 section .content a{
     position: relative;
+	
     margin: auto;
+	margin-top: 20%;
     max-width: 900px;
     width: 100%;
     color: #eb5942;
@@ -434,11 +436,12 @@ section img {
 }
 
 body {
-   overflow: scroll;
+        margin-top; 20%;
+	overflow: scroll;
 	}
 h1 {
   font-size: 2em;
-  margin:auto;
+  margin: auto;
 }
 
 h2 {
