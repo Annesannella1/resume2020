@@ -179,7 +179,7 @@ section {
     top: 0;
     width: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     transition: all .75s;
 		
 }	
@@ -202,7 +202,7 @@ section .content a{
 
   
 section h1, section h2, section h3 {
-    margin: 2em;
+    margin: 3em;
     text-align: center;
 }
 /* section ul {
@@ -283,8 +283,17 @@ section img {
    
 	 background: #ecdccb;
 }
+.svg-container, .svg-container iframe {
+    position: relative;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background: url(rsz_1rsz_mcedlogo.png) no-repeat center center;
+    border: 0.5em solid #000;
+    border-radius: 50%;
+    overflow: hidden;
 
- .svg-container1, .svg-container1 iframe {
+/* .svg-container1, .svg-container1 iframe {
     position: relative;
     margin: .25em;
     height: 250px;
@@ -420,6 +429,7 @@ display:inline-block;
 }
  */
  
+}
 }
 
 @media (max-width:736px) {
@@ -568,7 +578,7 @@ h3 {
 	
 section {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	border:solid orange;	
