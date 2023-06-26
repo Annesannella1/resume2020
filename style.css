@@ -155,7 +155,7 @@ nav a:hover {
 
 .wrapper > h1 {
     position: absolute;
-    bottom: 25%;
+    bottom: 2em;
     width: 100%;
 /*     color: #873370; purple */
 	color: #7f5100;
@@ -191,7 +191,6 @@ section {
 
 section .content a{
     position: relative;
-	
     margin: auto;
     max-width: 900px;
     width: 100%;
@@ -310,8 +309,7 @@ section img {
 	
 }
 
-/* .svg-container3, .svg-container3 iframe {
-
+.svg-container3, .svg-container3 iframe 
 display:inline-block;
 	margin:1.5em; 
     width: 200px;
@@ -422,7 +420,7 @@ display:inline-block;
  */
  
 }
-
+}
 @media (max-width:736px) {
 
 	
@@ -495,7 +493,7 @@ section .content {
        } */
 	
 }
-
+}
 @media (min-width:737px) and (max-width:1023px) {
 
 	.nav-toggle-label {
@@ -573,7 +571,7 @@ h3 {
 	
 section {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	border:solid orange;	
