@@ -193,7 +193,7 @@ section .content a{
     position: relative;
 	
     margin: auto;
-	margin-top: 20%;
+	margin-top: 50%;
     max-width: 900px;
     width: 100%;
     color: #eb5942;
@@ -436,27 +436,29 @@ section img {
 }
 
 body {
-        margin-top; 20%;
-	overflow: scroll;
+        margin-top; 50%;
+	overflow: scroll; /* margin: auto; */
 	}
 h1 {
   font-size: 2em;
-  margin: auto;
+ /* margin: auto; */
 }
 
 h2 {
   font-size: 1em;
-  margin:auto;
+ /* margin: auto; */
+
 }
 
 h3 {
   font-size: .5em;
-  margin:auto;							/*mobile responsiveness for section pages only.*/
+	 /* margin: auto; */
+  						/*mobile responsiveness for section pages only.*/
 }
 
  p {
   font-size: .25em;
-  margin: auto;
+	  /* margin: auto; */
 }
 	
 section {
@@ -468,13 +470,13 @@ section {
 }	
 	
 section .content {
-	margin: auto;
+	 /* margin: auto; */
      }
 	
  #contact-img {
     max-width: 100%;
     height: auto;
-    margin:auto;
+    
 } 
 	
 .svg-container, 
